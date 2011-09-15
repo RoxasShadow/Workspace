@@ -2,7 +2,7 @@ This is my workspace.
 Here you will found all my works in various programming language.
 All software are released under a GNU/GPLv3 licence, even where not specified.
 
-Here you can to found almost a program for each language which I (at least minimally) know, except PHP (you can give a look at OcarinaProject repository).
+Here you can to found almost a program for each language which I (at least minimally) know.
 Please, if you wish to install these softwares, try to download it at <http://www.giovannicapuano.net/sezioni.php?titolo=i-miei-programmi>.
 In this way, you will help me to mean the number of people affected by the various packages, in way to continue their developing.
 I'm sorry for non-italian people, but the most of they are in italian language. But their UI should be very simple to means each feature :)
@@ -16,6 +16,7 @@ I'm sorry for non-italian people, but the most of they are in italian language. 
 	Python/rs-sendpkm(-bw)
 	Python/dmg
 In Perl you can found some (in)utilities for your PC, and in VB.NET some softwares which not even remember.
+You will find in WWW my webapp, built in PHP, MySQL, Javascript, etc. (you can give also a look at OcarinaProject repository).
 
 Happy hacking!
 	~ Giovanni Capuano <http://www.giovannicapuano.net>

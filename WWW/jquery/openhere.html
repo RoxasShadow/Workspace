@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="jquery-1.2.3.pack.js"></script>
+<script src="jquery.jgrowl.js"></script>
+<script src="api.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="jquery.jgrowl.css" type="text/css" />
+</head>
+<body>
+
+<div id="box">
+	<form method="post" action="testo.php" name="bla" onsubmit="return sendPost(this.name, 'box', this.action, 'send');">
+		Nome:<br />
+		<input type="text" name="nome" id="nome" /><br />
+		Cognome:<br />
+		<input type="text" name="cognome" id="cognome" /><br />
+		<input type="submit" id="send" value="Invia normalmente" />
+	</form>
+	<form method="post" action="scriptCheNonEsiste.php" name="bla2" onsubmit="return sendPost(this.name, 'box', this.action, 'send2');">
+		<input type="submit" id="send2" value="Invia verso uno script inesistente" />
+	</form>
+</div>
+</body>
+</html>
