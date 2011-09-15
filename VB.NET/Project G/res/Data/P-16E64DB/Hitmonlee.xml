@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hitmonlee</nome>
+<Abilità1>Limber</Abilità1>
+<Abilità2>Reckless</Abilità2>
+<Numero>106</Numero>
+<HP>50</HP>
+<Atk>120</Atk>
+<Dif>53</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>110</DifSp>
+<Vel>87</Vel>
+</pokemon>

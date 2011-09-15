@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bellossom</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>Chlorophyll</Abilità2>
+<Numero>182</Numero>
+<HP>75</HP>
+<Atk>80</Atk>
+<Dif>85</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>100</DifSp>
+<Vel>50</Vel>
+</pokemon>

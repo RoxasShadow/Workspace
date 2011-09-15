@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Luvdisc</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>370</Numero>
+<HP>43</HP>
+<Atk>30</Atk>
+<Dif>55</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>65</DifSp>
+<Vel>97</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gloom</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>Chlorophyll</Abilità2>
+<Numero>44</Numero>
+<HP>60</HP>
+<Atk>65</Atk>
+<Dif>70</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>75</DifSp>
+<Vel>40</Vel>
+</pokemon>

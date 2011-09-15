@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Muk</nome>
+<Abilità1>Stench</Abilità1>
+<Abilità2>StickyHold</Abilità2>
+<Numero>89</Numero>
+<HP>105</HP>
+<Atk>105</Atk>
+<Dif>75</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>100</DifSp>
+<Vel>50</Vel>
+</pokemon>

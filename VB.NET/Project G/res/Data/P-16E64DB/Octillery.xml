@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Octillery</nome>
+<Abilità1>SuctionCups</Abilità1>
+<Abilità2>Sniper</Abilità2>
+<Numero>224</Numero>
+<HP>75</HP>
+<Atk>105</Atk>
+<Dif>75</Dif>
+<AtkSp>105</AtkSp>
+<DifSp>75</DifSp>
+<Vel>45</Vel>
+</pokemon>

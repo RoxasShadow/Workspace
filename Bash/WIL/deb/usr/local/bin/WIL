@@ -1,0 +1,192 @@
+#!/bin/bash
+##########################################################################
+#    WIL - outputs some system infos and shows Cowsay.
+#    Requires: cowsay, fortunes
+#    Optional: fortunes-it
+#    Based on freenet's fnMOTD 0.1 <http://sprunge.us/fTjI>
+#    How install: Create a new line on ~/.bashrc with the path of WIL
+#    (ex.: /home/yourName/WIL.sh) and give it the esecution permission.
+#
+#    Copyright (C) 2011  Giovanni Capuano <http://www.giovannicapuano.net>
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##########################################################################
+
+#Configuration
+VERSION="0.6.2"
+WILPATH="/home/$(logname)/.wil"
+WHITE="\E[1;37m"
+LGRAY="\E[0;37m"
+GRAY="\E[1;30m"
+BLACK="\E[0;30m"
+RED="\E[0;31m"
+LRED="\E[1;31m"
+GREEN="\E[0;32m"
+LGREEN="\E[1;32m"
+BROWN="\E[0;33m"
+YELLOW="\E[1;33m"
+BLUE="\E[0;34m"
+LBLUE="\E[1;34m"
+PURPLE="\E[0;35m"
+PINK="\E[1;35m"
+CYAN="\E[0;36m"
+LCYAN="\E[1;36m"
+Z="\E[0m"
+args=("$@")
+
+function uptime {
+	a=`cat /proc/uptime | cut -d " " -f1`
+	b=`echo $a | cut -d "." -f1`
+	e=`expr $b \/ 86400`
+	f=`expr $b \% 86400`
+	g=`expr $f \/ 3600`
+	h=`expr $f \% 3600`
+	i=`expr $h \/ 60`
+	j=`expr $h \% 60`
+
+	if [ $i == 1 ]; then
+		min_label='minuto'
+	else
+		min_label='minuti'
+	fi
+
+	if [ $j == 1 ]; then
+		sec_label='secondo'
+	else
+		sec_label='secondi'
+	fi
+
+	if [ $g == 1 ]; then
+		hour_label='ora'
+	else
+		hour_label='ore'
+	fi
+
+	if [ $e == 1 ]; then
+		day_label='giorno'
+	else
+		day_label='giorni'
+	fi
+
+	if [ $e == 0 ]; then
+	if [ $g == 0 ]; then
+		echo -e $RED"Uptime:$Z\t\t $i $min_label e $j $sec_label"
+	else
+		echo -e $RED"Uptime:$Z\t\t $g $hour_label, $i $min_label e $j $sec_label"
+	fi
+	else
+		if [ $g == 0 ]; then
+			echo -e $RED"Uptime:$Z\t\t $e $day_label, $i $min_label e $j $sec_label"
+		else
+			echo -e $RED"Uptime:$Z\t\t $e $day_label, $g $hour_label, $i $min_label e $j $sec_label"
+		fi
+	fi
+	
+	if [ -f $WILPATH ]; then
+		record=`cat $WILPATH`
+		if [[ $g > $record ]]; then
+			rm $WILPATH
+			`echo $g >> $WILPATH`
+		fi
+	else
+		touch $WILPATH
+		`echo $g >> $WILPATH`
+	fi
+}
+
+function uprecord {
+	record=`cat $WILPATH`
+
+	if [ $record == 1 ]; then
+		echo -e $RED"Uprecord:$Z\t $record ora"
+	else
+		echo -e $RED"Uprecord:$Z\t $record ore"
+	fi
+}
+
+function infosys {
+	ram_total="$(free -mto | grep Mem: | awk '{ print $2 }')"
+	ram_used="$(free -mto | grep Mem: | awk '{ print $3 }')"
+	hdd_total="$(df -h | sed -n 2p | awk '{ print $2 }')"
+	hdd_used="$(df -h | sed -n 2p | awk '{ print $3 }')"
+
+	echo -e $LBLUE"$(fortune | cowsay -n -f tux.cow)\n"$Z
+	echo -e $GRAY"----------------------------------------"
+	echo -e $RED"Data:\t\t$Z $(date +%d-%m-%Y) $(date +%k:%M:%S)"
+	echo -e $RED"Sistema:\t$Z GNU/$(uname -s) $(uname -r) $(uname -m)"
+	echo -e $RED"Memoria:\t$Z RAM: $ram_used""M""/$ram_total""M"", HDD: $hdd_used/$hdd_total"
+	echo -e $RED"IP pubblico:\t$Z $(curl -s checkip.dyndns.org|sed -e 's/.*Current IP Address: //' -e 's/<.*$//')"
+	uptime
+	uprecord
+	echo -e $GRAY"----------------------------------------"$Z
+	exit 0
+}
+
+if [[ ${args[0]} == '--about' ]] || [[ ${args[0]} == '-a' ]] ; then
+	echo -e $LGREEN"WIL $VERSION - Giovanni Capuano - http://www.giovannicapuano.net\nDa un'idea di freenet."$Z
+        exit 0;
+fi
+
+if [[ ${args[0]} == '--info' ]] || [[ ${args[0]} == '-i' ]] ; then
+	infosys
+fi
+
+if [[ ${args[0]} == '--tips' ]] || [[ ${args[0]} == '-t' ]] ; then
+	echo -e $LBLUE"$(fortune | cowsay -n -f tux.cow)\n"$Z
+        exit 0;
+fi
+
+if [[ ${args[0]} == '--acronym' ]] || [[ ${args[0]} == '-s' ]] ; then
+	echo -e "Welcome In Linux (asd)"
+        exit 0;
+fi
+
+if [[ ${args[0]} == '--todo' ]] || [[ ${args[0]} == '-d' ]] ; then
+	echo -e "- 'Cache' per l'IP pubblico;\n- Altre informazioni di sistema;\n- Preferenze con regex;\n- Record esteso con regex"
+	exit 0;
+fi
+
+if [[ ${args[0]} == '--record' ]] || [[ ${args[0]} == '-r' ]] ; then
+	if [ -f $WILPATH ]; then
+		rm $WILPATH
+		echo -e "Uprecord azzerato."
+	else
+		echo -e "Non è stato trovato il file di WIL contenente l'uprecord e pertanto non è stato azzerato."
+	fi
+fi
+
+if [[ ${args[0]} == '--install' ]] || [[ ${args[0]} == '-c' ]] ; then
+	echo -e "Per prima cosa devi dare i permessi di esecuzione, ma penso che glieli hai già dati a WIL, altrimenti non saresti qui (forse.)\n"
+	echo -e "Ci sono tanti modi per installare WIL, di seguito te ne elenco qualcuno.\n"
+	echo -e "- Aggiungere una riga alla fine del file ~/.bashrc con il percorso di WIL (ex.: /home/$(logname)/WIL.sh)"
+	echo -e "- Rimuovere l'estensione e copiare WIL in /usr/local/bin, così da avviarlo da terminale scrivendo solamente WIL (o nel modo in cui l'hai rinominato)"
+	echo -e "- Creare un alias aggiungendo a ~/.bashrc la riga\talias '/home/$(logname)/WIL.sh'"
+        exit 0;
+fi
+
+if [[ ${args[0]} == '--help' ]] || [[ ${args[0]} == '-h' ]] || [[ ${args[0]} == '-usage' ]] || [[ ${args[0]} == '-u' ]]; then
+	echo -e "Uso: ./WIL.sh OPZIONE"
+	echo -e "Mostra le info di sistema insieme ai consigli di Tux.\n"
+	echo -e "--about -a \t Mostra maggiori informazioni su WIL."
+	echo -e "--todo -d \t Mostra la lista delle cose da fare."
+	echo -e "--help --usage -h -u \t Mostra questo aiuto."
+	echo -e "--install -i \t Mostra una guida per installare WIL."
+	echo -e "--info -i \t Mostra solamente le informaizoni di sistema."
+	echo -e "--tips -t \t Mostra solamente i consigli di Tux."
+	echo -e "--record -r \t Azzera l'uprecord."
+	echo -e "--acronym -s \t Mostra la verità nascosta sotto il nome di WIL O:"
+        exit 0;
+fi
+
+infosys

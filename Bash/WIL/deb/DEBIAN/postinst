@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo chmod +x /usr/local/bin/WIL
+echo WIL >> /home/$(logname)/.bashrc
+echo "Happy hacking :D"

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Nuzleaf</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>274</Numero>
+<HP>70</HP>
+<Atk>70</Atk>
+<Dif>40</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>40</DifSp>
+<Vel>60</Vel>
+</pokemon>

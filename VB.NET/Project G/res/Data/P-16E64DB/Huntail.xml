@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Huntail</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>367</Numero>
+<HP>55</HP>
+<Atk>104</Atk>
+<Dif>105</Dif>
+<AtkSp>94</AtkSp>
+<DifSp>75</DifSp>
+<Vel>52</Vel>
+</pokemon>

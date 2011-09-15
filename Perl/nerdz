@@ -1,0 +1,223 @@
+#!/usr/bin/python
+import re, httplib, htmlentitydefs, urllib, os, json
+from sys import argv
+from os import getenv
+
+class nsh:
+	def __init__(self):
+		self.cookie = ""
+		self.nerdz_id = ""
+		self.nerdz_sess = ""
+		self.nerdz_u = ""
+		self.nerdz_user = ""
+		self.n = 0
+		self.errors = {
+		0: "No error",
+		1: "You aren't logged",
+        2: "User not found",
+        5: "Not defined error",
+        6: "Wrong username or password",
+        7: "Error while writing",
+        }
+        
+	def napi_parser(self, action, post_parameters):
+		conn = httplib.HTTPConnection("www.nerdz.eu")
+		headers = {"Content-type": "application/x-www-form-urlencoded", "Accept" : "text/plain", "Cookie": self.cookie}
+		conn.request("POST", "/api.php?action="+action, post_parameters, headers)
+		res = conn.getresponse()
+		jsonp = json.loads(res.read())
+		if jsonp.has_key('error') and jsonp['error'] != 0:
+			return ['error', jsonp, jsonp['error']]
+		else:
+			return [jsonp, res.getheader("Set-Cookie")]
+	
+	def control_argv(self):
+		if "-n" in argv:
+			count = self.get_a_page("/pages/profile/notify.ajax.action.php?action=count")
+			print count
+			quit()
+		
+		if "-p" in argv:
+			pms = self.get_a_page("/pages/pm/recv.ajax.action.php?list=1")
+			print pms
+			quit()
+		
+		if "-t" in argv:
+			self.get_posts()
+			quit()
+		
+	def get_a_page(self, page):
+		conn = httplib.HTTPConnection("www.nerdz.eu")
+		headers = {"Cookie": self.cookie}
+		conn.request("GET", page, "", headers)
+		res = conn.getresponse()
+		data = res.read()
+		return data
+
+	def n_login(self):
+		try:
+			home = getenv("HOME")
+			fd = file(home+"/.nsh_userpsw", "r")
+			data = fd.read()
+			user = re.findall(r"user(\s*|)=(\s*|)\"(.*?)\"", data)[0][2].replace("\n", "")
+			passw = re.findall(r"password(\s*|)=(\s*|)\"(.*?)\"", data)[0][2].replace("\n", "")
+			fd.close()
+			
+		except:
+			user = "Roxas Shadow"
+			passw = "XIIIRoxas"
+
+		self.nerdz_user = user
+		params = urllib.urlencode({"username": user, "password": passw})
+		nres = self.napi_parser("login", params)
+		
+		if nres[0] == 'error' and nres[2] != 0:
+			print self.errors[nres[2]]
+			quit()
+			
+		self.nerdz_sess = re.findall(r"PHPSESSID\=(.*?);", nres[1])[0]
+		self.cookie = "PHPSESSID="+self.nerdz_sess+";"
+			
+	def update(self):
+		count = self.get_a_page("/pages/profile/notify.ajax.action.php?action=count")
+		data = self.get_a_page("/pages/profile/notify.ajax.action.php?action=show")
+		pm_count = self.get_a_page("/pages/pm/recv.ajax.action.php?list=1")
+		print "You have "+pm_count+" pm(s)"
+		if count == "0":
+			print "You have 0 notifications"
+		else:
+			nots = re.findall(r'<div style\="border-bottom\: 1px solid \#FFFFFF\;">(.*?)</div>', data)
+		
+			for n in range(len(nots)):
+				nots[n] = re.sub(r'<a href="(.*?)">(.*?)</a>\.', r'\2 (http://www.nerdz.eu\1)', nots[n])
+		
+			for n in nots:
+				print n
+	
+	def convert_html_entities(self, s):
+		matches = re.findall("&#\d+;", s)
+		if len(matches) > 0:
+			hits = set(matches)
+			for hit in hits:
+					name = hit[2:-1]
+					try:
+							entnum = int(name)
+							s = s.replace(hit, unichr(entnum))
+					except ValueError:
+							pass
+
+		matches = re.findall("&\w+;", s)
+		hits = set(matches)
+		amp = "&amp;"
+		if amp in hits:
+			hits.remove(amp)
+		for hit in hits:
+			name = hit[1:-1]
+			if htmlentitydefs.name2codepoint.has_key(name):
+					s = s.replace(hit, unichr(htmlentitydefs.name2codepoint[name]))
+		s = s.replace(amp, "&")
+		return s
+    
+    
+	def post_a_message(self, message):
+		conn = httplib.HTTPConnection("www.nerdz.eu")
+		params = urllib.urlencode({"message": message, "to": self.nerdz_id})
+		jsonp = self.napi_parser("nerdz_it", params)
+		if jsonp[0] == 'error' and nres[2] != 0:
+			print self.errors[jsonp[2]]
+		
+	def get_posts(self, nerdzs = 1):
+		if nerdzs == 1:
+			what = "users"
+			to_what = "to_user"
+		else:
+			what = "projects"
+			to_what = "to_group"
+		res = self.napi_parser("nerdzs", "what="+what)
+		if res[0] == 'error' and nres[2] != 0:
+			print self.errors[res[2]]
+			return
+		
+
+		
+		for n in range(10):
+			print self.convert_html_entities(res[0][str(n)]['from_user'])+" => "+self.convert_html_entities(res[0][str(n)][to_what])
+			print self.convert_html_entities(res[0][str(n)]['message'])+"\n"
+		
+	def get_id(self, user):
+		params = urllib.urlencode({"username": user})
+		uid = self.napi_parser("get_id", params)
+		
+		if uid[0] == 'error' and nres[2] != 0:
+			self.errors[uid[2]]
+			return
+			
+		uid = uid[0]['id']
+		self.nerdz_id = uid
+	
+	def print_help(self):
+		print "Nerdz shell v0.3 alpha help\n"
+		print "write -> write a post"
+		print "read -> read first 10 posts"
+		print "exec <cmd> -> execute a command"
+		print "update -> see your notifications amount"
+		print "clear -> clear the screen"
+	
+	def write_menu(self):
+		print "[1] Write a post on your own board"
+		print "[2] Write a post on another user board\n\n"
+		cho = raw_input("::> ")
+		
+		if cho == "2":
+			user = raw_input("User: ")
+			self.get_id(user)
+		
+		print "Write your message. After push Enter and type \"|END|\"" 
+		mess = ""
+		while 1:
+			mess_t = raw_input("")
+			if mess_t == "|END|":
+				break		
+		
+			mess += mess_t+"\n"
+			
+		self.post_a_message(mess)
+		
+	def shell_nsh(self):
+		if self.n == 0:
+			self.update()
+			self.n = 1
+		while 1:
+			cmd = raw_input(self.nerdz_user+"@nerdz.eu$ ")
+			if cmd == "write":
+				self.write_menu()
+			
+			if cmd == "readn":
+				self.get_posts()
+			
+			if cmd == "readp":
+				self.get_posts(0)
+			
+			if cmd == "read":
+				self.get_posts()
+			
+			if cmd == "help":
+				self.print_help()
+				
+			if cmd == "quit" or cmd == "exit":
+				quit()
+			
+			if cmd == "update":
+				self.update()
+				
+			if cmd == "clear":
+				os.system("clear")
+			
+			if re.match("^exec .*", cmd):
+				print os.popen(re.findall("^exec .*", cmd)[0]).read()
+	
+
+ins = nsh()
+ins.n_login()
+ins.control_argv()
+ins.shell_nsh()

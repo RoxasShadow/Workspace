@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+
+print "La base del triangolo: ";
+$base = <>;
+print "\nL'altezza del triangolo: ";
+$altezza = <>;
+$area = ($base * $altezza) / 2;
+print "\nL'area del triangolo è $area";
+print "\nDesideri stampare il calcolo in un file di testo? [S=1/N=0] ";
+$flag = <>;
+
+if($flag == 1) {
+	$testo = "Calcolo area del triangolo.\n
+Base: $base\n
+Altezza: $altezza\n
+Formula: (Base * Altezza) / 2\n\n
+L'area del triangolo è $area.";
+	 
+	open(AREATRIANGOLO, ">", "AreaTriangolo"); #Apre in scrittura il file
+	print AREATRIANGOLO $testo; #Scrive nel file
+	close(AREATRIANGOLO); #Chiude il file
+	print "\nFatto!\n";
+}
+else {print 1;}

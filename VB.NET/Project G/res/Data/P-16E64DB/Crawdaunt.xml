@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Crawdaunt</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>ShellArmor</Abilità2>
+<Numero>342</Numero>
+<HP>63</HP>
+<Atk>120</Atk>
+<Dif>85</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>55</DifSp>
+<Vel>55</Vel>
+</pokemon>

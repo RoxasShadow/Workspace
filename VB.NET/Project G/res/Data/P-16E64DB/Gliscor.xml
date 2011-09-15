@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gliscor</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>472</Numero>
+<HP>75</HP>
+<Atk>95</Atk>
+<Dif>125</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>75</DifSp>
+<Vel>95</Vel>
+</pokemon>

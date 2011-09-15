@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pachirisu</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>Pickup</Abilità2>
+<Numero>417</Numero>
+<HP>60</HP>
+<Atk>45</Atk>
+<Dif>70</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>90</DifSp>
+<Vel>95</Vel>
+</pokemon>

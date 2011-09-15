@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Koffing</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>109</Numero>
+<HP>40</HP>
+<Atk>65</Atk>
+<Dif>95</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>45</DifSp>
+<Vel>35</Vel>
+</pokemon>

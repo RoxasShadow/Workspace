@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ariados</nome>
+<Abilità1>Swarm</Abilità1>
+<Abilità2>Insomnia</Abilità2>
+<Numero>168</Numero>
+<HP>70</HP>
+<Atk>90</Atk>
+<Dif>70</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>40</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mareep</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>179</Numero>
+<HP>55</HP>
+<Atk>40</Atk>
+<Dif>40</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>45</DifSp>
+<Vel>35</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Charizard</nome>
+<Abilità1>Blaze</Abilità1>
+<Abilità2>Blaze</Abilità2>
+<Numero>6</Numero>
+<HP>78</HP>
+<Atk>84</Atk>
+<Dif>78</Dif>
+<AtkSp>109</AtkSp>
+<DifSp>85</DifSp>
+<Vel>100</Vel>
+</pokemon>

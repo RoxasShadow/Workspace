@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Paras</nome>
+<Abilità1>EffectSpore</Abilità1>
+<Abilità2>DrySkin</Abilità2>
+<Numero>46</Numero>
+<HP>35</HP>
+<Atk>70</Atk>
+<Dif>55</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>55</DifSp>
+<Vel>25</Vel>
+</pokemon>

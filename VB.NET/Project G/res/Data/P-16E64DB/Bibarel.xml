@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bibarel</nome>
+<Abilità1>Simple</Abilità1>
+<Abilità2>Unaware</Abilità2>
+<Numero>400</Numero>
+<HP>79</HP>
+<Atk>85</Atk>
+<Dif>60</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>60</DifSp>
+<Vel>71</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pichu</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>172</Numero>
+<HP>20</HP>
+<Atk>40</Atk>
+<Dif>15</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>35</DifSp>
+<Vel>60</Vel>
+</pokemon>

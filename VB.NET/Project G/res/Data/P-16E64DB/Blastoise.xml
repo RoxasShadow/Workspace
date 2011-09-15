@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Blastoise</nome>
+<Abilità1>Torrent</Abilità1>
+<Abilità2>Torrent</Abilità2>
+<Numero>9</Numero>
+<HP>79</HP>
+<Atk>83</Atk>
+<Dif>100</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>105</DifSp>
+<Vel>78</Vel>
+</pokemon>

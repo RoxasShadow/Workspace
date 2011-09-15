@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ponyta</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>FlashFire</Abilità2>
+<Numero>77</Numero>
+<HP>50</HP>
+<Atk>85</Atk>
+<Dif>55</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>65</DifSp>
+<Vel>90</Vel>
+</pokemon>

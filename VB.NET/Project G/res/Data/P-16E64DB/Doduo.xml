@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Doduo</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>84</Numero>
+<HP>35</HP>
+<Atk>85</Atk>
+<Dif>45</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>35</DifSp>
+<Vel>75</Vel>
+</pokemon>

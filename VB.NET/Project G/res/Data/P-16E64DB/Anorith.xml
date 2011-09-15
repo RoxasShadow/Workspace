@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Anorith</nome>
+<Abilità1>BattleArmor</Abilità1>
+<Abilità2>BattleArmor</Abilità2>
+<Numero>347</Numero>
+<HP>45</HP>
+<Atk>95</Atk>
+<Dif>50</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>50</DifSp>
+<Vel>75</Vel>
+</pokemon>

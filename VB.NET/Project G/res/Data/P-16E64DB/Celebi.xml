@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Celebi</nome>
+<Abilità1>NaturalCure</Abilità1>
+<Abilità2>NaturalCure</Abilità2>
+<Numero>251</Numero>
+<HP>100</HP>
+<Atk>100</Atk>
+<Dif>100</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>100</DifSp>
+<Vel>100</Vel>
+</pokemon>

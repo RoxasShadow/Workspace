@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Kingler</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>ShellArmor</Abilità2>
+<Numero>99</Numero>
+<HP>55</HP>
+<Atk>130</Atk>
+<Dif>115</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>50</DifSp>
+<Vel>75</Vel>
+</pokemon>

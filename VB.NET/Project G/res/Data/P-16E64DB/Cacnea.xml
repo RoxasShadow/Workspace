@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cacnea</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>331</Numero>
+<HP>50</HP>
+<Atk>85</Atk>
+<Dif>40</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>40</DifSp>
+<Vel>35</Vel>
+</pokemon>

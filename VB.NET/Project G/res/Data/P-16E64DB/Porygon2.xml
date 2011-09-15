@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Porygon2</nome>
+<Abilità1>Trace</Abilità1>
+<Abilità2>Download</Abilità2>
+<Numero>233</Numero>
+<HP>85</HP>
+<Atk>80</Atk>
+<Dif>90</Dif>
+<AtkSp>105</AtkSp>
+<DifSp>95</DifSp>
+<Vel>60</Vel>
+</pokemon>

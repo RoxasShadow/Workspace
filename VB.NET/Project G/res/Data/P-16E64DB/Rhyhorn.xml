@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Rhyhorn</nome>
+<Abilità1>Lightningrod</Abilità1>
+<Abilità2>RockHead</Abilità2>
+<Numero>111</Numero>
+<HP>80</HP>
+<Atk>85</Atk>
+<Dif>95</Dif>
+<AtkSp>30</AtkSp>
+<DifSp>30</DifSp>
+<Vel>25</Vel>
+</pokemon>

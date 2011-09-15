@@ -1,0 +1,3 @@
+- Fixare il bug che sovrascrive ogni nuovo appunto con uno vecchio.
+- Convertire ogni metodo boolean in int e specificare gli errori.
+- Impostare il range dello spinner a 1-10

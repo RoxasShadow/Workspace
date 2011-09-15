@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Kabuto</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>BattleArmor</Abilità2>
+<Numero>140</Numero>
+<HP>30</HP>
+<Atk>80</Atk>
+<Dif>90</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>45</DifSp>
+<Vel>55</Vel>
+</pokemon>

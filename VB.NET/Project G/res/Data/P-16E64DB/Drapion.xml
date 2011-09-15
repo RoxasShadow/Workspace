@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Drapion</nome>
+<Abilità1>BattleArmor</Abilità1>
+<Abilità2>Sniper</Abilità2>
+<Numero>452</Numero>
+<HP>70</HP>
+<Atk>90</Atk>
+<Dif>110</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>75</DifSp>
+<Vel>95</Vel>
+</pokemon>

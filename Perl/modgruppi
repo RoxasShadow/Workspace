@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+#Script in Perl scritto da Giovanni Capuano e rilasciato sotto licenza GNU/GPLv3.
+
+print "Digitare il percorso della cartella dove applicare i cambiamenti di proprieta': ";
+chomp($path = <>);
+print "\nDigitare il nome del proprietario della cartella e delle sottocartelle/file (ex: root, nomeutente): ";
+chomp($own = <>);
+
+print "\nModifica proprietà in corso...";
+system("sudo chown -hR $own:$own $path");
+print "\nLe proprietà sono state modificate con successo.\n";
+

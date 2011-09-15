@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Drowzee</nome>
+<Abilità1>Insomnia</Abilità1>
+<Abilità2>Forewarn</Abilità2>
+<Numero>96</Numero>
+<HP>60</HP>
+<Atk>48</Atk>
+<Dif>45</Dif>
+<AtkSp>43</AtkSp>
+<DifSp>90</DifSp>
+<Vel>42</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ekans</nome>
+<Abilità1>Intimidate</Abilità1>
+<Abilità2>ShedSkin</Abilità2>
+<Numero>23</Numero>
+<HP>35</HP>
+<Atk>60</Atk>
+<Dif>44</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>54</DifSp>
+<Vel>55</Vel>
+</pokemon>

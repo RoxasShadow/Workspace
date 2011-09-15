@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Diglett</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>ArenaTrap</Abilità2>
+<Numero>50</Numero>
+<HP>10</HP>
+<Atk>55</Atk>
+<Dif>25</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>45</DifSp>
+<Vel>95</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Machop</nome>
+<Abilità1>Guts</Abilità1>
+<Abilità2>NoGuard</Abilità2>
+<Numero>66</Numero>
+<HP>70</HP>
+<Atk>80</Atk>
+<Dif>50</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>35</DifSp>
+<Vel>35</Vel>
+</pokemon>

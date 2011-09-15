@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mawile</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>Intimidate</Abilità2>
+<Numero>303</Numero>
+<HP>50</HP>
+<Atk>85</Atk>
+<Dif>85</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>55</DifSp>
+<Vel>50</Vel>
+</pokemon>

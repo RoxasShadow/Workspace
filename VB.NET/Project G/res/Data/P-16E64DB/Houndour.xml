@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Houndour</nome>
+<Abilità1>EarlyBird</Abilità1>
+<Abilità2>FlashFire</Abilità2>
+<Numero>228</Numero>
+<HP>45</HP>
+<Atk>60</Atk>
+<Dif>30</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>50</DifSp>
+<Vel>65</Vel>
+</pokemon>

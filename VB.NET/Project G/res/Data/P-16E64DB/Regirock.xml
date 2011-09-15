@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Regirock</nome>
+<Abilità1>ClearBody</Abilità1>
+<Abilità2>ClearBody</Abilità2>
+<Numero>377</Numero>
+<HP>80</HP>
+<Atk>100</Atk>
+<Dif>200</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>100</DifSp>
+<Vel>50</Vel>
+</pokemon>

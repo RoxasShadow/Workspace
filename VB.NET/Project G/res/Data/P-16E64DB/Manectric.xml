@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Manectric</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Lightningrod</Abilità2>
+<Numero>310</Numero>
+<HP>70</HP>
+<Atk>75</Atk>
+<Dif>60</Dif>
+<AtkSp>105</AtkSp>
+<DifSp>60</DifSp>
+<Vel>105</Vel>
+</pokemon>

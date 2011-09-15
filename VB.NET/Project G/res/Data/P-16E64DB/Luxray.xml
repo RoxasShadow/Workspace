@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Luxray</nome>
+<Abilità1>Rivalry</Abilità1>
+<Abilità2>Intimidate</Abilità2>
+<Numero>405</Numero>
+<HP>80</HP>
+<Atk>120</Atk>
+<Dif>79</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>79</DifSp>
+<Vel>70</Vel>
+</pokemon>

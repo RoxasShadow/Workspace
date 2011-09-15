@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pikachu</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>25</Numero>
+<HP>35</HP>
+<Atk>55</Atk>
+<Dif>30</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>40</DifSp>
+<Vel>90</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gardevoir</nome>
+<Abilità1>Synchronize</Abilità1>
+<Abilità2>Trace</Abilità2>
+<Numero>282</Numero>
+<HP>68</HP>
+<Atk>65</Atk>
+<Dif>65</Dif>
+<AtkSp>125</AtkSp>
+<DifSp>115</DifSp>
+<Vel>80</Vel>
+</pokemon>

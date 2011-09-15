@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Magby</nome>
+<Abilità1>FlameBody</Abilità1>
+<Abilità2>FlameBody</Abilità2>
+<Numero>240</Numero>
+<HP>45</HP>
+<Atk>75</Atk>
+<Dif>37</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>55</DifSp>
+<Vel>83</Vel>
+</pokemon>

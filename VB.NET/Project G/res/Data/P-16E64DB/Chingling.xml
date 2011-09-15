@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Chingling</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>433</Numero>
+<HP>45</HP>
+<Atk>30</Atk>
+<Dif>50</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>50</DifSp>
+<Vel>45</Vel>
+</pokemon>

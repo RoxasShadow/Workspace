@@ -1,0 +1,16 @@
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\bin\Debug\Server Attivo v1.0 by Roxas Shadow.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\bin\Debug\Server Attivo v1.0 by Roxas Shadow.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\bin\Debug\Server Attivo v1.0 by Roxas Shadow.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\WindowsApplication1.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\WindowsApplication1.Form2.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\WindowsApplication1.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\bin\Debug\Server Attivo v1.0 by Roxas Shadow.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\bin\Debug\Server Attivo v1.0 by Roxas Shadow.application
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.TrustInfo.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\Server Attivo\Server Attivo v1.0 by Roxas Shadow\Server Attivo v1.0 by Roxas Shadow\obj\Debug\Server Attivo v1.0 by Roxas Shadow.application

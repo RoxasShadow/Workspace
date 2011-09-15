@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Grotle</nome>
+<Abilità1>Overgrow</Abilità1>
+<Abilità2>Overgrow</Abilità2>
+<Numero>388</Numero>
+<HP>75</HP>
+<Atk>89</Atk>
+<Dif>85</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>65</DifSp>
+<Vel>36</Vel>
+</pokemon>

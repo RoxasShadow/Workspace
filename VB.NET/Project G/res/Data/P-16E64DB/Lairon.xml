@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lairon</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>RockHead</Abilità2>
+<Numero>305</Numero>
+<HP>60</HP>
+<Atk>90</Atk>
+<Dif>140</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>50</DifSp>
+<Vel>40</Vel>
+</pokemon>

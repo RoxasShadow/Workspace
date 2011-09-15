@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Phanpy</nome>
+<Abilità1>Pickup</Abilità1>
+<Abilità2>Pickup</Abilità2>
+<Numero>231</Numero>
+<HP>90</HP>
+<Atk>60</Atk>
+<Dif>60</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>40</DifSp>
+<Vel>40</Vel>
+</pokemon>

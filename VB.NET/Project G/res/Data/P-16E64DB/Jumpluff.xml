@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Jumpluff</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>LeafGuard</Abilità2>
+<Numero>189</Numero>
+<HP>75</HP>
+<Atk>55</Atk>
+<Dif>70</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>85</DifSp>
+<Vel>110</Vel>
+</pokemon>

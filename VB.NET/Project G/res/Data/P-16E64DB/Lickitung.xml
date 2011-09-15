@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lickitung</nome>
+<Abilità1>OwnTempo</Abilità1>
+<Abilità2>Oblivious</Abilità2>
+<Numero>108</Numero>
+<HP>90</HP>
+<Atk>55</Atk>
+<Dif>75</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>75</DifSp>
+<Vel>30</Vel>
+</pokemon>

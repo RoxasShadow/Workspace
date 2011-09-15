@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Persian</nome>
+<Abilità1>Limber</Abilità1>
+<Abilità2>Technician</Abilità2>
+<Numero>53</Numero>
+<HP>65</HP>
+<Atk>70</Atk>
+<Dif>60</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>65</DifSp>
+<Vel>115</Vel>
+</pokemon>

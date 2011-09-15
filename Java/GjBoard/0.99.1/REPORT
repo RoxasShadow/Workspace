@@ -1,0 +1,1 @@
+--Se si crea un appunto con un titolo che presenta un apice, esso non sarà nè visibile nè cancellabile, se non tramite cancellazione del database.db con una precedente esportazione via file del suddetto.

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Growlithe</nome>
+<Abilità1>Intimidate</Abilità1>
+<Abilità2>FlashFire</Abilità2>
+<Numero>58</Numero>
+<HP>55</HP>
+<Atk>70</Atk>
+<Dif>45</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>50</DifSp>
+<Vel>60</Vel>
+</pokemon>

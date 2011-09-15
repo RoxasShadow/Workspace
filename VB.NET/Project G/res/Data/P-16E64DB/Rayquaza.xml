@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Rayquaza</nome>
+<Abilità1>AirLock</Abilità1>
+<Abilità2>AirLock</Abilità2>
+<Numero>384</Numero>
+<HP>105</HP>
+<Atk>150</Atk>
+<Dif>90</Dif>
+<AtkSp>150</AtkSp>
+<DifSp>90</DifSp>
+<Vel>95</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Oddish</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>Chlorophyll</Abilità2>
+<Numero>43</Numero>
+<HP>45</HP>
+<Atk>50</Atk>
+<Dif>55</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>65</DifSp>
+<Vel>30</Vel>
+</pokemon>

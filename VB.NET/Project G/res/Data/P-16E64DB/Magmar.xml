@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Magmar</nome>
+<Abilità1>FlameBody</Abilità1>
+<Abilità2>FlameBody</Abilità2>
+<Numero>126</Numero>
+<HP>65</HP>
+<Atk>95</Atk>
+<Dif>57</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>85</DifSp>
+<Vel>93</Vel>
+</pokemon>

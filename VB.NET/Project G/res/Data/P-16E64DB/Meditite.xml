@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Meditite</nome>
+<Abilità1>PurePower</Abilità1>
+<Abilità2>PurePower</Abilità2>
+<Numero>307</Numero>
+<HP>30</HP>
+<Atk>40</Atk>
+<Dif>55</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>55</DifSp>
+<Vel>60</Vel>
+</pokemon>

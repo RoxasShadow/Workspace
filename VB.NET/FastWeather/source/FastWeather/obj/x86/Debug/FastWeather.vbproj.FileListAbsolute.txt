@@ -1,0 +1,39 @@
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\bin\Debug\FastWeather.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\bin\Debug\FastWeather.pdb
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\bin\Debug\FastWeather.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\bin\Debug\awalib.dll
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\FastWeather.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\FastWeather.Form2.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\FastWeather.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\FastWeather.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\FastWeather.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\FastWeather\obj\x86\Debug\FastWeather.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\bin\Debug\FastWeather.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\bin\Debug\FastWeather.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\bin\Debug\FastWeather.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\bin\Debug\Animaonline Weather API.dll
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.Main.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.InfoAbout.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.173.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.220.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.338.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.321.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.356.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.375.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.391.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.400.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.465.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\FastWeather.Debugger.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.476.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.487.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\FastWeather2\FastWeather\FastWeather\obj\x86\Debug\GenerateResource.write.488.tlog

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Grumpig</nome>
+<Abilità1>ThickFat</Abilità1>
+<Abilità2>OwnTempo</Abilità2>
+<Numero>326</Numero>
+<HP>80</HP>
+<Atk>45</Atk>
+<Dif>65</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>110</DifSp>
+<Vel>80</Vel>
+</pokemon>

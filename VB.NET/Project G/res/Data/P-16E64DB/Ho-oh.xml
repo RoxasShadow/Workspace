@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ho-oh</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>250</Numero>
+<HP>106</HP>
+<Atk>130</Atk>
+<Dif>90</Dif>
+<AtkSp>110</AtkSp>
+<DifSp>154</DifSp>
+<Vel>90</Vel>
+</pokemon>

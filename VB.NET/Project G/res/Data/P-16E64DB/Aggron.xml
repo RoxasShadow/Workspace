@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Aggron</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>RockHead</Abilità2>
+<Numero>306</Numero>
+<HP>70</HP>
+<Atk>110</Atk>
+<Dif>180</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>50</Vel>
+</pokemon>

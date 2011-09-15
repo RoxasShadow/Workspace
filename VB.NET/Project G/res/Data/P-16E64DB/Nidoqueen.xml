@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Nidoqueen</nome>
+<Abilità1>PoisonPoint</Abilità1>
+<Abilità2>Rivalry</Abilità2>
+<Numero>31</Numero>
+<HP>90</HP>
+<Atk>82</Atk>
+<Dif>87</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>85</DifSp>
+<Vel>76</Vel>
+</pokemon>

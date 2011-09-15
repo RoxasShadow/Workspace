@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Charmeleon</nome>
+<Abilità1>Blaze</Abilità1>
+<Abilità2>Blaze</Abilità2>
+<Numero>5</Numero>
+<HP>58</HP>
+<Atk>64</Atk>
+<Dif>58</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>65</DifSp>
+<Vel>80</Vel>
+</pokemon>

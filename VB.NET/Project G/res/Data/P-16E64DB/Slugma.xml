@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Slugma</nome>
+<Abilità1>MagmaArmor</Abilità1>
+<Abilità2>FlameBody</Abilità2>
+<Numero>218</Numero>
+<HP>40</HP>
+<Atk>40</Atk>
+<Dif>40</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>40</DifSp>
+<Vel>20</Vel>
+</pokemon>

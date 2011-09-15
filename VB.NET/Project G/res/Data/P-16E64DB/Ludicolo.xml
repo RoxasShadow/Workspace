@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ludicolo</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>RainDish</Abilità2>
+<Numero>272</Numero>
+<HP>80</HP>
+<Atk>70</Atk>
+<Dif>70</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>100</DifSp>
+<Vel>70</Vel>
+</pokemon>

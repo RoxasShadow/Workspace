@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Jolteon</nome>
+<Abilità1>VoltAbsorb</Abilità1>
+<Abilità2>VoltAbsorb</Abilità2>
+<Numero>135</Numero>
+<HP>65</HP>
+<Atk>65</Atk>
+<Dif>60</Dif>
+<AtkSp>110</AtkSp>
+<DifSp>95</DifSp>
+<Vel>130</Vel>
+</pokemon>

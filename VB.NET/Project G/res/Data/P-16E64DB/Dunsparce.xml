@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dunsparce</nome>
+<Abilità1>SereneGrace</Abilità1>
+<Abilità2>RunAway</Abilità2>
+<Numero>206</Numero>
+<HP>100</HP>
+<Atk>70</Atk>
+<Dif>70</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>65</DifSp>
+<Vel>45</Vel>
+</pokemon>

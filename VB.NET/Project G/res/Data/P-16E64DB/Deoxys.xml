@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Deoxys</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>386</Numero>
+<HP>50</HP>
+<Atk>150</Atk>
+<Dif>50</Dif>
+<AtkSp>150</AtkSp>
+<DifSp>50</DifSp>
+<Vel>150</Vel>
+</pokemon>

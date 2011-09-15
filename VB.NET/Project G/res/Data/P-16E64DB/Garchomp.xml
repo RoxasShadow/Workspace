@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Garchomp</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>445</Numero>
+<HP>108</HP>
+<Atk>130</Atk>
+<Dif>95</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>85</DifSp>
+<Vel>102</Vel>
+</pokemon>

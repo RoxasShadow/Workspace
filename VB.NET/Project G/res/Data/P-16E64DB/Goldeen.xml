@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Goldeen</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>WaterVeil</Abilità2>
+<Numero>118</Numero>
+<HP>45</HP>
+<Atk>67</Atk>
+<Dif>60</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>50</DifSp>
+<Vel>63</Vel>
+</pokemon>

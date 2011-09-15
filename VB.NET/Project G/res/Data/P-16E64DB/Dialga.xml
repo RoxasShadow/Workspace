@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dialga</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>483</Numero>
+<HP>100</HP>
+<Atk>120</Atk>
+<Dif>120</Dif>
+<AtkSp>150</AtkSp>
+<DifSp>100</DifSp>
+<Vel>90</Vel>
+</pokemon>

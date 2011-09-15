@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Psyduck</nome>
+<Abilità1>Damp</Abilità1>
+<Abilità2>CloudNine</Abilità2>
+<Numero>54</Numero>
+<HP>50</HP>
+<Atk>52</Atk>
+<Dif>48</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>50</DifSp>
+<Vel>55</Vel>
+</pokemon>

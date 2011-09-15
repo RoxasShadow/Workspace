@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Trapinch</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>ArenaTrap</Abilità2>
+<Numero>328</Numero>
+<HP>45</HP>
+<Atk>100</Atk>
+<Dif>45</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>45</DifSp>
+<Vel>10</Vel>
+</pokemon>

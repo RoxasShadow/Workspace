@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Natu</nome>
+<Abilità1>Synchronize</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>177</Numero>
+<HP>40</HP>
+<Atk>50</Atk>
+<Dif>45</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>45</DifSp>
+<Vel>70</Vel>
+</pokemon>

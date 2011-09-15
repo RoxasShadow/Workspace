@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Budew</nome>
+<Abilità1>NaturalCure</Abilità1>
+<Abilità2>PoisonPoint</Abilità2>
+<Numero>406</Numero>
+<HP>40</HP>
+<Atk>30</Atk>
+<Dif>35</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>70</DifSp>
+<Vel>55</Vel>
+</pokemon>

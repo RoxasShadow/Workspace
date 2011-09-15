@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lopunny</nome>
+<Abilità1>CuteCharm</Abilità1>
+<Abilità2>Klutz</Abilità2>
+<Numero>428</Numero>
+<HP>65</HP>
+<Atk>76</Atk>
+<Dif>84</Dif>
+<AtkSp>54</AtkSp>
+<DifSp>96</DifSp>
+<Vel>105</Vel>
+</pokemon>

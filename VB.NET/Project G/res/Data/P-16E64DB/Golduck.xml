@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Golduck</nome>
+<Abilità1>Damp</Abilità1>
+<Abilità2>CloudNine</Abilità2>
+<Numero>55</Numero>
+<HP>80</HP>
+<Atk>82</Atk>
+<Dif>78</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>80</DifSp>
+<Vel>85</Vel>
+</pokemon>

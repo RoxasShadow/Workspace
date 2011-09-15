@@ -1,0 +1,4 @@
+­- Far funzionare il regolatore di volume;
+­- Far funzionare la progress bar;
+­- Non far comparire il percorso completo nella jList;
+­- Svuotare la jList ogni volta che la aggiorni.

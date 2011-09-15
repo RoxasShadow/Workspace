@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dodrio</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>85</Numero>
+<HP>60</HP>
+<Atk>110</Atk>
+<Dif>70</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>100</Vel>
+</pokemon>

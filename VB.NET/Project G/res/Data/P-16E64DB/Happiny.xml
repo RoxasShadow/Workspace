@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Happiny</nome>
+<Abilità1>NaturalCure</Abilità1>
+<Abilità2>SereneGrace</Abilità2>
+<Numero>440</Numero>
+<HP>100</HP>
+<Atk>5</Atk>
+<Dif>5</Dif>
+<AtkSp>15</AtkSp>
+<DifSp>65</DifSp>
+<Vel>30</Vel>
+</pokemon>

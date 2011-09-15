@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Magnezone</nome>
+<Abilità1>MagnetPull</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>462</Numero>
+<HP>70</HP>
+<Atk>70</Atk>
+<Dif>115</Dif>
+<AtkSp>130</AtkSp>
+<DifSp>90</DifSp>
+<Vel>60</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mudkip</nome>
+<Abilità1>Torrent</Abilità1>
+<Abilità2>Torrent</Abilità2>
+<Numero>258</Numero>
+<HP>50</HP>
+<Atk>70</Atk>
+<Dif>50</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>50</DifSp>
+<Vel>40</Vel>
+</pokemon>

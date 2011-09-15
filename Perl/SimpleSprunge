@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+#Aprire il terminale, posizionarsi nella directory dove si trova lo script (ex: "cd /home/utente/") e digitare "perl SimpleSprunge".
+#Script in Perl scritto da Giovanni Capuano e rilasciato sotto licenza GNU/GPLv3.
+
+system("clear");
+print "SimpleSprunge | Richiede curl\n";
+print "Percorso del sorgente (ex: /home/utente/main.c): ";
+chomp($path = <>);
+system("cat $path | curl -F 'sprunge=<-' http://sprunge.us");

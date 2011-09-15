@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Blaziken</nome>
+<Abilità1>Blaze</Abilità1>
+<Abilità2>Blaze</Abilità2>
+<Numero>257</Numero>
+<HP>80</HP>
+<Atk>120</Atk>
+<Dif>70</Dif>
+<AtkSp>110</AtkSp>
+<DifSp>70</DifSp>
+<Vel>80</Vel>
+</pokemon>

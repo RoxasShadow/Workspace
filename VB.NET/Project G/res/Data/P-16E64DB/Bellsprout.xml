@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bellsprout</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>Chlorophyll</Abilità2>
+<Numero>69</Numero>
+<HP>50</HP>
+<Atk>75</Atk>
+<Dif>35</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>30</DifSp>
+<Vel>40</Vel>
+</pokemon>

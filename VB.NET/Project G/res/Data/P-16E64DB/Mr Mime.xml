@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mr.Mime</nome>
+<Abilità1>Soundproof</Abilità1>
+<Abilità2>Filter</Abilità2>
+<Numero>122</Numero>
+<HP>40</HP>
+<Atk>45</Atk>
+<Dif>65</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>120</DifSp>
+<Vel>90</Vel>
+</pokemon>

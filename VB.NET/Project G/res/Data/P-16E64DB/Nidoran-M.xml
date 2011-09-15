@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Nidoran-M</nome>
+<Abilità1>PoisonPoint</Abilità1>
+<Abilità2>Rivalry</Abilità2>
+<Numero>32</Numero>
+<HP>46</HP>
+<Atk>57</Atk>
+<Dif>40</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>40</DifSp>
+<Vel>50</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Combee</nome>
+<Abilità1>HoneyGather</Abilità1>
+<Abilità2>HoneyGather</Abilità2>
+<Numero>415</Numero>
+<HP>30</HP>
+<Atk>30</Atk>
+<Dif>42</Dif>
+<AtkSp>30</AtkSp>
+<DifSp>42</DifSp>
+<Vel>70</Vel>
+</pokemon>

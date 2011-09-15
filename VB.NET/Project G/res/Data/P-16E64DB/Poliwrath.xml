@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Poliwrath</nome>
+<Abilità1>WaterAbsorb</Abilità1>
+<Abilità2>Damp</Abilità2>
+<Numero>62</Numero>
+<HP>90</HP>
+<Atk>85</Atk>
+<Dif>95</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>90</DifSp>
+<Vel>70</Vel>
+</pokemon>

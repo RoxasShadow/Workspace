@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Elekid</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>239</Numero>
+<HP>45</HP>
+<Atk>63</Atk>
+<Dif>37</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>55</DifSp>
+<Vel>95</Vel>
+</pokemon>

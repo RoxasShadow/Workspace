@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Eevee</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>Adaptability</Abilità2>
+<Numero>133</Numero>
+<HP>55</HP>
+<Atk>55</Atk>
+<Dif>50</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>65</DifSp>
+<Vel>55</Vel>
+</pokemon>

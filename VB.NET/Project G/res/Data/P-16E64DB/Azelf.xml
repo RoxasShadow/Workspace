@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Azelf</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>482</Numero>
+<HP>75</HP>
+<Atk>125</Atk>
+<Dif>70</Dif>
+<AtkSp>125</AtkSp>
+<DifSp>70</DifSp>
+<Vel>115</Vel>
+</pokemon>

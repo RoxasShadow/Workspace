@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Articuno</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>144</Numero>
+<HP>90</HP>
+<Atk>85</Atk>
+<Dif>100</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>125</DifSp>
+<Vel>85</Vel>
+</pokemon>

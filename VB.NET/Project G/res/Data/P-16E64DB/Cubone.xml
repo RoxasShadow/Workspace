@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cubone</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Lightningrod</Abilità2>
+<Numero>104</Numero>
+<HP>50</HP>
+<Atk>50</Atk>
+<Dif>95</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>50</DifSp>
+<Vel>35</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mantine</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>WaterAbsorb</Abilità2>
+<Numero>226</Numero>
+<HP>65</HP>
+<Atk>40</Atk>
+<Dif>70</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>140</DifSp>
+<Vel>70</Vel>
+</pokemon>

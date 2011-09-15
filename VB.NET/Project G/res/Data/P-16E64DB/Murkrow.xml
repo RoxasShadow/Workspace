@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Murkrow</nome>
+<Abilità1>Insomnia</Abilità1>
+<Abilità2>SuperLuck</Abilità2>
+<Numero>198</Numero>
+<HP>60</HP>
+<Atk>85</Atk>
+<Dif>42</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>42</DifSp>
+<Vel>91</Vel>
+</pokemon>

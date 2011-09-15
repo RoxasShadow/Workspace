@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ambipom</nome>
+<Abilità1>Technician</Abilità1>
+<Abilità2>PickUp</Abilità2>
+<Numero>424</Numero>
+<HP>75</HP>
+<Atk>100</Atk>
+<Dif>66</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>66</DifSp>
+<Vel>115</Vel>
+</pokemon>

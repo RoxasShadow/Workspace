@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Noctowl</nome>
+<Abilità1>Insomnia</Abilità1>
+<Abilità2>KeenEye</Abilità2>
+<Numero>164</Numero>
+<HP>100</HP>
+<Atk>50</Atk>
+<Dif>50</Dif>
+<AtkSp>76</AtkSp>
+<DifSp>96</DifSp>
+<Vel>70</Vel>
+</pokemon>

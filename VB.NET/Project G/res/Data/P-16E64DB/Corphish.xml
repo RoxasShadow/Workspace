@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Corphish</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>ShellArmor</Abilità2>
+<Numero>341</Numero>
+<HP>43</HP>
+<Atk>80</Atk>
+<Dif>65</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>35</DifSp>
+<Vel>35</Vel>
+</pokemon>

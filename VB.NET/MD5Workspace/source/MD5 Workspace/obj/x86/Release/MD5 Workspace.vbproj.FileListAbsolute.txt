@@ -1,0 +1,16 @@
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\bin\Release\MD5 Workspace.exe.manifest
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\bin\Release\MD5 Workspace.application
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\bin\Release\MD5 Workspace.exe
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\bin\Release\MD5 Workspace.pdb
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\bin\Release\MD5 Workspace.xml
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\WindowsApplication1.Form1.resources
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\WindowsApplication1.InfoAbout.resources
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\WindowsApplication1.Resources.resources
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\MD5 Workspace.exe.manifest
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\MD5 Workspace.application
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\MD5 Workspace.exe
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\MD5 Workspace.xml
+D:\Documenti\Giovanni\VB.NET\MD5Workspace\MD5 Workspace\MD5 Workspace\obj\x86\Release\MD5 Workspace.pdb

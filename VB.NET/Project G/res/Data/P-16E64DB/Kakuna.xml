@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Kakuna</nome>
+<Abilità1>ShedSkin</Abilità1>
+<Abilità2>ShedSkin</Abilità2>
+<Numero>14</Numero>
+<HP>45</HP>
+<Atk>25</Atk>
+<Dif>50</Dif>
+<AtkSp>25</AtkSp>
+<DifSp>25</DifSp>
+<Vel>35</Vel>
+</pokemon>

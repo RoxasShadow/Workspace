@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Magikarp</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>129</Numero>
+<HP>20</HP>
+<Atk>10</Atk>
+<Dif>55</Dif>
+<AtkSp>15</AtkSp>
+<DifSp>20</DifSp>
+<Vel>80</Vel>
+</pokemon>

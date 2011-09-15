@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Tangela</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>LeafGuard</Abilità2>
+<Numero>114</Numero>
+<HP>65</HP>
+<Atk>55</Atk>
+<Dif>115</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>40</DifSp>
+<Vel>60</Vel>
+</pokemon>

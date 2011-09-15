@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Aipom</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>PickUp</Abilità2>
+<Numero>190</Numero>
+<HP>55</HP>
+<Atk>70</Atk>
+<Dif>55</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>55</DifSp>
+<Vel>85</Vel>
+</pokemon>

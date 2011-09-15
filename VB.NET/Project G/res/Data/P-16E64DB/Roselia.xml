@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Roselia</nome>
+<Abilità1>NaturalCure</Abilità1>
+<Abilità2>PoisonPoint</Abilità2>
+<Numero>315</Numero>
+<HP>50</HP>
+<Atk>60</Atk>
+<Dif>45</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>80</DifSp>
+<Vel>65</Vel>
+</pokemon>

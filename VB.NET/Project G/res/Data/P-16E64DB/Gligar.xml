@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gligar</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>207</Numero>
+<HP>65</HP>
+<Atk>75</Atk>
+<Dif>105</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>65</DifSp>
+<Vel>85</Vel>
+</pokemon>

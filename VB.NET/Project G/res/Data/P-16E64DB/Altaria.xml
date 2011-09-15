@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Altaria</nome>
+<Abilità1>NaturalCure</Abilità1>
+<Abilità2>NaturalCure</Abilità2>
+<Numero>334</Numero>
+<HP>75</HP>
+<Atk>70</Atk>
+<Dif>90</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>105</DifSp>
+<Vel>80</Vel>
+</pokemon>

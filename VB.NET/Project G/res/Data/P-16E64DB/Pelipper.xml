@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pelipper</nome>
+<Abilità1>KeenEye</Abilità1>
+<Abilità2>KeenEye</Abilità2>
+<Numero>279</Numero>
+<HP>60</HP>
+<Atk>50</Atk>
+<Dif>100</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>70</DifSp>
+<Vel>65</Vel>
+</pokemon>

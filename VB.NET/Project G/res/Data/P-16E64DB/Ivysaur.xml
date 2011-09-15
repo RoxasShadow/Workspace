@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ivysaur</nome>
+<Abilità1>Overgrow</Abilità1>
+<Abilità2>Overgrow</Abilità2>
+<Numero>2</Numero>
+<HP>60</HP>
+<Atk>62</Atk>
+<Dif>63</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>80</DifSp>
+<Vel>60</Vel>
+</pokemon>

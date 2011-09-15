@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Raticate</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>Guts</Abilità2>
+<Numero>20</Numero>
+<HP>55</HP>
+<Atk>81</Atk>
+<Dif>60</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>70</DifSp>
+<Vel>97</Vel>
+</pokemon>

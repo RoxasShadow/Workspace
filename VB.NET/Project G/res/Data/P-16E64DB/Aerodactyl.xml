@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Aerodactyl</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>142</Numero>
+<HP>80</HP>
+<Atk>105</Atk>
+<Dif>65</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>75</DifSp>
+<Vel>130</Vel>
+</pokemon>

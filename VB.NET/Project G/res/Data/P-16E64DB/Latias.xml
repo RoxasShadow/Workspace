@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Latias</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>380</Numero>
+<HP>80</HP>
+<Atk>80</Atk>
+<Dif>90</Dif>
+<AtkSp>110</AtkSp>
+<DifSp>130</DifSp>
+<Vel>110</Vel>
+</pokemon>

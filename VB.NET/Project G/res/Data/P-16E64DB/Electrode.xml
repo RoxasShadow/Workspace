@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Electrode</nome>
+<Abilità1>Soundproof</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>101</Numero>
+<HP>60</HP>
+<Atk>50</Atk>
+<Dif>70</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>80</DifSp>
+<Vel>140</Vel>
+</pokemon>

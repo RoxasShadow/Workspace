@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Golbat</nome>
+<Abilità1>InnerFocus</Abilità1>
+<Abilità2>InnerFocus</Abilità2>
+<Numero>42</Numero>
+<HP>75</HP>
+<Atk>80</Atk>
+<Dif>70</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>75</DifSp>
+<Vel>90</Vel>
+</pokemon>

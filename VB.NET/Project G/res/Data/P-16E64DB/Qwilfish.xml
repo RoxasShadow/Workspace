@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Qwilfish</nome>
+<Abilità1>PoisonPoint</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>211</Numero>
+<HP>65</HP>
+<Atk>95</Atk>
+<Dif>75</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>55</DifSp>
+<Vel>85</Vel>
+</pokemon>

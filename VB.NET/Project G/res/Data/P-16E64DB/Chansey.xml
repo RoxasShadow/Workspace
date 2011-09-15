@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Chansey</nome>
+<Abilità1>NaturalCure</Abilità1>
+<Abilità2>SereneGrace</Abilità2>
+<Numero>113</Numero>
+<HP>250</HP>
+<Atk>5</Atk>
+<Dif>5</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>105</DifSp>
+<Vel>50</Vel>
+</pokemon>

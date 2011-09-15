@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Igglybuff</nome>
+<Abilità1>CuteCharm</Abilità1>
+<Abilità2>CuteCharm</Abilità2>
+<Numero>174</Numero>
+<HP>90</HP>
+<Atk>30</Atk>
+<Dif>15</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>20</DifSp>
+<Vel>15</Vel>
+</pokemon>

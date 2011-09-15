@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hoppip</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>LeafGuard</Abilità2>
+<Numero>187</Numero>
+<HP>35</HP>
+<Atk>35</Atk>
+<Dif>40</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>55</DifSp>
+<Vel>50</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dugtrio</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>ArenaTrap</Abilità2>
+<Numero>51</Numero>
+<HP>35</HP>
+<Atk>80</Atk>
+<Dif>50</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>70</DifSp>
+<Vel>120</Vel>
+</pokemon>

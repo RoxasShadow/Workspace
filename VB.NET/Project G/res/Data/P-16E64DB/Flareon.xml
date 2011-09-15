@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Flareon</nome>
+<Abilità1>FlashFire</Abilità1>
+<Abilità2>FlashFire</Abilità2>
+<Numero>136</Numero>
+<HP>65</HP>
+<Atk>130</Atk>
+<Dif>60</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>110</DifSp>
+<Vel>65</Vel>
+</pokemon>

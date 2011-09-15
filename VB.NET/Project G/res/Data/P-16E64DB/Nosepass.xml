@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Nosepass</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>MagnetPull</Abilità2>
+<Numero>299</Numero>
+<HP>30</HP>
+<Atk>45</Atk>
+<Dif>135</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>90</DifSp>
+<Vel>30</Vel>
+</pokemon>

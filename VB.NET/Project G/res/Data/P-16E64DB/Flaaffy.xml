@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Flaaffy</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>180</Numero>
+<HP>70</HP>
+<Atk>55</Atk>
+<Dif>55</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>60</DifSp>
+<Vel>45</Vel>
+</pokemon>

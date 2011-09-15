@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Numel</nome>
+<Abilità1>Oblivious</Abilità1>
+<Abilità2>Simple</Abilità2>
+<Numero>322</Numero>
+<HP>60</HP>
+<Atk>60</Atk>
+<Dif>40</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>45</DifSp>
+<Vel>35</Vel>
+</pokemon>

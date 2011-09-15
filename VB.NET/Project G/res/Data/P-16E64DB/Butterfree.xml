@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Butterfree</nome>
+<Abilità1>Compoundeyes</Abilità1>
+<Abilità2>Compoundeyes</Abilità2>
+<Numero>12</Numero>
+<HP>60</HP>
+<Atk>45</Atk>
+<Dif>50</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>80</DifSp>
+<Vel>70</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Honchkrow</nome>
+<Abilità1>Insomnia</Abilità1>
+<Abilità2>SuperLuck</Abilità2>
+<Numero>430</Numero>
+<HP>100</HP>
+<Atk>125</Atk>
+<Dif>52</Dif>
+<AtkSp>105</AtkSp>
+<DifSp>52</DifSp>
+<Vel>71</Vel>
+</pokemon>

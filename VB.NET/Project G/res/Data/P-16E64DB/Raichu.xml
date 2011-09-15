@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Raichu</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>26</Numero>
+<HP>60</HP>
+<Atk>90</Atk>
+<Dif>55</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>80</DifSp>
+<Vel>100</Vel>
+</pokemon>

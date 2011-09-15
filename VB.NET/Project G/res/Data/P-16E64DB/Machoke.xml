@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Machoke</nome>
+<Abilità1>Guts</Abilità1>
+<Abilità2>NoGuard</Abilità2>
+<Numero>67</Numero>
+<HP>80</HP>
+<Atk>100</Atk>
+<Dif>70</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>60</DifSp>
+<Vel>45</Vel>
+</pokemon>

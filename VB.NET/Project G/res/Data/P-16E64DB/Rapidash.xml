@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Rapidash</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>FlashFire</Abilità2>
+<Numero>78</Numero>
+<HP>65</HP>
+<Atk>100</Atk>
+<Dif>70</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>80</DifSp>
+<Vel>105</Vel>
+</pokemon>

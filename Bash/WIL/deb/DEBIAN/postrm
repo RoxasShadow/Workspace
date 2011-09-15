@@ -1,0 +1,8 @@
+#!/bin/bash
+sed -i -e /WIL/d /home/$(logname)/.bashrc
+echo -n "Rimuovo anche l'uprecord? (y/N)"
+read choice
+if [ $choice == "y" ]; then
+	rm /home/$(logname)/.wil
+	echo -n "Uprecord eliminato."
+fi

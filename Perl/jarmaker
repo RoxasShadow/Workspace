@@ -1,0 +1,32 @@
+#!/usr/bin/perl
+print "Benvenuto in JarMaker, un semplice script in perl per creare velocemente archivi jar.";
+
+print "\n\nDirectory: ";
+chomp($path = <>);
+
+print "\nQual è il main? (senza estensione) ";
+chomp($main = <>);
+
+print "\nDevo compilare? [n=0, s=1]";
+chomp($compila = <>);
+
+if($compila == 1) {
+	system("cd && cd $path && javac $main.java");
+}
+
+print "\nHai già un file Manifest? [n=0, s=1]";
+chomp($manifest = <>);
+
+if($manifest == 0) {
+	print "\nCrea un file \"Manifest\" con il seguente testo:\n";
+	print "Manifest-Version: 1.0\nCreated-By: Nome Cognome\nMain-Class: $main\n\n";
+}
+
+print "\nAppena hai creato il file Manifest.txt premi 1\n";
+chomp($manifestok = <>);
+
+if($manifestok == 1) {
+	print "\nSto creando l'archivio jar...";
+	system("cd && cd $path && jar cmf Manifest.txt $main.jar *.class");
+	print "\nL'archivio jar è stato creato.\n";
+}

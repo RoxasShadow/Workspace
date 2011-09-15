@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lapras</nome>
+<Abilità1>WaterAbsorb</Abilità1>
+<Abilità2>ShellArmor</Abilità2>
+<Numero>131</Numero>
+<HP>130</HP>
+<Atk>85</Atk>
+<Dif>80</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>95</DifSp>
+<Vel>60</Vel>
+</pokemon>

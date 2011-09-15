@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+system("clear");
+print "LAMP Manager v0.1 | Giovanni Capuano";
+
+do {
+print "\n\n[1]Config PHP\n
+[2]Config Apache\n
+[3]Config phpmyadmin\n
+[4]Avvia Apache\n
+[5]Ferma Apache\n
+[6]Riavvia Apache\n
+[7]Apri /var/www come root\n
+[8]Installa LAMP\n
+[9]Disinstalla LAMP\n
+[10]Esci\n";
+chomp($choice = <>);
+
+if($choice == 1) {
+print "Apertura php.ini in corso...\n";
+system("sudo gedit /etc/php5/apache2/php.ini");
+}
+elsif($choice == 2) {
+print "Apertura apache2.config in corso...\n";
+system("sudo gedit /etc/apache2/apache2.config");
+}
+elsif($choice == 3) {
+print "Apertura config.inc.php in corso...\n";
+system("sudo gedit /etc/phpmyadmin/config.inc.php");
+}
+elsif($choice == 4) {
+print "Avvio Apache in corso...\n";
+system("sudo /etc/init.d/apache2 start");
+}
+elsif($choice == 5) {
+print "Arresto Apache in corso...\n";
+system("sudo /etc/init.d/apache2 stop");
+}
+elsif($choice == 6) {
+print "Riavvio Apache in corso...\n";
+system("sudo /etc/init.d/apache2 restart");
+}
+elsif($choice == 7) {
+print "Avvio nautilus in corso...\n";
+system("sudo nautilus /var/www/");
+}
+elsif($choice == 8) {
+print "Segui questa guida http://tech.mobiletod.com/how-to-install-lamp-serverapache-mysql-php-on-ubuntu-10-10/";
+}
+elsif($choice == 9) {
+print "Segui questa guida sostituendo ad ogni 'install' un '--purge autoremove' http://tech.mobiletod.com/how-to-install-lamp-serverapache-mysql-php-on-ubuntu-10-10/";
+}
+
+} while($choice != 10);

@@ -1,0 +1,8 @@
+#!/bin/bash
+#####################################
+#/GjBoard
+#(C) Giovanni Capuano 2011
+#####################################
+
+# Esegue il jar da riga di comando.
+java -jar /usr/local/bin/GjBoard.jar

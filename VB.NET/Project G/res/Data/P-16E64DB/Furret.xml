@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Furret</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>KeenEye</Abilità2>
+<Numero>162</Numero>
+<HP>85</HP>
+<Atk>76</Atk>
+<Dif>64</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>55</DifSp>
+<Vel>90</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mewtwo</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>150</Numero>
+<HP>106</HP>
+<Atk>110</Atk>
+<Dif>90</Dif>
+<AtkSp>154</AtkSp>
+<DifSp>90</DifSp>
+<Vel>130</Vel>
+</pokemon>

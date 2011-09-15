@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Horsea</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>Sniper</Abilità2>
+<Numero>116</Numero>
+<HP>30</HP>
+<Atk>40</Atk>
+<Dif>70</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>25</DifSp>
+<Vel>60</Vel>
+</pokemon>

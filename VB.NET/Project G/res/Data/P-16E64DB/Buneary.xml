@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Buneary</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>Klutz</Abilità2>
+<Numero>427</Numero>
+<HP>55</HP>
+<Atk>66</Atk>
+<Dif>44</Dif>
+<AtkSp>44</AtkSp>
+<DifSp>56</DifSp>
+<Vel>85</Vel>
+</pokemon>

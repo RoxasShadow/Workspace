@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dustox</nome>
+<Abilità1>ShieldDust</Abilità1>
+<Abilità2>ShieldDust</Abilità2>
+<Numero>269</Numero>
+<HP>60</HP>
+<Atk>50</Atk>
+<Dif>70</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>90</DifSp>
+<Vel>65</Vel>
+</pokemon>

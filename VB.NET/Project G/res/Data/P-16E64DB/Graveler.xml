@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Graveler</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>75</Numero>
+<HP>55</HP>
+<Atk>95</Atk>
+<Dif>115</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>45</DifSp>
+<Vel>35</Vel>
+</pokemon>

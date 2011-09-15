@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Buizel</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>418</Numero>
+<HP>55</HP>
+<Atk>65</Atk>
+<Dif>35</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>30</DifSp>
+<Vel>85</Vel>
+</pokemon>

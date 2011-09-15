@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Milotic</nome>
+<Abilità1>MarvelScale</Abilità1>
+<Abilità2>MarvelScale</Abilità2>
+<Numero>350</Numero>
+<HP>95</HP>
+<Atk>60</Atk>
+<Dif>79</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>125</DifSp>
+<Vel>81</Vel>
+</pokemon>

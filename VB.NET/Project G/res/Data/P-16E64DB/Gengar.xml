@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gengar</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>94</Numero>
+<HP>60</HP>
+<Atk>65</Atk>
+<Dif>60</Dif>
+<AtkSp>130</AtkSp>
+<DifSp>75</DifSp>
+<Vel>110</Vel>
+</pokemon>

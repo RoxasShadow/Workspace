@@ -1,0 +1,19 @@
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\bin\Debug\Project G Closed Alpha.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\bin\Debug\Project G Closed Alpha.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\bin\Debug\Project G Closed Alpha.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Finestra.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Intro.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Introforza1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.IVs1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Musica.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Nascosto.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.Opzioni.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.PokedexPG1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project_G_Closed_Alpha.PokèBug.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project G Closed Alpha.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project G Closed Alpha.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project G Closed Alpha.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Project G Closed Alpha\Project G Closed Alpha\Project G Closed Alpha\obj\Debug\Project G Closed Alpha.pdb

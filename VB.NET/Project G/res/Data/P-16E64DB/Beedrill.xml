@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Beedrill</nome>
+<Abilità1>Swarm</Abilità1>
+<Abilità2>Swarm</Abilità2>
+<Numero>15</Numero>
+<HP>65</HP>
+<Atk>80</Atk>
+<Dif>40</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>80</DifSp>
+<Vel>75</Vel>
+</pokemon>

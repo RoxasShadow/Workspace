@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Feebas</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>349</Numero>
+<HP>20</HP>
+<Atk>15</Atk>
+<Dif>20</Dif>
+<AtkSp>10</AtkSp>
+<DifSp>55</DifSp>
+<Vel>80</Vel>
+</pokemon>

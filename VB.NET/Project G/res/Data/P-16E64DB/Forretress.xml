@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Forretress</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>205</Numero>
+<HP>75</HP>
+<Atk>90</Atk>
+<Dif>140</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>40</Vel>
+</pokemon>

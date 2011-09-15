@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Luxio</nome>
+<Abilità1>Rivalry</Abilità1>
+<Abilità2>Intimidate</Abilità2>
+<Numero>404</Numero>
+<HP>60</HP>
+<Atk>85</Atk>
+<Dif>49</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>49</DifSp>
+<Vel>60</Vel>
+</pokemon>

@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+sub{$_[0] % $_ ? next : return 1 for @p}->($_) || print $p[$n++]=$_,"\n" for 2..696

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Primeape</nome>
+<Abilità1>VitalSpirit</Abilità1>
+<Abilità2>AngerPoint</Abilità2>
+<Numero>57</Numero>
+<HP>65</HP>
+<Atk>105</Atk>
+<Dif>60</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>70</DifSp>
+<Vel>95</Vel>
+</pokemon>

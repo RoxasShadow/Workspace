@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Clamperl</nome>
+<Abilità1>ShellArmor</Abilità1>
+<Abilità2>ShellArmor</Abilità2>
+<Numero>366</Numero>
+<HP>35</HP>
+<Atk>64</Atk>
+<Dif>85</Dif>
+<AtkSp>74</AtkSp>
+<DifSp>55</DifSp>
+<Vel>32</Vel>
+</pokemon>

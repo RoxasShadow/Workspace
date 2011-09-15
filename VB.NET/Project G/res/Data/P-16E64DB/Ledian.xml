@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ledian</nome>
+<Abilità1>Swarm</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>166</Numero>
+<HP>55</HP>
+<Atk>35</Atk>
+<Dif>50</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>110</DifSp>
+<Vel>85</Vel>
+</pokemon>

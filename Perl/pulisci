@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo apt-get autoclean
+sudo apt-get clean
+sudo apt-get autoremove
+#sudo dpkg --purge `COLUMNS=300 dpkg -l "*" | egrep "^rc" | cut -d\  -f3` #Rimuove le cartelle di configurazione dei programmi rimossi

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Claydol</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>344</Numero>
+<HP>60</HP>
+<Atk>70</Atk>
+<Dif>105</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>120</DifSp>
+<Vel>75</Vel>
+</pokemon>

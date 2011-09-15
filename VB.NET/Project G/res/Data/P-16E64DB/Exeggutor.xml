@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Exeggutor</nome>
+<Abilità1>Chlorophyll</Abilità1>
+<Abilità2>Chlorophyll</Abilità2>
+<Numero>103</Numero>
+<HP>95</HP>
+<Atk>95</Atk>
+<Dif>85</Dif>
+<AtkSp>125</AtkSp>
+<DifSp>65</DifSp>
+<Vel>55</Vel>
+</pokemon>

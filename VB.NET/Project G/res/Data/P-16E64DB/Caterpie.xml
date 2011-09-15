@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Caterpie</nome>
+<Abilità1>ShieldDust</Abilità1>
+<Abilità2>ShieldDust</Abilità2>
+<Numero>10</Numero>
+<HP>45</HP>
+<Atk>30</Atk>
+<Dif>35</Dif>
+<AtkSp>20</AtkSp>
+<DifSp>20</DifSp>
+<Vel>45</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Electivire</nome>
+<Abilità1>MotorDrive</Abilità1>
+<Abilità2>MotorDrive</Abilità2>
+<Numero>466</Numero>
+<HP>75</HP>
+<Atk>123</Atk>
+<Dif>67</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>85</DifSp>
+<Vel>95</Vel>
+</pokemon>

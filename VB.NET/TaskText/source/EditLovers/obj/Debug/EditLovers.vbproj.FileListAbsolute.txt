@@ -1,0 +1,24 @@
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\bin\Debug\EditLovers.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\bin\Debug\EditLovers.pdb
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\bin\Debug\EditLovers.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\EditLovers.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\EditLovers.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\EditLovers.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\EditLovers.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\EditLovers.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\EditLovers\obj\Debug\EditLovers.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\bin\Debug\EditLovers.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\bin\Debug\EditLovers.application
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\bin\Debug\EditLovers.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\bin\Debug\EditLovers.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\bin\Debug\EditLovers.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\TaskText\EditLovers\EditLovers\obj\Debug\EditLovers.application

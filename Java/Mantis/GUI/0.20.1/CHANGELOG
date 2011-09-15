@@ -1,0 +1,11 @@
+0.10
+- Scrittura delle funzioni di base.
+
+0.20
+- Nella jList non compaiono più i percorsi completi dei file;
+- Commentata ogni riga rilevante;
+- Eliminato lo script "Avvia.sh": ora basta cliccare sul jar per avviare Mantis;
+- Ridimensionata la GUI.
+
+0.20.1
+- Corretto un bug di omonimia tra pacchetti deb.

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gastrodon</nome>
+<Abilità1>StickyHold</Abilità1>
+<Abilità2>StormDrain</Abilità2>
+<Numero>423</Numero>
+<HP>111</HP>
+<Atk>83</Atk>
+<Dif>68</Dif>
+<AtkSp>92</AtkSp>
+<DifSp>82</DifSp>
+<Vel>39</Vel>
+</pokemon>

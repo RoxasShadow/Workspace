@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Golem</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>76</Numero>
+<HP>80</HP>
+<Atk>110</Atk>
+<Dif>130</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>65</DifSp>
+<Vel>45</Vel>
+</pokemon>

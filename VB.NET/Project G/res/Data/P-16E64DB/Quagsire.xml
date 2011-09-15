@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Quagsire</nome>
+<Abilità1>Damp</Abilità1>
+<Abilità2>WaterAbsorb</Abilità2>
+<Numero>195</Numero>
+<HP>95</HP>
+<Atk>85</Atk>
+<Dif>85</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>65</DifSp>
+<Vel>35</Vel>
+</pokemon>

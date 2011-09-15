@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Plusle</nome>
+<Abilità1>Plus</Abilità1>
+<Abilità2>Plus</Abilità2>
+<Numero>311</Numero>
+<HP>60</HP>
+<Atk>50</Atk>
+<Dif>40</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>75</DifSp>
+<Vel>95</Vel>
+</pokemon>

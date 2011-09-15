@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Linoone</nome>
+<Abilità1>Pickup</Abilità1>
+<Abilità2>Gluttony</Abilità2>
+<Numero>264</Numero>
+<HP>78</HP>
+<Atk>70</Atk>
+<Dif>61</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>61</DifSp>
+<Vel>100</Vel>
+</pokemon>

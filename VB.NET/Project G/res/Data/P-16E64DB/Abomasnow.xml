@@ -1,0 +1,12 @@
+﻿<pokemon>
+<nome>Abomasnow</nome>
+<Abilità1>Snow Warning</Abilità1>
+<Abilità2>Snow Warning</Abilità2>
+<Numero>460</Numero>
+<HP>90</HP>
+<Atk>92</Atk>
+<Dif>75</Dif>
+<AtkSp>92</AtkSp>
+<DifSp>85</DifSp>
+<Vel>60</Vel>
+</pokemon>

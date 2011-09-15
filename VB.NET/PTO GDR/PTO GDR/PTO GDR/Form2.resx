@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>Calcolo PV
+
+Per far eseguire al software il calcolo dei PV basta
+immettere nei rispettivi campi il livello, gli HP e lo stadio.
+
+HP: Punti salute di base del Pokèmon;
+
+Livello: Livello attuale del Pokèmon;
+
+Stadio: Stadio di Evoluzione del Pokèmon 
+
+(Esempio: Bulbasaur 1°S, Ivysaur 2°S, Venusaur 3°S).
+
+
+-----------------------------------------
+
+Calcolo PP
+
+Per far eseguire al software il calcolo dei PP  basta
+immettere nei rispettivi campi il livello, la potenza base della mossa e lo stadio.
+
+Potenza Base: Potenza della mossa.
+
+(Esempio: Terremoto = 100, Surf = 95, Sgranocchio = 60)
+
+
+-----------------------------------------
+
+Web Browser
+
+Il Web Browser è il form a destra che consente di navigare in determinati siti web direttamente dal software.
+Basta premere un bottone per far caricare la pagina apposita.
+
+Smogon (Dati): Dato il nome del Pokèmon in minuscolo (Esempio: pichu), basta premere il bottone Smogon(Dati) per far caricare la pagina del Pokèmon su Smogon.com contenente gli HP del Pokèmon;
+
+PCentral (Dati): Stessa funziona di Smogon (Dati) ma sul sito web PCentral. A differenza del primo, però, il Pokèmon deve essere scritto con il capolettera maiuscolo (Esempio: Pichu);
+
+PCentral (Mosse): Dato il nome di una mossa, basta premere il bottone PCentral (Mosse) per far caricare la pagina della mossa su PCentral contenente la potenza base di questa.
+
+Roxas Shadow, Alberto, Linkino: Cliccando uno di questi nomi verrà aperta la pagina di Pokèmon The Origins con il profilo di ciascuno di loro.
+
+Pokèmon The Origins: Premendo tale bottone si accederà a Pokèmon The Origins.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAAAMzMzAGZmZgB4eHgAmZmZAMzMzAD///8AZmaZADMzZgCZmcwAMzOZAGZmzAAzM8wAAAAzAAAA
+        ZgAAAJkAAADMAAAA/wAzM/8AZmb/AJmZ/wDMzP8AADP/AAAzzAAzZv8AM2bMAAAzmQBmmf8AAGb/ADNm
+        mQBmmcwAADNmAABmzAAzmf8Amcz/AACZ/wAzmcwAAGaZAGbM/wAAmcwAM8z/AADM/wBmmZkAM2ZmAJnM
+        zAAzmZkAZszMADPMzAAAMzMAAGZmAACZmQAAzMwAAP//ADP//wBm//8Amf//AMz//wAA/8wAAMyZADP/
+        zAAzzJkAAJlmAGb/zAAA/5kAM5lmAGbMmQAAZjMAAMxmADP/mQCZ/8wAAP9mADPMZgAAmTMAZv+ZAADM
+        MwAz/2YAAP8zAKi4qABmmWYAM2YzAJnMmQAzmTMAZsxmADPMMwAAMwAAAGYAAACZAAAAzAAAAP8AADP/
+        MwBm/2YAmf+ZAMz/zAAz/wAAM8wAAGb/MwBmzDMAM5kAAJn/ZgBm/wAAZpkzAJnMZgAzZgAAZswAAJn/
+        MwDM/5kAmf8AAJnMMwBmmQAAzP9mAJnMAADM/zMAzP8AAJmZZgBmZjMAzMyZAMjIiACZmTMAzMxmAMzM
+        MwAzMwAAZmYAAJmZAADMzAAA//8AAP//MwD//2YA//+ZAP//zAD/zAAAzJkAAP/MMwDMmTMAmWYAAP/M
+        ZgD/mQAAmWYzAMyZZgBmMwAAzGYAAP+ZMwD/zJkAyIhYAP9mAADMZjMAmTMAAP+ZZgDIWCgAzDMAAP9m
+        MwD/MwAAmWZmAGYzMwDMmZkAmTMzAMxmZgDMMzMAyCgoADMAAABmAAAAmQAAAMwAAAD/AAAA/zMzAP9m
+        ZgD/mZkA/8zMAP8AMwDMADMA/zNmAMwzZgCZADMA/2aZAP8AZgCZM2YAzGaZAGYAMwDMAGYA/zOZAP+Z
+        zAD/AJkAzDOZAJkAZgD/ZswAzACZAP8zzAD/AMwAmWaZAGYzZgDMmcwAmTOZAMxmzADMM8wAMwAzAGYA
+        ZgCZAJkAzADMAP8A/wD/M/8A/2b/AP+Z/wD/zP8AzAD/AJkAzADMM/8AmTPMAGYAmQDMZv8AWACIAJkA
+        /wDIiP8AZjOZAJlmzAAzAGYAZgDMAJkz/wDMmf8AZgD/AGYzzAAzAJkAmWb/AIhY/wAzAMwAZjP/ADMA
+        /wD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////////////////////////////////////////////////////////////////
+        /wAAAAD///////////////////8AAAAA////////AAAAkJCTkAD//////////////wAAAJCOiY4AAAAA
+        AACOjpCTkJOJiQD///////////8AkJOQjnN0AACJjo4AiY6JjomOiY50AP//////////AImOiY6OAACO
+        iY6OiQCOiY4GBo5zdHMA//////////8AjomOBgCJjgYGjomOiQAGBgYGAAAAAP////////////8ABgYA
+        c44GBgYGkJDS0gAAAADc0M4A//////////////8AANIGdHMGBnTS0tjc3d3c3d3O0AD/////////////
+        //8A0tIGBtLS2NLI0t3c3dzd3N3QAP///////////////wDSBgYGBtLS2NLS3N3c3dzd3AD/////////
+        /////////wDSBgYG0tjS0tzd3dzd3N3cAP///////////////////wDSBtLS0tLc3dzd3N3d3J0A////
+        /////////////////wDS0tjS3N3c3d3c3dyOiZwA////////////////////ANLS0tzd3N3d3N0AAImO
+        iZ0A////////////////////ANzd3N3d3AAAAP//AI6OiQD///////////////////8A3dzd3dwA////
+        ////AImOiQD///////////////////8A3dzdAP////////8AjomOjgD//////////////////wDc3dwA
+        //////////8AjomOAP//////////////////ANLc0AD//////////wCJjomOAP///////////////wAG
+        0tzQAP///////////wCOiXMA/////////////wAABtLc3dzQAP//////////AImOdAD///////////8A
+        0tLS3N3c3dzQAP//////////AHRzAP//////////AJCQ3N3c3dzd3dzQAP//////////AAD/////////
+        /wCOkJOQ3dzcjomJ3dzQAP//////////////////AAAAjomOiZPc3Y4GTQOJ3N0A//////////////8A
+        AACOiY6JjomT3N3dBgAATQPc3QD/////////////AAYGdHN0c3SJjtzd3NwGAABNTdzdAP//////////
+        ////AAAAAAAAAADd3NLS0twGBgbd3AD//////////////////////////wAABgYG0tLc3QAA////////
+        //////////////////////8AAAYGBgAA////////////////////////////////////AAAA////////
+        //////////////////////4f/8PwD/4AAAf8AAAH+AAAB/gAAA/8AAAP/gAAD/8AAA//AAAf/4AAH//A
+        AB//4AAP/+AAB//wAwf/8B+D//g/gf/4P8H/+D/A//A/4P/AH+D/gA/w/wAH+f4AA//wAAP/gAAD/wAA
+        A/+AAAf//4AP///gP///+P//
+</value>
+  </data>
+</root>

@@ -1,0 +1,52 @@
+ body,td,th {
+	font-family: Verdana;
+	font-size: 7pt;
+	color: #000000; text-decoration: none;
+
+}
+
+A:link {
+COLOR: #79CC6B; TEXT-DECORATION: none
+}
+A:visited {
+COLOR: #79CC6B; TEXT-DECORATION: none
+}
+A:link {
+}
+A:active {
+TEXT-DECORATION: none
+}
+A:hover {
+COLOR: #000000; decoration: none; border-bottom:0
+
+
+}
+
+#dwrap div {
+width: 655px;
+height: 1970px;
+float: left;
+
+
+font-family: Verdana;
+	font-size: 7pt;
+	color: #000000; text-decoration: none;
+
+
+A:link {
+COLOR: #79CC6B; TEXT-DECORATION: none
+}
+A:visited {
+COLOR: #000000; TEXT-DECORATION: none
+}
+A:link {
+}
+A:active {
+TEXT-DECORATION: none
+}
+
+A:hover {
+COLOR: #000000; decoration: none; border-bottom:0
+}
+
+a[href^="http://"] {background: url(http://it.wikipedia.org/skins-1.5/monobook/external.png) center right no-repeat; padding-right: 13px; text-decoration:none; border-bottom: 1px dotted #222}

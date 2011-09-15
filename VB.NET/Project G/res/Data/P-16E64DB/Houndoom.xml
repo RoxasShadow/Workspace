@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Houndoom</nome>
+<Abilità1>EarlyBird</Abilità1>
+<Abilità2>FlashFire</Abilità2>
+<Numero>229</Numero>
+<HP>75</HP>
+<Atk>90</Atk>
+<Dif>50</Dif>
+<AtkSp>110</AtkSp>
+<DifSp>80</DifSp>
+<Vel>95</Vel>
+</pokemon>

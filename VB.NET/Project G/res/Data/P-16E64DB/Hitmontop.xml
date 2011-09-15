@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hitmontop</nome>
+<Abilità1>Intimidate</Abilità1>
+<Abilità2>Technician</Abilità2>
+<Numero>237</Numero>
+<HP>50</HP>
+<Atk>95</Atk>
+<Dif>95</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>110</DifSp>
+<Vel>70</Vel>
+</pokemon>

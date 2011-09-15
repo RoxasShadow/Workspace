@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Jigglypuff</nome>
+<Abilità1>CuteCharm</Abilità1>
+<Abilità2>CuteCharm</Abilità2>
+<Numero>39</Numero>
+<HP>115</HP>
+<Atk>45</Atk>
+<Dif>20</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>25</DifSp>
+<Vel>20</Vel>
+</pokemon>

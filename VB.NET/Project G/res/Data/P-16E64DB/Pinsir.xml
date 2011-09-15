@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pinsir</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>MoldBreaker</Abilità2>
+<Numero>127</Numero>
+<HP>65</HP>
+<Atk>125</Atk>
+<Dif>100</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>70</DifSp>
+<Vel>85</Vel>
+</pokemon>

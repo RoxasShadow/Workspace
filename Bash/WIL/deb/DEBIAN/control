@@ -1,0 +1,7 @@
+Package: WIL
+Version: 0.7
+Section: main
+Architecture: i386
+Maintainer: Giovanni Capuano <webmaster@giovannicapuano.net>
+Homepage: <http://www.giovannicapuano.net>
+Description: Uno script bash che ti dà il benvenuto quando accedi al terminale. Ti mostrerà l'uptime e il tuo record, le informazioni di sistema e una citazione del buon Tux!

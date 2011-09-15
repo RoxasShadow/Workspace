@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Magneton</nome>
+<Abilità1>MagnetPull</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>82</Numero>
+<HP>50</HP>
+<Atk>60</Atk>
+<Dif>95</Dif>
+<AtkSp>120</AtkSp>
+<DifSp>70</DifSp>
+<Vel>70</Vel>
+</pokemon>

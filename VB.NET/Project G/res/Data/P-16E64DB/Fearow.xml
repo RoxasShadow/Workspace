@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Fearow</nome>
+<Abilità1>KeenEye</Abilità1>
+<Abilità2>KeenEye</Abilità2>
+<Numero>22</Numero>
+<HP>65</HP>
+<Atk>90</Atk>
+<Dif>65</Dif>
+<AtkSp>61</AtkSp>
+<DifSp>61</DifSp>
+<Vel>100</Vel>
+</pokemon>

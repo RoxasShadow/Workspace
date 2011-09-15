@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Sandslash</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>28</Numero>
+<HP>75</HP>
+<Atk>100</Atk>
+<Dif>110</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>55</DifSp>
+<Vel>65</Vel>
+</pokemon>

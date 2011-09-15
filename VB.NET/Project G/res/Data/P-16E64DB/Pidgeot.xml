@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pidgeot</nome>
+<Abilità1>KeenEye</Abilità1>
+<Abilità2>TangledFeet</Abilità2>
+<Numero>18</Numero>
+<HP>83</HP>
+<Atk>80</Atk>
+<Dif>75</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>70</DifSp>
+<Vel>91</Vel>
+</pokemon>

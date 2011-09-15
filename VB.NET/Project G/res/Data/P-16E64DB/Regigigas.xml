@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Regigigas</nome>
+<Abilità1>SlowStart</Abilità1>
+<Abilità2>SlowStart</Abilità2>
+<Numero>486</Numero>
+<HP>110</HP>
+<Atk>160</Atk>
+<Dif>110</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>110</DifSp>
+<Vel>100</Vel>
+</pokemon>

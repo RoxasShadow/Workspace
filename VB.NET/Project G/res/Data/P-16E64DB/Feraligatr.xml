@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Feraligatr</nome>
+<Abilità1>Torrent</Abilità1>
+<Abilità2>Torrent</Abilità2>
+<Numero>160</Numero>
+<HP>85</HP>
+<Atk>105</Atk>
+<Dif>100</Dif>
+<AtkSp>79</AtkSp>
+<DifSp>83</DifSp>
+<Vel>78</Vel>
+</pokemon>

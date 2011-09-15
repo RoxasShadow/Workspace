@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gible</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>443</Numero>
+<HP>58</HP>
+<Atk>70</Atk>
+<Dif>45</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>45</DifSp>
+<Vel>42</Vel>
+</pokemon>

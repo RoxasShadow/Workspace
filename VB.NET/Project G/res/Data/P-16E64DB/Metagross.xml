@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Metagross</nome>
+<Abilità1>ClearBody</Abilità1>
+<Abilità2>ClearBody</Abilità2>
+<Numero>376</Numero>
+<HP>80</HP>
+<Atk>135</Atk>
+<Dif>130</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>90</DifSp>
+<Vel>70</Vel>
+</pokemon>

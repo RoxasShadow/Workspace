@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bagon</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>RockHead</Abilità2>
+<Numero>371</Numero>
+<HP>45</HP>
+<Atk>75</Atk>
+<Dif>60</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>30</DifSp>
+<Vel>50</Vel>
+</pokemon>

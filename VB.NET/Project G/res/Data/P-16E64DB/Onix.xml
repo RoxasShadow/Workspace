@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Onix</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>95</Numero>
+<HP>35</HP>
+<Atk>45</Atk>
+<Dif>160</Dif>
+<AtkSp>30</AtkSp>
+<DifSp>45</DifSp>
+<Vel>70</Vel>
+</pokemon>

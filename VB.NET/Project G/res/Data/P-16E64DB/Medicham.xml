@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Medicham</nome>
+<Abilità1>PurePower</Abilità1>
+<Abilità2>PurePower</Abilità2>
+<Numero>308</Numero>
+<HP>60</HP>
+<Atk>60</Atk>
+<Dif>75</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>75</DifSp>
+<Vel>80</Vel>
+</pokemon>

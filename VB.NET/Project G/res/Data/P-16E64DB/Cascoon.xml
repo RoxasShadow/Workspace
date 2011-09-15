@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cascoon</nome>
+<Abilità1>ShedSkin</Abilità1>
+<Abilità2>ShedSkin</Abilità2>
+<Numero>268</Numero>
+<HP>50</HP>
+<Atk>35</Atk>
+<Dif>55</Dif>
+<AtkSp>25</AtkSp>
+<DifSp>25</DifSp>
+<Vel>15</Vel>
+</pokemon>

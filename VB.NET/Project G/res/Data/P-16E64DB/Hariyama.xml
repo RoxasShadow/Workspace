@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hariyama</nome>
+<Abilità1>ThickFat</Abilità1>
+<Abilità2>Guts</Abilità2>
+<Numero>297</Numero>
+<HP>144</HP>
+<Atk>120</Atk>
+<Dif>60</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>60</DifSp>
+<Vel>50</Vel>
+</pokemon>

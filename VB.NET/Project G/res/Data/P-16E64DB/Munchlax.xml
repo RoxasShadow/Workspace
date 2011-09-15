@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Munchlax</nome>
+<Abilità1>Pickup</Abilità1>
+<Abilità2>ThickFat</Abilità2>
+<Numero>446</Numero>
+<HP>135</HP>
+<Atk>85</Atk>
+<Dif>40</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>85</DifSp>
+<Vel>5</Vel>
+</pokemon>

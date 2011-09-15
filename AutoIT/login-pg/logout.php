@@ -1,0 +1,1 @@
+<?phpsetcookie("arearistretta", '', time()-2592000, "/");header("Location: login.php");?>

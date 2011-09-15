@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Metang</nome>
+<Abilità1>ClearBody</Abilità1>
+<Abilità2>ClearBody</Abilità2>
+<Numero>375</Numero>
+<HP>60</HP>
+<Atk>75</Atk>
+<Dif>100</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>80</DifSp>
+<Vel>50</Vel>
+</pokemon>

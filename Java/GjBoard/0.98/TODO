@@ -1,0 +1,2 @@
+- Creazione database sempre nella cartella in cui si trova il jar (se si esegue Avvia.bash, il database viene creato nella root, mentre se si esegue direttamente il jar si crea nella cartella in cui esso si trova);
+- Creare i metodi addSlashes() e stripSlashes() che filtrano le stringhe per la query SQL.

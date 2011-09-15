@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Krabby</nome>
+<Abilità1>HyperCutter</Abilità1>
+<Abilità2>ShellArmor</Abilità2>
+<Numero>98</Numero>
+<HP>30</HP>
+<Atk>105</Atk>
+<Dif>90</Dif>
+<AtkSp>25</AtkSp>
+<DifSp>25</DifSp>
+<Vel>50</Vel>
+</pokemon>

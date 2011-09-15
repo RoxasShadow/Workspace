@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Larvitar</nome>
+<Abilità1>Guts</Abilità1>
+<Abilità2>Guts</Abilità2>
+<Numero>246</Numero>
+<HP>50</HP>
+<Atk>64</Atk>
+<Dif>50</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>50</DifSp>
+<Vel>41</Vel>
+</pokemon>

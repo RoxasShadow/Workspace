@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hitmonchan</nome>
+<Abilità1>KeenEye</Abilità1>
+<Abilità2>IronFist</Abilità2>
+<Numero>107</Numero>
+<HP>50</HP>
+<Atk>105</Atk>
+<Dif>79</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>110</DifSp>
+<Vel>76</Vel>
+</pokemon>

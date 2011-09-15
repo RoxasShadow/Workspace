@@ -1,0 +1,24 @@
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.pdb
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\Progressioni_aritmetiche.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\Progressioni_aritmetiche.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\bin\Debug\Progressioni aritmetiche.application
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\Successioni\Successioni\Progressioni aritmetiche\obj\x86\Debug\Progressioni aritmetiche.application

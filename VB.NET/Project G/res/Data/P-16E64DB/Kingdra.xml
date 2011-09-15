@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Kingdra</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>Sniper</Abilità2>
+<Numero>230</Numero>
+<HP>75</HP>
+<Atk>95</Atk>
+<Dif>95</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>95</DifSp>
+<Vel>85</Vel>
+</pokemon>

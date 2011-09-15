@@ -1,0 +1,12 @@
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\bin\Debug\Equazioni di 2 Grado.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\bin\Debug\Equazioni di 2 Grado.pdb
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\bin\Debug\Equazioni di 2 Grado.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\Equazioni_di_2_Grado.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\Equazioni_di_2_Grado.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\Equazioni di 2 Grado.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\Equazioni di 2 Grado.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\Equazioni di 2 Grado.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Equazioni di 2 Grado\obj\Debug\Equazioni di 2 Grado.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Equazioni di 2 Grado\Equazioni di 2 Grado\Equazioni di 2 Grado\obj\Debug\Equazioni di 2 Grado.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Equazioni di 2 Grado\Equazioni di 2 Grado\Equazioni di 2 Grado\obj\Debug\Equazioni di 2 Grado.pdb

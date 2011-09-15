@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Barboach</nome>
+<Abilità1>Oblivious</Abilità1>
+<Abilità2>Anticipation</Abilità2>
+<Numero>339</Numero>
+<HP>50</HP>
+<Atk>48</Atk>
+<Dif>43</Dif>
+<AtkSp>46</AtkSp>
+<DifSp>41</DifSp>
+<Vel>60</Vel>
+</pokemon>

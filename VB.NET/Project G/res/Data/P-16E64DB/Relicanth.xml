@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Relicanth</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>RockHead</Abilità2>
+<Numero>369</Numero>
+<HP>100</HP>
+<Atk>90</Atk>
+<Dif>130</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>65</DifSp>
+<Vel>55</Vel>
+</pokemon>

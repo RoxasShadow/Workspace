@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Chimchar</nome>
+<Abilità1>Blaze</Abilità1>
+<Abilità2>Blaze</Abilità2>
+<Numero>390</Numero>
+<HP>44</HP>
+<Atk>58</Atk>
+<Dif>44</Dif>
+<AtkSp>58</AtkSp>
+<DifSp>44</DifSp>
+<Vel>61</Vel>
+</pokemon>

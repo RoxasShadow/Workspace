@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cloyster</nome>
+<Abilità1>ShellArmor</Abilità1>
+<Abilità2>SkillLink</Abilità2>
+<Numero>91</Numero>
+<HP>50</HP>
+<Atk>95</Atk>
+<Dif>180</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>45</DifSp>
+<Vel>70</Vel>
+</pokemon>

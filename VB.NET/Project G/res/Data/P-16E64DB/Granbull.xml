@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Granbull</nome>
+<Abilità1>Intimidate</Abilità1>
+<Abilità2>QuickFeet</Abilità2>
+<Numero>210</Numero>
+<HP>90</HP>
+<Atk>120</Atk>
+<Dif>75</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>45</Vel>
+</pokemon>

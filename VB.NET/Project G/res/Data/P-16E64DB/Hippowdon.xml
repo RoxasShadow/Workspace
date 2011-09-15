@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hippowdon</nome>
+<Abilità1>SandStream</Abilità1>
+<Abilità2>SandStream</Abilità2>
+<Numero>450</Numero>
+<HP>108</HP>
+<Atk>112</Atk>
+<Dif>118</Dif>
+<AtkSp>68</AtkSp>
+<DifSp>72</DifSp>
+<Vel>47</Vel>
+</pokemon>

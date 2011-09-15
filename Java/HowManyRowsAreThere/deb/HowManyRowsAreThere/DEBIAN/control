@@ -1,0 +1,7 @@
+Package: HowManyRowsAreThere
+Version: 1.0
+Section: main
+Architecture: i386
+Maintainer: Giovanni Capuano <webmaster@giovannicapuano.net>
+Homepage: <http://www.giovannicapuano.net>
+Description: Ritorna il numero delle righe dei file con una determinata estensione di tutte le sottocartelle di un percorso.

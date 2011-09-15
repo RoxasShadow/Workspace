@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Riolu</nome>
+<Abilità1>Steadfast</Abilità1>
+<Abilità2>InnerFocus</Abilità2>
+<Numero>447</Numero>
+<HP>40</HP>
+<Atk>70</Atk>
+<Dif>40</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>40</DifSp>
+<Vel>60</Vel>
+</pokemon>

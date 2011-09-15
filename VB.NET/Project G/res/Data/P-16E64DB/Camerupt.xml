@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Camerupt</nome>
+<Abilità1>MagmaArmor</Abilità1>
+<Abilità2>SolidRock</Abilità2>
+<Numero>323</Numero>
+<HP>70</HP>
+<Atk>100</Atk>
+<Dif>70</Dif>
+<AtkSp>105</AtkSp>
+<DifSp>75</DifSp>
+<Vel>40</Vel>
+</pokemon>

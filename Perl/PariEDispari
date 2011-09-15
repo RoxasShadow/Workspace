@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+print "Nome del file dei numeri pari: ";
+$filename = <>;
+print "\nNome del file dei numeri dispari: ";
+$filename2 = <>;
+print "\nFino a che numero devo arrivare? ";
+$max = <>;
+
+open(PARI, ">", $filename); #Apre in scrittura il file
+open(DISPARI, ">", $filename2); #Apre in scrittura il file
+
+for($i=0; $i<$max; $i++) {
+   if($i % 2 == 0) {
+	print PARI "$i\n"; #Scrive nel file
+   }
+}
+
+for($i=0; $i<$max; $i++) {
+   if(!($i % 2 == 0)) {
+	print DISPARI "$i\n"; #Scrive nel file
+   }
+}
+
+close(DISPARI); #Chiude il file
+close(PARI); #Chiude il file
+print "\nFatto!\n";
+

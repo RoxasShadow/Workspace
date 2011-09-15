@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Nidorina</nome>
+<Abilità1>PoisonPoint</Abilità1>
+<Abilità2>Rivalry</Abilità2>
+<Numero>30</Numero>
+<HP>70</HP>
+<Atk>62</Atk>
+<Dif>67</Dif>
+<AtkSp>55</AtkSp>
+<DifSp>55</DifSp>
+<Vel>56</Vel>
+</pokemon>

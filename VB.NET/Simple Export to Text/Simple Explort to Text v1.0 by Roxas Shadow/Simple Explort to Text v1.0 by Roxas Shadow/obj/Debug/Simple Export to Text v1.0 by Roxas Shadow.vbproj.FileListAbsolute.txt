@@ -1,0 +1,13 @@
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\bin\Debug\Simple Explort to Text v1.0 by Roxas Shadow.exe
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\bin\Debug\Simple Explort to Text v1.0 by Roxas Shadow.pdb
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\bin\Debug\Simple Explort to Text v1.0 by Roxas Shadow.xml
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple_Explort_to_Text_v1._0_by_Roxas_Shadow.Form1.resources
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple_Explort_to_Text_v1._0_by_Roxas_Shadow.Resources.resources
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.vbproj.GenerateResource.Cache
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.exe
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.xml
+C:\Documents and Settings\GIO'\Impostazioni locali\Dati applicazioni\Temporary Projects\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.pdb
+C:\Documents and Settings\GIO'\Desktop\Simple Export to Text\Simple Explort to Text v1.0 by Roxas Shadow\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.exe
+C:\Documents and Settings\GIO'\Desktop\Simple Export to Text\Simple Explort to Text v1.0 by Roxas Shadow\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.xml
+C:\Documents and Settings\GIO'\Desktop\Simple Export to Text\Simple Explort to Text v1.0 by Roxas Shadow\Simple Explort to Text v1.0 by Roxas Shadow\obj\Debug\Simple Explort to Text v1.0 by Roxas Shadow.pdb

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gastly</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>92</Numero>
+<HP>30</HP>
+<Atk>35</Atk>
+<Dif>30</Dif>
+<AtkSp>100</AtkSp>
+<DifSp>35</DifSp>
+<Vel>80</Vel>
+</pokemon>

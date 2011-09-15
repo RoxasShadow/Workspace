@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Armaldo</nome>
+<Abilità1>BattleArmor</Abilità1>
+<Abilità2>BattleArmor</Abilità2>
+<Numero>348</Numero>
+<HP>75</HP>
+<Atk>125</Atk>
+<Dif>100</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>80</DifSp>
+<Vel>45</Vel>
+</pokemon>

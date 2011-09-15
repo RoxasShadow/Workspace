@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Absol</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>SuperLuck</Abilità2>
+<Numero>359</Numero>
+<HP>65</HP>
+<Atk>130</Atk>
+<Dif>60</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>60</DifSp>
+<Vel>75</Vel>
+</pokemon>

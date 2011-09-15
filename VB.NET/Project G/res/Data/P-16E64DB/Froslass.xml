@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Froslass</nome>
+<Abilità1>SnowCloak</Abilità1>
+<Abilità2>SnowCloak</Abilità2>
+<Numero>478</Numero>
+<HP>70</HP>
+<Atk>80</Atk>
+<Dif>70</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>70</DifSp>
+<Vel>110</Vel>
+</pokemon>

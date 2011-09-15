@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Finneon</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>StormDrain</Abilità2>
+<Numero>456</Numero>
+<HP>49</HP>
+<Atk>49</Atk>
+<Dif>56</Dif>
+<AtkSp>49</AtkSp>
+<DifSp>61</DifSp>
+<Vel>66</Vel>
+</pokemon>

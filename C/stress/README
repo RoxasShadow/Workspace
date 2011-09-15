@@ -1,0 +1,7 @@
+-- Per installare, doppio click su `install.sh` (se non si apre il terminale, dovrai dargli i permessi di esecuzione da Proprietà -> Permessi -> Esegui come programma. Una volta avviato, vorrà i privilegi di root).
+
+-- Per disinstallare, doppio click su `uninstall.sh` (se non si apre il terminale, dovrai dargli i permessi di esecuzione da Proprietà -> Permessi -> Esegui come programma. Una volta avviato, vorrà i privilegi di root).
+
+-- Per avviare, apri un terminale bash e digita `stress`..
+
+(C) 2011 Giovanni Capuano ~ http://www.giovannicapuano.net 

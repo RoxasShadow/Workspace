@@ -1,0 +1,16 @@
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\bin\Debug\Core.exe
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\bin\Debug\Core.pdb
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\bin\Debug\Core.xml
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.exe
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.xml
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.pdb
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\bin\Debug\Core.exe.manifest
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\bin\Debug\Core.application
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.TrustInfo.xml
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.exe.manifest
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.application
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.Resources.resources
+D:\Documenti\Giovanni\VB.NET\Strategydex\Core\Core\Core\obj\x86\Debug\Core.Pokemon.resources

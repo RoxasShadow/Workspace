@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Hippopotas</nome>
+<Abilità1>SandStream</Abilità1>
+<Abilità2>SandStream</Abilità2>
+<Numero>449</Numero>
+<HP>68</HP>
+<Atk>72</Atk>
+<Dif>78</Dif>
+<AtkSp>38</AtkSp>
+<DifSp>42</DifSp>
+<Vel>32</Vel>
+</pokemon>

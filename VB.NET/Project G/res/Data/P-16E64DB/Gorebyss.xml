@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gorebyss</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>368</Numero>
+<HP>55</HP>
+<Atk>84</Atk>
+<Dif>105</Dif>
+<AtkSp>114</AtkSp>
+<DifSp>75</DifSp>
+<Vel>52</Vel>
+</pokemon>

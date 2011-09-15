@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Electrike</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Lightningrod</Abilità2>
+<Numero>309</Numero>
+<HP>40</HP>
+<Atk>45</Atk>
+<Dif>40</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>40</DifSp>
+<Vel>65</Vel>
+</pokemon>

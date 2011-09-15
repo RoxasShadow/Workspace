@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Grimer</nome>
+<Abilità1>Stench</Abilità1>
+<Abilità2>StickyHold</Abilità2>
+<Numero>88</Numero>
+<HP>80</HP>
+<Atk>80</Atk>
+<Dif>50</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>50</DifSp>
+<Vel>25</Vel>
+</pokemon>

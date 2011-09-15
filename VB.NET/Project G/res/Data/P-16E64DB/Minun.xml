@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Minun</nome>
+<Abilità1>Minus</Abilità1>
+<Abilità2>Minus</Abilità2>
+<Numero>312</Numero>
+<HP>60</HP>
+<Atk>40</Atk>
+<Dif>50</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>85</DifSp>
+<Vel>95</Vel>
+</pokemon>

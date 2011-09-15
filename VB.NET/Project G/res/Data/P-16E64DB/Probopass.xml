@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Probopass</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>MagnetPull</Abilità2>
+<Numero>476</Numero>
+<HP>60</HP>
+<Atk>55</Atk>
+<Dif>145</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>150</DifSp>
+<Vel>40</Vel>
+</pokemon>

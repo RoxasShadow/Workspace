@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Clefairy</nome>
+<Abilità1>CuteCharm</Abilità1>
+<Abilità2>MagicGuard</Abilità2>
+<Numero>35</Numero>
+<HP>70</HP>
+<Atk>45</Atk>
+<Dif>48</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>65</DifSp>
+<Vel>35</Vel>
+</pokemon>

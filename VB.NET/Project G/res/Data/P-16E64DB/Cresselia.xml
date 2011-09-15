@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cresselia</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>488</Numero>
+<HP>120</HP>
+<Atk>70</Atk>
+<Dif>120</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>130</DifSp>
+<Vel>85</Vel>
+</pokemon>

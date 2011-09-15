@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Marowak</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Lightningrod</Abilità2>
+<Numero>105</Numero>
+<HP>60</HP>
+<Atk>80</Atk>
+<Dif>110</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>80</DifSp>
+<Vel>45</Vel>
+</pokemon>

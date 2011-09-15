@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mantyke</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>WaterAbsorb</Abilità2>
+<Numero>458</Numero>
+<HP>45</HP>
+<Atk>20</Atk>
+<Dif>50</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>120</DifSp>
+<Vel>50</Vel>
+</pokemon>

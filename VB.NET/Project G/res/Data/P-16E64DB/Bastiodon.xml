@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bastiodon</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>411</Numero>
+<HP>60</HP>
+<Atk>52</Atk>
+<Dif>168</Dif>
+<AtkSp>47</AtkSp>
+<DifSp>138</DifSp>
+<Vel>30</Vel>
+</pokemon>

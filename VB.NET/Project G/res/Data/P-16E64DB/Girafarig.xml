@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Girafarig</nome>
+<Abilità1>InnerFocus</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>203</Numero>
+<HP>70</HP>
+<Atk>80</Atk>
+<Dif>65</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>65</DifSp>
+<Vel>85</Vel>
+</pokemon>

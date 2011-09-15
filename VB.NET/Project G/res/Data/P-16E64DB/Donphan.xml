@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Donphan</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>232</Numero>
+<HP>90</HP>
+<Atk>120</Atk>
+<Dif>120</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>50</Vel>
+</pokemon>

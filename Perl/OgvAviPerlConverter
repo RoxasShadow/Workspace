@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+#Aprire il terminale, posizionarsi nella directory dove si trova lo script (ex: "cd /home/utente/") e digitare "perl OgvAviPerlConverter".
+#Script in Perl scritto da Giovanni Capuano e rilasciato sotto licenza GNU/GPLv3.
+
+system("clear");
+print "OgvAviPerlConverter, un semplice convertitore di video dal formato .ogv al formato .avi.\nRichiede mencoder [sudo apt-get install mencoder]\n\n";
+print "Nome del file da convertire (ex: video.ogv): ";
+chomp($oldName = <>);
+
+print "Nome del nuovo file (ex: video.avi): ";
+chomp($newName = <>);
+
+print "Posizione del file da convertire (ex: /home/utente/): ";
+chomp($oldPath = <>);
+
+print "Posizione del nuovo file (ex: /home/utente/): ";
+chomp($newPath = <>);
+
+if (-e $oldPath.$oldName) {
+	system("mencoder \"$oldPath$oldName\" -ovc xvid -oac mp3lame -xvidencopts pass=1 -o \"$newPath$newName\"");
+}
+else {
+	print "\nIl file da convertire non è stato trovato.";
+}
+
+if (-e $newPath.$newName) {
+	print "\nConversione riuscita.\n";
+}
+else {
+	print "\nConversione non riuscita.\n";
+}

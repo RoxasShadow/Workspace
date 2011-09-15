@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Beautifly</nome>
+<Abilità1>Swarm</Abilità1>
+<Abilità2>Swarm</Abilità2>
+<Numero>267</Numero>
+<HP>60</HP>
+<Atk>70</Atk>
+<Dif>50</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>50</DifSp>
+<Vel>65</Vel>
+</pokemon>

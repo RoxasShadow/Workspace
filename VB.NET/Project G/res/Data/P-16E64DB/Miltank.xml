@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Miltank</nome>
+<Abilità1>ThickFat</Abilità1>
+<Abilità2>Scrappy</Abilità2>
+<Numero>241</Numero>
+<HP>95</HP>
+<Atk>80</Atk>
+<Dif>105</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>70</DifSp>
+<Vel>100</Vel>
+</pokemon>

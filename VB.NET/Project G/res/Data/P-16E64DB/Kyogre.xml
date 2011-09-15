@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Kyogre</nome>
+<Abilità1>Drizzle</Abilità1>
+<Abilità2>Drizzle</Abilità2>
+<Numero>382</Numero>
+<HP>100</HP>
+<Atk>100</Atk>
+<Dif>90</Dif>
+<AtkSp>150</AtkSp>
+<DifSp>140</DifSp>
+<Vel>90</Vel>
+</pokemon>

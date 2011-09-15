@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Heracross</nome>
+<Abilità1>Swarm</Abilità1>
+<Abilità2>Guts</Abilità2>
+<Numero>214</Numero>
+<HP>80</HP>
+<Atk>125</Atk>
+<Dif>75</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>95</DifSp>
+<Vel>85</Vel>
+</pokemon>

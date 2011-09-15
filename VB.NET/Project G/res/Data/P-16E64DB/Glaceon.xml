@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Glaceon</nome>
+<Abilità1>SnowCloak</Abilità1>
+<Abilità2>SnowCloak</Abilità2>
+<Numero>471</Numero>
+<HP>65</HP>
+<Atk>60</Atk>
+<Dif>110</Dif>
+<AtkSp>130</AtkSp>
+<DifSp>95</DifSp>
+<Vel>65</Vel>
+</pokemon>

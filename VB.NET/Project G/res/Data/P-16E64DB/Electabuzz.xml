@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Electabuzz</nome>
+<Abilità1>Static</Abilità1>
+<Abilità2>Static</Abilità2>
+<Numero>125</Numero>
+<HP>65</HP>
+<Atk>83</Atk>
+<Dif>57</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>85</DifSp>
+<Vel>105</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Misdreavus</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>200</Numero>
+<HP>60</HP>
+<Atk>60</Atk>
+<Dif>60</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>85</DifSp>
+<Vel>85</Vel>
+</pokemon>

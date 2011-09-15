@@ -1,0 +1,7 @@
+0.99
+--Apici ora permessi grazie al metodo purge();
+--Nome del database incapsulato;
+--Ottimizzati i costrutti eliminando le parentesi graffe nel caso di una sola riga e utilizzando gli operatori ternari.
+
+0.99.1
+--Fix per il bug che non permetteva la visualizzazione e l'eliminazione per gli appunti che presentavano un apice nel testo.

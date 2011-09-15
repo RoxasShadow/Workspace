@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Makuhita</nome>
+<Abilità1>ThickFat</Abilità1>
+<Abilità2>Guts</Abilità2>
+<Numero>296</Numero>
+<HP>72</HP>
+<Atk>60</Atk>
+<Dif>30</Dif>
+<AtkSp>20</AtkSp>
+<DifSp>30</DifSp>
+<Vel>25</Vel>
+</pokemon>

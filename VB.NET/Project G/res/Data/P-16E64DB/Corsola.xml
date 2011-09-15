@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Corsola</nome>
+<Abilità1>Hustle</Abilità1>
+<Abilità2>NaturalCure</Abilità2>
+<Numero>222</Numero>
+<HP>55</HP>
+<Atk>55</Atk>
+<Dif>85</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>85</DifSp>
+<Vel>35</Vel>
+</pokemon>

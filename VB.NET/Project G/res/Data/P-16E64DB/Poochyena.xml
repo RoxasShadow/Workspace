@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Poochyena</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>QuickFeet</Abilità2>
+<Numero>261</Numero>
+<HP>35</HP>
+<Atk>55</Atk>
+<Dif>35</Dif>
+<AtkSp>30</AtkSp>
+<DifSp>30</DifSp>
+<Vel>35</Vel>
+</pokemon>

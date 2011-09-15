@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+use WWW::Google::PageRank; # Includo la libreria del Google Pagerank
+my $pagerank = WWW::Google::PageRank->new; # Creo un nuovo oggetto
+
+print "Digita il link della pagina di cui vuoi calcolare il pagerank: ";
+chomp(my $pagina = <>);
+print "Il pagerank associato a $pagina è ";
+print scalar($pagerank->get($pagina));
+print "/10.\n";

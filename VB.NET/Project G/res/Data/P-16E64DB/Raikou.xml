@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Raikou</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>243</Numero>
+<HP>90</HP>
+<Atk>85</Atk>
+<Dif>75</Dif>
+<AtkSp>115</AtkSp>
+<DifSp>100</DifSp>
+<Vel>115</Vel>
+</pokemon>

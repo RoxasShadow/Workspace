@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dratini</nome>
+<Abilità1>ShedSkin</Abilità1>
+<Abilità2>ShedSkin</Abilità2>
+<Numero>147</Numero>
+<HP>41</HP>
+<Atk>64</Atk>
+<Dif>45</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>50</DifSp>
+<Vel>50</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Aron</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>RockHead</Abilità2>
+<Numero>304</Numero>
+<HP>50</HP>
+<Atk>70</Atk>
+<Dif>100</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>40</DifSp>
+<Vel>30</Vel>
+</pokemon>

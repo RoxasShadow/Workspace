@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Metapod</nome>
+<Abilità1>ShedSkin</Abilità1>
+<Abilità2>ShedSkin</Abilità2>
+<Numero>11</Numero>
+<HP>50</HP>
+<Atk>20</Atk>
+<Dif>55</Dif>
+<AtkSp>25</AtkSp>
+<DifSp>25</DifSp>
+<Vel>30</Vel>
+</pokemon>

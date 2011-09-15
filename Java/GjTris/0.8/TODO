@@ -1,0 +1,5 @@
+--Bottoni che quando cliccati si colorano in modo diverso per ogni player;
+--Bottoni bloccati in caso di vincita/perdita/parità fino a che si preme Restart;
+--Punteggio;
+--IA;
+--Algoritmi.

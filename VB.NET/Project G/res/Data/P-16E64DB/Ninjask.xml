@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ninjask</nome>
+<Abilità1>SpeedBoost</Abilità1>
+<Abilità2>SpeedBoost</Abilità2>
+<Numero>291</Numero>
+<HP>61</HP>
+<Atk>90</Atk>
+<Dif>45</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>50</DifSp>
+<Vel>160</Vel>
+</pokemon>

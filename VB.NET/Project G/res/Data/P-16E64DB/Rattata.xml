@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Rattata</nome>
+<Abilità1>RunAway</Abilità1>
+<Abilità2>Guts</Abilità2>
+<Numero>19</Numero>
+<HP>30</HP>
+<Atk>56</Atk>
+<Dif>35</Dif>
+<AtkSp>25</AtkSp>
+<DifSp>35</DifSp>
+<Vel>72</Vel>
+</pokemon>

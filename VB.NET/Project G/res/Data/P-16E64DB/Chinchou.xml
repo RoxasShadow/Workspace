@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Chinchou</nome>
+<Abilità1>VoltAbsorb</Abilità1>
+<Abilità2>Illuminate</Abilità2>
+<Numero>170</Numero>
+<HP>75</HP>
+<Atk>38</Atk>
+<Dif>38</Dif>
+<AtkSp>56</AtkSp>
+<DifSp>56</DifSp>
+<Vel>67</Vel>
+</pokemon>

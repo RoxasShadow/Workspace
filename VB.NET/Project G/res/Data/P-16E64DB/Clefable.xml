@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Clefable</nome>
+<Abilità1>CuteCharm</Abilità1>
+<Abilità2>MagicGuard</Abilità2>
+<Numero>36</Numero>
+<HP>95</HP>
+<Atk>70</Atk>
+<Dif>73</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>90</DifSp>
+<Vel>60</Vel>
+</pokemon>

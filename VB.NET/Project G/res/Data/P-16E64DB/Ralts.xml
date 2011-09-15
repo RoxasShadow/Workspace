@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ralts</nome>
+<Abilità1>Synchronize</Abilità1>
+<Abilità2>Trace</Abilità2>
+<Numero>280</Numero>
+<HP>28</HP>
+<Atk>25</Atk>
+<Dif>25</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>35</DifSp>
+<Vel>40</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pineco</nome>
+<Abilità1>Sturdy</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>204</Numero>
+<HP>50</HP>
+<Atk>65</Atk>
+<Dif>90</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>35</DifSp>
+<Vel>15</Vel>
+</pokemon>

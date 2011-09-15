@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lombre</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>RainDish</Abilità2>
+<Numero>271</Numero>
+<HP>60</HP>
+<Atk>50</Atk>
+<Dif>50</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>70</DifSp>
+<Vel>50</Vel>
+</pokemon>

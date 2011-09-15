@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Haunter</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>93</Numero>
+<HP>45</HP>
+<Atk>50</Atk>
+<Dif>45</Dif>
+<AtkSp>115</AtkSp>
+<DifSp>55</DifSp>
+<Vel>95</Vel>
+</pokemon>

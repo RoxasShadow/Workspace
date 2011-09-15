@@ -1,0 +1,7 @@
+Package: MantisMP3
+Version: 0.20.1
+Section: main
+Architecture: i386
+Maintainer: Giovanni Capuano <webmaster@giovannicapuano.net>
+Homepage: <http://www.giovannicapuano.net>
+Description: Mantis arriva nelle profondità del tuo sistema riproducendo i tuoi MP3 preferiti.

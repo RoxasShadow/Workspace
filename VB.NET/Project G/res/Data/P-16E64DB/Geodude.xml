@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Geodude</nome>
+<Abilità1>RockHead</Abilità1>
+<Abilità2>Sturdy</Abilità2>
+<Numero>74</Numero>
+<HP>40</HP>
+<Atk>80</Atk>
+<Dif>100</Dif>
+<AtkSp>30</AtkSp>
+<DifSp>30</DifSp>
+<Vel>20</Vel>
+</pokemon>

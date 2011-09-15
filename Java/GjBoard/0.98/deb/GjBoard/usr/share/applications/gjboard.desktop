@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=GjBoard
+Comment=Un gestore di appunti avanzato con l'appoggio di un database standalone.
+Categories=GNOME;Office;
+Exec=/usr/local/bin/GjBoard
+Icon=/usr/share/gjboard/icon.png

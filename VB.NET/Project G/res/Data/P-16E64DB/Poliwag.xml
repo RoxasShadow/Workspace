@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Poliwag</nome>
+<Abilità1>WaterAbsorb</Abilità1>
+<Abilità2>Damp</Abilità2>
+<Numero>60</Numero>
+<HP>40</HP>
+<Atk>50</Atk>
+<Dif>40</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>40</DifSp>
+<Vel>90</Vel>
+</pokemon>

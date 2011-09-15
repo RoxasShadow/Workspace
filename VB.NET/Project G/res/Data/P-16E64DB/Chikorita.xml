@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Chikorita</nome>
+<Abilità1>Overgrow</Abilità1>
+<Abilità2>Overgrow</Abilità2>
+<Numero>152</Numero>
+<HP>45</HP>
+<Atk>49</Atk>
+<Dif>65</Dif>
+<AtkSp>49</AtkSp>
+<DifSp>65</DifSp>
+<Vel>45</Vel>
+</pokemon>

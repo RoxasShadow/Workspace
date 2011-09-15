@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Azurill</nome>
+<Abilità1>ThickFat</Abilità1>
+<Abilità2>HugePower</Abilità2>
+<Numero>298</Numero>
+<HP>50</HP>
+<Atk>20</Atk>
+<Dif>40</Dif>
+<AtkSp>20</AtkSp>
+<DifSp>40</DifSp>
+<Vel>20</Vel>
+</pokemon>

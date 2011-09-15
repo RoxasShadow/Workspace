@@ -1,0 +1,14 @@
+> 0.9
+--Simboli registrati su file .properties;
+--Di ogni simbolo con più di un carattere, solo il primo viene accettato;
+--Localizzazione IT-EN.
+
+> 0.9.1
+--Aggiunto record e punteggio;
+--Eliminato sfondo a seconda della vittoria/sconfitta/pareggio, altrimenti davano un brutto tocco estetico con i label degli elementi sopra citati;
+--Ad ogni click di una cella o in caso di vincita, viene emesso un suono.
+
+> 0.9.2
+--Implementata la soluzione embeded di Jython. Ora i metodi isWinner() e isTie() sono stati demandati agli omoninimi plugin in Python;
+--Possibilità di scegliere se abilitare o meno i suoni;
+--Bug del pareggio fixato.

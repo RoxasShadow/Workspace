@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Duskull</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>355</Numero>
+<HP>20</HP>
+<Atk>40</Atk>
+<Dif>90</Dif>
+<AtkSp>30</AtkSp>
+<DifSp>90</DifSp>
+<Vel>25</Vel>
+</pokemon>

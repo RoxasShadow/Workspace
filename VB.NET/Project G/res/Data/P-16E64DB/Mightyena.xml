@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Mightyena</nome>
+<Abilità1>Intimidate</Abilità1>
+<Abilità2>QuickFeet</Abilità2>
+<Numero>262</Numero>
+<HP>70</HP>
+<Atk>90</Atk>
+<Dif>70</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>60</DifSp>
+<Vel>70</Vel>
+</pokemon>

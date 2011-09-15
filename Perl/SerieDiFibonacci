@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+print "Target: ";
+$n = <>;
+
+$a = 0; #Primo numero
+$b = 1; #Secondo numero
+
+print "0\n";
+for($i=0; $i<$n-1; $i++) {
+	$fibonacci = $a + $b;
+	print "$fibonacci\n";
+	$b = $a;
+	$a = $fibonacci;
+}

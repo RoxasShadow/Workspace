@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: Mantis
+Class-Path: jl1.0.1.jar
+Created-By: Giovanni Capuano
+

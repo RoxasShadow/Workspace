@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Floatzel</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>SwiftSwim</Abilità2>
+<Numero>419</Numero>
+<HP>85</HP>
+<Atk>105</Atk>
+<Dif>55</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>50</DifSp>
+<Vel>115</Vel>
+</pokemon>

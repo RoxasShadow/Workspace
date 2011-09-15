@@ -1,0 +1,66 @@
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form2.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.application
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.TrustInfo.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.application
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.xml
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.pdb
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.application
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.pdb
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.xml
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form2.resources
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.TrustInfo.xml
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Documenti\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.application
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.xml
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.pdb
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe.manifest
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.application
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.pdb
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.xml
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\ResolveAssemblyReference.cache
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form1.resources
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form2.resources
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Resources.resources
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GenerateResource.read.1.tlog
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GenerateResource.write.1.tlog
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.TrustInfo.xml
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe.manifest
+D:\Documenti\Giovanni\VB.NET\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.application
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.xml
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.pdb
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form1.resources
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Form2.resources
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GDR.Resources.resources
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe.manifest
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.application
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.exe
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.pdb
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\bin\Debug\PTO GDR.xml
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.TrustInfo.xml
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.exe.manifest
+C:\Users\Vincenzo\Desktop\PTO GDR\PTO GDR\PTO GDR\obj\Debug\PTO GDR.application

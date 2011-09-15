@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bidoof</nome>
+<Abilità1>Simple</Abilità1>
+<Abilità2>Unaware</Abilità2>
+<Numero>399</Numero>
+<HP>59</HP>
+<Atk>45</Atk>
+<Dif>40</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>40</DifSp>
+<Vel>31</Vel>
+</pokemon>

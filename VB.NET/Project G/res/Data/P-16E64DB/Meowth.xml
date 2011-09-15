@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Meowth</nome>
+<Abilità1>Pickup</Abilità1>
+<Abilità2>Technician</Abilità2>
+<Numero>52</Numero>
+<HP>40</HP>
+<Atk>45</Atk>
+<Dif>35</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>40</DifSp>
+<Vel>90</Vel>
+</pokemon>

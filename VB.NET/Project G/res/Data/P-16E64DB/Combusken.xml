@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Combusken</nome>
+<Abilità1>Blaze</Abilità1>
+<Abilità2>Blaze</Abilità2>
+<Numero>256</Numero>
+<HP>60</HP>
+<Atk>85</Atk>
+<Dif>60</Dif>
+<AtkSp>85</AtkSp>
+<DifSp>60</DifSp>
+<Vel>55</Vel>
+</pokemon>

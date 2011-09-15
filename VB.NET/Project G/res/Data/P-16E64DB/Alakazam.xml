@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Alakazam</nome>
+<Abilità1>Synchronize</Abilità1>
+<Abilità2>InnerFocus</Abilità2>
+<Numero>65</Numero>
+<HP>55</HP>
+<Atk>50</Atk>
+<Dif>45</Dif>
+<AtkSp>135</AtkSp>
+<DifSp>85</DifSp>
+<Vel>120</Vel>
+</pokemon>

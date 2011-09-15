@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Dragonair</nome>
+<Abilità1>ShedSkin</Abilità1>
+<Abilità2>ShedSkin</Abilità2>
+<Numero>148</Numero>
+<HP>61</HP>
+<Atk>84</Atk>
+<Dif>65</Dif>
+<AtkSp>70</AtkSp>
+<DifSp>70</DifSp>
+<Vel>70</Vel>
+</pokemon>

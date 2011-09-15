@@ -1,0 +1,25 @@
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\bin\Debug\Albhed-Latino.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\bin\Debug\Albhed-Latino.pdb
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\bin\Debug\Albhed-Latino.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\Albhed_Latino.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\Albhed_Latino.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\Albhed-Latino.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\Albhed-Latino.exe
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\Albhed-Latino.xml
+C:\Documents and Settings\Roxas Shadow\Impostazioni locali\Dati applicazioni\Temporary Projects\Albhed-Latino\obj\Debug\Albhed-Latino.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed-Latino.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed-Latino.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\bin\Debug\Albhed-Latino.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\bin\Debug\Albhed-Latino.pdb
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\bin\Debug\Albhed-Latino.xml
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed_Latino.Form1.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed_Latino.Form2.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed_Latino.Resources.resources
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed-Latino.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed-Latino.exe
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\bin\Debug\Albhed-Latino.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\bin\Debug\Albhed-Latino.application
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed-Latino.exe.manifest
+C:\Documents and Settings\Roxas Shadow\Desktop\Albhed-Latino\Albhed-Latino\Albhed-Latino\obj\Debug\Albhed-Latino.application

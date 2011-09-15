@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Politoed</nome>
+<Abilità1>WaterAbsorb</Abilità1>
+<Abilità2>Damp</Abilità2>
+<Numero>186</Numero>
+<HP>90</HP>
+<Atk>75</Atk>
+<Dif>75</Dif>
+<AtkSp>90</AtkSp>
+<DifSp>100</DifSp>
+<Vel>70</Vel>
+</pokemon>

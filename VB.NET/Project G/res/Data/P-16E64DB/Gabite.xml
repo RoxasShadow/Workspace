@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Gabite</nome>
+<Abilità1>SandVeil</Abilità1>
+<Abilità2>SandVeil</Abilità2>
+<Numero>444</Numero>
+<HP>68</HP>
+<Atk>90</Atk>
+<Dif>65</Dif>
+<AtkSp>50</AtkSp>
+<DifSp>55</DifSp>
+<Vel>82</Vel>
+</pokemon>

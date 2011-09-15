@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lotad</nome>
+<Abilità1>SwiftSwim</Abilità1>
+<Abilità2>RainDish</Abilità2>
+<Numero>270</Numero>
+<HP>40</HP>
+<Atk>30</Atk>
+<Dif>30</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>50</DifSp>
+<Vel>30</Vel>
+</pokemon>

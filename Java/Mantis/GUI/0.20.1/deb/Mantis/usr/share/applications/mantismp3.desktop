@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Mantis
+Comment=Mantis arriva nelle profondità del tuo sistema riproducendo i tuoi MP3 preferiti.
+Categories=GNOME;AudioVideo;
+Exec=/usr/local/bin/Mantis
+Icon=/usr/share/mantismp3/icon.png
+Name[it_IT]=Mantis

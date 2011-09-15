@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Registeel</nome>
+<Abilità1>ClearBody</Abilità1>
+<Abilità2>ClearBody</Abilità2>
+<Numero>379</Numero>
+<HP>80</HP>
+<Atk>75</Atk>
+<Dif>150</Dif>
+<AtkSp>75</AtkSp>
+<DifSp>150</DifSp>
+<Vel>50</Vel>
+</pokemon>

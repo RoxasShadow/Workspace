@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Espeon</nome>
+<Abilità1>Synchronize</Abilità1>
+<Abilità2>Synchronize</Abilità2>
+<Numero>196</Numero>
+<HP>65</HP>
+<Atk>65</Atk>
+<Dif>60</Dif>
+<AtkSp>130</AtkSp>
+<DifSp>95</DifSp>
+<Vel>110</Vel>
+</pokemon>

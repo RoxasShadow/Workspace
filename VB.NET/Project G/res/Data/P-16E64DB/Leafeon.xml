@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Leafeon</nome>
+<Abilità1>LeafGuard</Abilità1>
+<Abilità2>LeafGuard</Abilità2>
+<Numero>470</Numero>
+<HP>65</HP>
+<Atk>110</Atk>
+<Dif>130</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>65</DifSp>
+<Vel>95</Vel>
+</pokemon>

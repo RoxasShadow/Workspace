@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Lanturn</nome>
+<Abilità1>VoltAbsorb</Abilità1>
+<Abilità2>Illuminate</Abilità2>
+<Numero>171</Numero>
+<HP>125</HP>
+<Atk>58</Atk>
+<Dif>58</Dif>
+<AtkSp>76</AtkSp>
+<DifSp>76</DifSp>
+<Vel>67</Vel>
+</pokemon>

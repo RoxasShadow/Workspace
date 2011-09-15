@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Palkia</nome>
+<Abilità1>Pressure</Abilità1>
+<Abilità2>Pressure</Abilità2>
+<Numero>484</Numero>
+<HP>90</HP>
+<Atk>120</Atk>
+<Dif>100</Dif>
+<AtkSp>150</AtkSp>
+<DifSp>120</DifSp>
+<Vel>100</Vel>
+</pokemon>

@@ -1,0 +1,2 @@
+--Se salvo una partita finita con uno o più slot liberi, riavvio e carico i dati di quest'ultima, potrò continuarla.
+--Caricando continuamente la partita e sfruttando il bug di prima, potrò ottenere sempre la vittoria premendo un bottone, con conseguente aumento del punteggio.

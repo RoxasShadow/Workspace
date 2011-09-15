@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Jynx</nome>
+<Abilità1>Oblivious</Abilità1>
+<Abilità2>Forewarn</Abilità2>
+<Numero>124</Numero>
+<HP>65</HP>
+<Atk>50</Atk>
+<Dif>35</Dif>
+<AtkSp>115</AtkSp>
+<DifSp>95</DifSp>
+<Vel>95</Vel>
+</pokemon>

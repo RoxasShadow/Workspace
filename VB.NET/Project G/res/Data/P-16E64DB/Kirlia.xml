@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Kirlia</nome>
+<Abilità1>Synchronize</Abilità1>
+<Abilità2>Trace</Abilità2>
+<Numero>281</Numero>
+<HP>38</HP>
+<Atk>35</Atk>
+<Dif>35</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>55</DifSp>
+<Vel>50</Vel>
+</pokemon>

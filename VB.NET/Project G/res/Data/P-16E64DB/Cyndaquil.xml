@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cyndaquil</nome>
+<Abilità1>Blaze</Abilità1>
+<Abilità2>Blaze</Abilità2>
+<Numero>155</Numero>
+<HP>39</HP>
+<Atk>52</Atk>
+<Dif>43</Dif>
+<AtkSp>60</AtkSp>
+<DifSp>50</DifSp>
+<Vel>65</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Pidgey</nome>
+<Abilità1>KeenEye</Abilità1>
+<Abilità2>TangledFeet</Abilità2>
+<Numero>16</Numero>
+<HP>40</HP>
+<Atk>45</Atk>
+<Dif>40</Dif>
+<AtkSp>35</AtkSp>
+<DifSp>35</DifSp>
+<Vel>56</Vel>
+</pokemon>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: GjTris
+Class-Path: gjtris_jl1.0.1.jar gjtris_jython.jar
+Created-By: Giovanni Capuano
+

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Ledyba</nome>
+<Abilità1>Swarm</Abilità1>
+<Abilità2>EarlyBird</Abilità2>
+<Numero>165</Numero>
+<HP>40</HP>
+<Atk>20</Atk>
+<Dif>30</Dif>
+<AtkSp>40</AtkSp>
+<DifSp>80</DifSp>
+<Vel>55</Vel>
+</pokemon>

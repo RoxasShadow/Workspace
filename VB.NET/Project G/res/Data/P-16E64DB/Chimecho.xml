@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Chimecho</nome>
+<Abilità1>Levitate</Abilità1>
+<Abilità2>Levitate</Abilità2>
+<Numero>358</Numero>
+<HP>65</HP>
+<Atk>50</Atk>
+<Dif>70</Dif>
+<AtkSp>95</AtkSp>
+<DifSp>80</DifSp>
+<Vel>65</Vel>
+</pokemon>

@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Bulbasaur</nome>
+<Abilità1>Overgrow</Abilità1>
+<Abilità2>Overgrow</Abilità2>
+<Numero>1</Numero>
+<HP>45</HP>
+<Atk>49</Atk>
+<Dif>49</Dif>
+<AtkSp>65</AtkSp>
+<DifSp>65</DifSp>
+<Vel>45</Vel>
+</pokemon>

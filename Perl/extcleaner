@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+print "Benvenuto in ExtCleaner, un semplice script in perl per cancellare tutti i file da una cartella con una data estensione.\nLo script funziona solo su sistemi GNU/Unix.\nRicorda che i file saranno cancellati definitivamente e non saranno più recuperabili.";
+
+print "\n\nDirectory: ";
+chomp($path = <>);
+
+print "\nEstensione (senza il punto): ";
+chomp($ext = <>);
+
+print "\nSto cancellando i file...";
+system("cd && cd $path && rm *.$ext");
+print "\nI file con estensione .$ext sono stati cancellati.\n";

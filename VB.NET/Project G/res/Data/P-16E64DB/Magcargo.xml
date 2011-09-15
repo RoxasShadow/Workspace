@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Magcargo</nome>
+<Abilità1>MagmaArmor</Abilità1>
+<Abilità2>FlameBody</Abilità2>
+<Numero>219</Numero>
+<HP>50</HP>
+<Atk>50</Atk>
+<Dif>120</Dif>
+<AtkSp>80</AtkSp>
+<DifSp>80</DifSp>
+<Vel>30</Vel>
+</pokemon>

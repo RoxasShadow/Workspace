@@ -1,0 +1,12 @@
+<pokemon>
+<nome>Cleffa</nome>
+<Abilità1>CuteCharm</Abilità1>
+<Abilità2>MagicGuard</Abilità2>
+<Numero>173</Numero>
+<HP>50</HP>
+<Atk>25</Atk>
+<Dif>28</Dif>
+<AtkSp>45</AtkSp>
+<DifSp>55</DifSp>
+<Vel>15</Vel>
+</pokemon>
