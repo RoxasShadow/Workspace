@@ -1,0 +1,4 @@
+A bash script which gives you the welcome when you log in the terminal.
+It will show the actually and the total uptime of your system and a quote of the good Tux!
+
+~ Giovanni Capuano <http://www.giovannicapuano.net>

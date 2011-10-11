@@ -1,0 +1,4 @@
+Allows to count the number (single and total) of rows which contains each file with a given extension.
+Given the path of a folder, it finds all files contents in the eventually subfolders.
+
+~ Giovanni Capuano <http://www.giovannicapuano.net>
