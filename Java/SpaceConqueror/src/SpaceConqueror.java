@@ -17,7 +17,7 @@ import java.util.Hashtable;
 
 public class SpaceConqueror extends Game {
 	{
-		distribute = false;
+		distribute = true;
 	}
 	public PlayField playfield;
 	private AnimatedSprite player;
@@ -34,7 +34,7 @@ public class SpaceConqueror extends Game {
 	private GameFont font;
 	private String message; // Testo del menu
 	private boolean gameover = false;
-	private boolean gameOverForYou;
+	private boolean gameOverForYou; //true=hai perso; false=prossimo livello
 	private boolean show = false; // Mostra il menu
 	private int lifes;
 	
@@ -54,6 +54,9 @@ public class SpaceConqueror extends Game {
 	private int defaultLifes = 3; // Vite a disposizione
 	private int points = 0; // Punteggio di partenza
 	private int increaseScoreValue = 30; // Punteggio per ogni nemico ucciso
+	private int newLevelColumns = 1; // L'aumento delle colonne di nemici ad ogni nuovo livello
+	private int newLevelRows = 1; // L'aumento delle righe di nemici ad ogni nuovo livello
+	private int newLevelLifes = 1; // L'aumento di vite ad ogni nuovo livello
 	
 	/* Crea il database con le risorse all'avvio. */
 	public SpaceConqueror() {
@@ -87,7 +90,7 @@ public class SpaceConqueror extends Game {
 		playfield.addGroup(playerShots); // Aggiunge il gruppo dei colpi del giocatore al campo da gioco
 		playfield.addGroup(opponentShots); // Aggiunge il gruppo dei colpi nemici al campo da gioco
 		addPlayer();
-		addOpponents(opponentColumns, opponentRows); // Crea i nemici
+		addOpponents(getOpponentColumns(), getOpponentRows()); // Crea i nemici
 		playfield.addCollisionGroup(opponentShots, playerGroup, new CollisionManager(this, false)); // Gestore collisioni per i nemici
 		playfield.addCollisionGroup(playerShots, opponent, new CollisionManager(this, true)); // Gestore collisioni per il giocatore
 		setLifes(getDefaultLifes()); // Imposta la vita come di default
@@ -104,7 +107,10 @@ public class SpaceConqueror extends Game {
 			else
 				draw(getSprite("gameoverforenemy"));
 			if(keyPressed(KeyEvent.VK_ENTER))
-				restart(); // Riavvia
+				if(!isGameOverForYou())
+					restart(true); // Aumenta di livello
+				else
+					restart(false); // Riavvia
 			if(keyPressed(KeyEvent.VK_ESCAPE))
 				finish(); // Termina
 		}
@@ -151,28 +157,46 @@ public class SpaceConqueror extends Game {
 			/* Controllo gameover per i nemici */
 			boolean died = true;
 			for(int i=0, size=opponent.getSize(); i<size; ++i)
-				if(isObjectActive(opponent, i))
+				if(isObjectActive(opponent, i)) {
 					died = false;
+					break;
+				}
 			if(died) // Se nessun nemico è vivo 
-				gameover(false); // Gioco finito: hai vinto
+				gameover(false); // Prossimo livello
 		}
 	}
 	
-	public void restart() {
-		setPoints(0); // Azzera i punti
-		setLifes(getDefaultLifes()); // Imposta la vita di default
-		for(int i=0, size=opponent.getSize(); i<size; ++i)
-			setObjectActive(opponent, false, i); // Uccide tutti i nemici
-		for(int i=0, size=opponentShots.getSize(); i<size; ++i)
-			setObjectActive(opponentShots, false, i); // Elimina tutti i colpi nemici
-		for(int i=0, size=playerShots.getSize(); i<size; ++i)
-			setObjectActive(playerShots, false, i); // Elimina tutti i colpi del giocatore
-		addOpponents(opponentColumns, opponentRows); // Ricrea i nemici
-		setObjectActive(playerGroup, true, 0); // Ti fa vivere
-		gameover = false; // Game over terminato, si gioca!
+	public void restart(boolean nextLevel) {
+		if(nextLevel) {
+			setLifes(getLifes()+getNewLevelLifes()); // Aumenta la vita
+			for(int i=0, size=opponent.getSize(); i<size; ++i)
+				setObjectActive(opponent, false, i); // Uccide tutti i nemici
+			for(int i=0, size=opponentShots.getSize(); i<size; ++i)
+				setObjectActive(opponentShots, false, i); // Elimina tutti i colpi nemici
+			for(int i=0, size=playerShots.getSize(); i<size; ++i)
+				setObjectActive(playerShots, false, i); // Elimina tutti i colpi del giocatore
+			setOpponentRows(getOpponentRows()+getNewLevelRows()); // Aumenta il numero di righe di nemici
+			setOpponentColumns(getOpponentColumns()+getNewLevelColumns()); // Aumenta il numero di colonne di nemici
+			addOpponents(getOpponentColumns(), getOpponentRows()); // Ricrea i nemici
+			setObjectActive(playerGroup, true, 0); // Ti fa vivere
+			setGameover(false); // Game over terminato, si gioca!
+		}
+		else {
+			setPoints(0); // Azzera i punti
+			setLifes(getDefaultLifes()); // Imposta la vita di default
+			for(int i=0, size=opponent.getSize(); i<size; ++i)
+				setObjectActive(opponent, false, i); // Uccide tutti i nemici
+			for(int i=0, size=opponentShots.getSize(); i<size; ++i)
+				setObjectActive(opponentShots, false, i); // Elimina tutti i colpi nemici
+			for(int i=0, size=playerShots.getSize(); i<size; ++i)
+				setObjectActive(playerShots, false, i); // Elimina tutti i colpi del giocatore
+			addOpponents(getOpponentColumns(), getOpponentRows()); // Ricrea i nemici
+			setObjectActive(playerGroup, true, 0); // Ti fa vivere
+			setGameover(false); // Game over terminato, si gioca!
+		}
 	}
 	
-	private void addOpponents(int col, int rows) {
+	public void addOpponents(int col, int rows) {
 		for(int j=0; j<col; ++j) {
 			for(int i=0; i<rows; ++i) {
 				Sprite oppo = new Sprite(getImage(getSprite("opponent")));
@@ -184,7 +208,7 @@ public class SpaceConqueror extends Game {
 		oppoTimer = new Timer(oppoJourney); // Dopo ogni oppoJourney i nemici cambiano direzione
 	}
 	
-	private void addPlayer() {
+	public void addPlayer() {
 		playerGroup = new SpriteGroup("Player"); // Gruppo del giocatore
 		player = new AnimatedSprite(getImages(getSprite("player"), 3, 1), getWidth()/2-50, 300); // Sprite del giocatore
 		player.setAnimate(true); // Animazione del giocatore
@@ -193,7 +217,7 @@ public class SpaceConqueror extends Game {
 		playfield.addGroup(playerGroup); // Aggiunge il gruppo del giocatore al campo da gioco
 	}
 	
-	private void playerShot() {
+	public void playerShot() {
 		Sprite shot = new Sprite(getImage(getSprite("shot"))); // Colpo
 		shot.setLocation(player.getX()+16.5, player.getY()-16); // Locazione colpo
 		shot.setVerticalSpeed(-shotSpeed); // Velocità colpo negativa: sale
@@ -202,7 +226,7 @@ public class SpaceConqueror extends Game {
 			playSound(getSprite("soundShot")); // Suono
 	}
 	
-	private void opponentShot() {
+	public void opponentShot() {
 		Sprite[] sprites = opponent.getSprites(); // Copio gli sprite dei nemici
 		for(int i=0, size=opponent.getSize(); i<size; ++i) {
 			if(isObjectActive(opponent, i)) { // Se il nemico è vivo
@@ -238,38 +262,36 @@ public class SpaceConqueror extends Game {
 		this.message = new String(message);
 		show = true;
 	}
+	
+	public void gameover(boolean gameOverForYou) {
+		this.gameOverForYou = gameOverForYou;
+		setGameover(true); // Fallo finire :D
+	}
 		
 	public void addSprite(String name, String value) {
 		spriteDatabase.put(name, value);
 	}
 	
-	private void gameover(boolean gameOverForYou) {
-		if(!isGameover()) { // Se il gioco non è ancora finito
-			setGameover(true); // Fallo finire :D
-			this.gameOverForYou = gameOverForYou;
-		}
-	}
-	
-	private boolean isGameOverForYou() {
-		return gameOverForYou;
-	}
-	
-	private void setPause(boolean pause) {
-		this.pause = pause;
-	}
-	
-	private boolean isPause() {
-		return pause;
-	}
-	
-	private boolean isObjectActive(SpriteGroup gm, int index) {
+	public boolean isObjectActive(SpriteGroup gm, int index) {
 		sprites = gm.getSprites();
 		return sprites[index].isActive();
 	}
 	
-	private void setObjectActive(SpriteGroup group, boolean active, int index) {
+	public void setObjectActive(SpriteGroup group, boolean active, int index) {
 		sprites = group.getSprites();
 		sprites[index].setActive(active);
+	}
+	
+	public boolean isGameOverForYou() {
+		return gameOverForYou;
+	}
+	
+	public void setPause(boolean pause) {
+		this.pause = pause;
+	}
+	
+	public boolean isPause() {
+		return pause;
 	}
 	
 	public int getWidth() {
@@ -322,6 +344,46 @@ public class SpaceConqueror extends Game {
 	
 	public int getIncreaseScoreValue() {
 		return increaseScoreValue;
+	}
+	
+	public int getOpponentColumns() {
+		return opponentColumns;
+	}
+	
+	public void setOpponentColumns(int opponentColumns) {
+		this.opponentColumns = opponentColumns;
+	}
+	
+	public int getOpponentRows() {
+		return opponentRows;
+	}
+	
+	public void setOpponentRows(int opponentRows) {
+		this.opponentRows = opponentRows;
+	}
+	
+	public int getNewLevelColumns() {
+		return newLevelColumns;
+	}
+	
+	public int getNewLevelRows() {
+		return newLevelRows;
+	}
+	
+	public int getNewLevelLifes() {
+		return newLevelLifes;
+	}
+	
+	public void setNewLevelColumns(int newLevelColumns) {
+		this.newLevelColumns = newLevelColumns;
+	}
+	
+	public void setNewLevelRows(int newLevelRows) {
+		this.newLevelRows = newLevelRows;
+	}
+	
+	public void setNewLevelLifes(int newLevelLifes) {
+		this.newLevelLifes = newLevelLifes;
 	}
 
 	public static void main(String[] args) {
