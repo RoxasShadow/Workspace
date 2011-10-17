@@ -12,3 +12,7 @@ Commands list:
 	Player 2:
 		UP -> K
 		DOWN -> M
+
+	Player 1+2:
+		UP -> Up arrow
+		DOWN -> Down arrow
