@@ -1,0 +1,467 @@
+1,1,"Pound","The foe is physically pounded with a long tail or a foreleg, etc.",0,40,0,100,35,0,0,0,115,0
+2,2,"Karate Chop","The foe is attacked with a sharp chop. It has a high critical-hit ratio.",43,50,1,100,25,0,0,0,115,0
+3,3,"DoubleSlap","The foe is slapped repeatedly, back and forth, two to five times in a row.",29,15,0,85,10,0,0,0,115,0
+4,4,"Comet Punch","The foe is hit with a flurry of punches that strike two to five times in a row.",29,18,0,85,15,0,0,0,115,0
+5,5,"Mega Punch","The foe is slugged by a punch thrown with muscle-packed power.",0,80,0,85,20,0,0,0,51,0
+6,6,"Pay Day","Numerous coins are hurled at the foe to inflict damage. Money is earned after battle.",34,40,0,100,20,0,0,0,50,0
+7,7,"Fire Punch","The foe is punched with a fiery fist. It may leave the target with a burn.",4,75,10,100,15,10,0,0,19,0
+8,8,"Ice Punch","The foe is punched with an icy fist. It may leave the target frozen.",5,75,15,100,15,10,0,0,19,0
+9,9,"ThunderPunch","The foe is punched with an electrified fist. It may leave the target with paralysis.",6,75,13,100,15,10,0,0,19,0
+10,10,"Scratch","Hard, pointed, and sharp claws rake the foe to inflict damage. ",0,40,0,100,35,0,0,0,115,0
+11,11,"ViceGrip","Huge, impressive pincers grip and squeeze the foe. ",0,55,0,100,30,0,0,0,51,0
+12,12,"Guillotine","A vicious, tearing attack with pincers. The foe will faint instantly if this attack hits.",38,1,0,30,5,0,0,0,19,0
+13,13,"Razor Wind","A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.",39,80,0,100,10,0,4,0,50,1
+14,14,"Swords Dance","A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.",50,0,0,0,30,0,16,0,72,2
+15,15,"Cut","The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.",0,50,0,95,30,0,0,0,115,0
+16,16,"Gust","A gust of wind is whipped up by wings and launched at the foe to inflict damage.",149,40,2,100,35,0,0,0,50,1
+17,17,"Wing Attack","The foe is struck with large, imposing wings spread wide to inflict damage.",0,60,2,100,35,0,0,0,115,0
+18,18,"Whirlwind","The foe is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.",28,0,0,100,20,0,0,250,82,2
+19,19,"Fly","The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.",155,90,2,95,15,0,0,0,179,0
+20,20,"Bind","A long body or tentacles are used to bind and squeeze the foe for two to five turns.",42,15,0,75,20,0,0,0,115,0
+21,21,"Slam","The foe is slammed with a long tail, vines, etc., to inflict damage.",0,80,0,75,20,0,0,0,51,0
+22,22,"Vine Whip","The foe is struck with slender, whiplike vines to inflict damage.",0,35,12,100,15,0,0,0,115,0
+23,23,"Stomp","The foe is stomped with a big foot. It may also make the target flinch.",150,65,0,100,20,30,0,0,83,0
+24,24,"Double Kick","The foe is quickly kicked twice in succession using both feet.",44,30,1,100,30,0,0,0,115,0
+25,25,"Mega Kick","The foe is attacked by a kick launched with muscle-packed power.",0,120,0,75,5,0,0,0,179,0
+26,26,"Jump Kick","The user jumps up high, then strikes with a kick. If the kick misses, the user hurts itself.",45,85,1,95,25,0,0,0,51,0
+27,27,"Rolling Kick","The user cuts a quick spin and lashes out with a sharp kick.",31,60,1,85,15,30,0,0,51,0
+28,28,"Sand-Attack","Sand is hurled in the foe’s face, reducing its accuracy. ",23,0,4,100,15,0,0,0,22,2
+29,29,"Headbutt","The user sticks its head out and rams straight forward. It may make the foe flinch.",31,70,0,100,15,30,0,0,83,0
+30,30,"Horn Attack","The foe is jabbed with a sharply pointed horn to inflict damage.",0,65,0,100,25,0,0,0,51,0
+31,31,"Fury Attack","The foe is jabbed repeatedly with a horn or beak two to five times in a row.",29,15,0,85,20,0,0,0,115,0
+32,32,"Horn Drill","The foe is stabbed with a horn rotating like a drill. The foe instantly faints if it hits.",38,1,0,30,5,0,0,0,19,0
+33,33,"Tackle","A physical attack in which the user charges and slams into the foe with its whole body.",0,35,0,95,35,0,0,0,115,0
+34,34,"Body Slam","The user drops onto the foe with its full body weight. It may leave the foe paralyzed.",6,85,0,100,15,30,0,0,83,0
+35,35,"Wrap","A long body or vines are used to wrap and squeeze the foe for two to five turns.",42,15,0,85,20,0,0,0,51,0
+36,36,"Take Down","A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.",48,90,0,85,20,0,0,0,51,0
+37,37,"Thrash","The user rampages and attacks for two to three turns. It then becomes confused, however.",27,90,0,100,20,0,2,0,51,0
+38,38,"Double-Edge","A reckless, life- risking tackle. It also damages the user by a fairly large amount, however.",198,120,0,100,15,0,0,0,179,0
+39,39,"Tail Whip","The user wags its tail cutely, making the foe less wary. The target’s Defense stat is lowered.",19,0,0,100,30,0,4,0,86,2
+40,40,"Poison Sting","The foe is stabbed with a poisonous barb of some sort. It may also poison the target.",2,15,3,100,35,30,0,0,18,0
+41,41,"Twineedle","The foe is stabbed twice by a pair of stingers. It may also poison the target.",77,25,6,100,20,20,0,0,82,0
+42,42,"Pin Missile","Sharp pins are shot at the foe in rapid succession. They hit two to five times in a row.",29,14,6,85,20,0,0,0,114,0
+43,43,"Leer","The foe is given an intimidating leer with sharp eyes. The target’s Defense stat is reduced.",19,0,0,100,30,0,4,0,22,2
+44,44,"Bite","The foe is bitten with viciously sharp fangs. It may make the target flinch.",31,60,17,100,25,30,0,0,19,0
+45,45,"Growl","The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.",18,0,0,100,40,0,4,0,86,2
+46,46,"Roar","The foe is scared off, to be replaced by another Pokémon in its party. In the wild, the battle ends.",28,0,0,100,20,0,0,250,82,2
+47,47,"Sing","A soothing lullaby is sung in a calming voice that puts the foe into a deep slumber.",1,0,0,55,15,0,0,0,22,2
+48,48,"Supersonic","The user generates odd sound waves from its body. It may confuse the target.",49,0,0,55,20,0,0,0,22,2
+49,49,"SonicBoom","The foe is hit with a destructive shock wave that always inflicts 20 HP damage.",130,1,0,90,20,0,0,0,114,1
+50,50,"Disable","For several turns, this move prevents the foe from using the move it last used.",86,0,0,80,20,0,0,0,18,2
+51,51,"Acid","The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.",72,40,3,100,30,10,4,0,18,1
+52,52,"Ember","The foe is attacked with small flames. The target may also be left with a burn.",4,40,10,100,25,10,0,0,82,1
+53,53,"Flamethrower","The foe is scorched with an intense blast of fire. The target may also be left with a burn.",4,95,10,100,15,10,0,0,18,1
+54,54,"Mist","The user cloaks its body with a white mist that prevents any of its stats from being cut for five turns.",46,0,15,0,30,0,32,0,8,2
+55,55,"Water Gun","The foe is blasted with a forceful shot of water. ",0,40,11,100,25,0,0,0,50,1
+56,56,"Hydro Pump","The foe is blasted by a huge volume of water launched under great pressure.",0,120,11,80,5,0,0,0,178,1
+57,57,"Surf","It swamps the entire battlefield with a giant wave. It can also be used for crossing water.",257,95,11,100,15,0,8,0,50,1
+58,58,"Ice Beam","The foe is struck with an icy-cold beam of energy. It may also freeze the target solid.",5,95,15,100,10,10,0,0,18,1
+59,59,"Blizzard","A howling blizzard is summoned to strike the foe. It may also freeze the target solid.",260,120,15,70,5,10,4,0,146,1
+60,60,"Psybeam","The foe is attacked with a peculiar ray. It may also leave the target confused.",76,65,14,100,20,10,0,0,18,1
+61,61,"BubbleBeam","A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.",70,65,11,100,20,10,0,0,18,1
+62,62,"Aurora Beam","The foe is hit with a rainbow-colored beam. It may also lower the target’s Attack stat.",68,65,15,100,20,10,0,0,18,1
+63,63,"Hyper Beam","The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.",80,150,0,90,5,0,0,0,178,1
+64,64,"Peck","The foe is jabbed with a sharply pointed beak or horn.",0,35,2,100,35,0,0,0,115,0
+65,65,"Drill Peck","A corkscrewing attack with the sharp beak acting as a drill.",0,80,2,100,20,0,0,0,51,0
+66,66,"Submission","The user grabs the foe and recklessly dives for the ground. It also hurts the user slightly.",48,80,1,80,25,0,0,0,51,0
+67,67,"Low Kick","A powerful low kick that makes the foe fall over. It inflicts greater damage on heavier foes.",196,1,1,100,20,0,0,0,115,0
+68,68,"Counter","A retaliation move that counters any physical attack, inflicting double the damage taken.",89,1,1,100,20,0,1,251,1,0
+69,69,"Seismic Toss","The foe is thrown using the power of gravity. It inflicts damage equal to the user’s level.",87,1,1,100,20,0,0,0,179,0
+70,70,"Strength","The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.",0,80,0,100,15,0,0,0,51,0
+71,71,"Absorb","A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",3,20,12,100,25,0,0,0,18,1
+72,72,"Mega Drain","A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",3,40,12,100,15,0,0,0,18,1
+73,73,"Leech Seed","A seed is planted on the foe. It steals some HP from the foe to heal the user on every turn.",84,0,12,90,10,0,0,0,22,2
+74,74,"Growth","The user’s body is forced to grow all at once. It raises the Sp. Atk stat.",13,0,0,0,40,0,16,0,72,2
+75,75,"Razor Leaf","A sharp-edged leaf is launched to slash at the foe. It has a high critical-hit ratio.",43,55,12,95,25,0,4,0,50,0
+76,76,"SolarBeam","A two-turn attack. The user gathers light, then blasts a bundled beam on the second turn.",151,120,12,100,10,0,0,0,50,1
+77,77,"PoisonPowder","A cloud of poisonous dust is scattered on the foe. It may poison the target.",66,0,3,75,35,0,0,0,86,2
+78,78,"Stun Spore","The user scatters a cloud of paralyzing powder. It may paralyze the target.",67,0,12,75,30,0,0,0,86,2
+79,79,"Sleep Powder","The user scatters a big cloud of sleep- inducing dust around the foe.",1,0,12,75,15,0,0,0,86,2
+80,80,"Petal Dance","The user attacks by scattering petals for two to three turns. The user then becomes confused.",27,90,12,100,20,0,2,0,51,1
+81,81,"String Shot","The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.",20,0,6,95,40,0,4,0,22,2
+82,82,"Dragon Rage","The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.",41,1,16,100,10,0,0,0,50,1
+83,83,"Fire Spin","The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.",42,15,10,70,15,0,0,0,50,1
+84,84,"ThunderShock","A jolt of electricity is hurled at the foe to inflict damage. It may also leave the foe paralyzed.",6,40,13,100,30,10,0,0,18,1
+85,85,"Thunderbolt","A strong electric blast is loosed at the foe. It may also leave the foe paralyzed.",6,95,13,100,15,10,0,0,18,1
+86,86,"Thunder Wave","A weak electric charge is launched at the foe. It causes paralysis if it hits.",67,0,13,100,20,0,0,0,22,2
+87,87,"Thunder","A wicked thunderbolt is dropped on the foe to inflict damage. It may also leave the target paralyzed.",152,120,13,70,10,30,0,0,146,1
+88,88,"Rock Throw","The user picks up and throws a small rock at the foe to attack.",0,50,5,90,15,0,0,0,50,0
+89,89,"Earthquake","The user sets off an earthquake that hits all the Pokémon in the battle.",147,100,4,100,10,0,8,0,50,0
+90,90,"Fissure","The user opens up a fissure in the ground and drops the foe in. The target instantly faints if it hits.",38,1,4,30,5,0,0,0,146,0
+91,91,"Dig","The user burrows, then attacks on the second turn. It can also be used to exit dungeons.",256,80,4,100,10,0,0,0,51,0
+92,92,"Toxic","A move that leaves the target badly poisoned. Its poison damage worsens every turn.",33,0,3,85,10,0,0,0,22,2
+93,93,"Confusion","The foe is hit by a weak telekinetic force. It may also leave the foe confused.",76,50,14,100,25,10,0,0,18,1
+94,94,"Psychic","The foe is hit by a strong telekinetic force. It may also reduce the foe’s Sp. Def stat.",72,90,14,100,10,10,0,0,18,1
+95,95,"Hypnosis","The user employs hypnotic suggestion to make the target fall into a deep sleep.",1,0,14,70,20,0,0,0,22,2
+96,96,"Meditate","The user meditates to awaken the power deep within its body and raise its Attack stat.",10,0,14,0,40,0,16,0,8,2
+97,97,"Agility","The user relaxes and lightens its body to move faster. It sharply boosts the Speed stat.",52,0,14,0,30,0,16,0,136,2
+98,98,"Quick Attack","The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.",103,40,0,100,30,0,0,1,115,0
+99,99,"Rage","While this move is in use, it gains attack power each time the user is hit in battle.",81,20,0,100,20,0,0,0,51,0
+100,100,"Teleport","Use it to flee from any wild Pokémon. It may also be used to warp to the last Poké Center visited.",153,0,14,0,20,0,16,0,0,2
+101,101,"Night Shade","The user makes the foe see a mirage. It inflicts damage matching the user’s level.",87,1,7,100,15,0,0,0,50,1
+102,102,"Mimic","The user copies the move last used by the foe. The move can be used for the rest of the battle.",82,0,0,0,10,0,0,0,2,2
+103,103,"Screech","An earsplitting screech is emitted to sharply reduce the foe’s Defense stat.",59,0,0,85,40,0,0,0,86,2
+104,104,"Double Team","By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.",16,0,0,0,15,0,16,0,72,2
+105,105,"Recover","A self-healing move. The user restores its own HP by up to half of its max HP.",32,0,0,0,10,0,16,0,72,2
+106,106,"Harden","The user stiffens all the muscles in its body to raise its Defense stat.",11,0,0,0,30,0,16,0,72,2
+107,107,"Minimize","The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.",108,0,0,0,20,0,16,0,8,2
+108,108,"SmokeScreen","The user releases an obscuring cloud of smoke or ink. It reduces the foe’s accuracy.",23,0,0,100,20,0,0,0,22,2
+109,109,"Confuse Ray","The foe is exposed to a sinister ray that triggers confusion.",49,0,7,100,10,0,0,0,22,2
+110,110,"Withdraw","The user withdraws its body into its hard shell, raising its Defense stat.",11,0,11,0,40,0,16,0,72,2
+111,111,"Defense Curl","The user curls up to conceal weak spots and raise its Defense stat.",156,0,0,0,40,0,16,0,72,2
+112,112,"Barrier","The user throws up a sturdy wall that sharply raises its Defense stat.",51,0,14,0,30,0,16,0,72,2
+113,113,"Light Screen","A wondrous wall of light is put up to suppress damage from special attacks for five turns.",35,0,14,0,30,0,32,0,72,2
+114,114,"Haze","The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.",25,0,15,0,30,0,64,0,0,2
+115,115,"Reflect","A wondrous wall of light is put up to suppress damage from physical attacks for five turns.",65,0,14,0,20,0,32,0,72,2
+116,116,"Focus Energy","The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.",47,0,0,0,30,0,16,0,72,2
+117,117,"Bide","The user endures attacks for two turns, then strikes back to cause double the damage taken.",26,1,0,0,10,0,16,1,99,0
+118,118,"Metronome","The user waggles a finger and stimulates the brain into randomly using nearly any move.",83,0,0,0,10,0,1,0,64,2
+119,119,"Mirror Move","The user counters the foe by mimicking the move last used by the foe.",9,0,2,0,20,0,1,0,0,2
+120,120,"Selfdestruct","The user blows up to inflict damage on all Pokémon in battle. The user faints upon using this move.",7,200,0,100,5,0,8,0,50,0
+121,121,"Egg Bomb","A large egg is hurled with maximum force at the foe to inflict damage.",0,100,0,75,10,0,0,0,50,0
+122,122,"Lick","The foe is licked with a long tongue, causing damage. It may also paralyze the target.",6,20,7,100,30,30,0,0,83,0
+123,123,"Smog","The foe is attacked with a discharge of filthy gases. It may also poison the target.",2,20,3,70,20,40,0,0,18,1
+124,124,"Sludge","Unsanitary sludge is hurled at the foe. It may also poison the target.",2,65,3,100,20,30,0,0,18,1
+125,125,"Bone Club","The user clubs the foe with a bone. It may also make the target flinch.",31,65,4,85,20,10,0,0,82,0
+126,126,"Fire Blast","The foe is attacked with an intense blast of all-consuming fire. It may also leave the target with a burn.",4,120,10,85,5,10,0,0,146,1
+127,127,"Waterfall","The user charges the foe at an awesome speed. It can also be used to climb a waterfall.",31,80,11,100,15,20,0,0,179,0
+128,128,"Clamp","The foe is clamped and squeezed by the user’s very thick and sturdy shell for two to five turns.",42,35,11,75,10,0,0,0,51,0
+129,129,"Swift","Star-shaped rays are shot at the foe. This attack never misses.",17,60,0,0,20,0,4,0,50,1
+130,130,"Skull Bash","The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.",145,100,0,100,15,100,0,0,51,0
+131,131,"Spike Cannon","Sharp spikes are fired at the foe to strike two to five times in rapid succession.",29,20,0,100,15,0,0,0,50,0
+132,132,"Constrict","The foe is attacked with long, creeping tentacles or vines. It may also lower the target’s Speed.",70,10,0,100,35,10,0,0,19,0
+133,133,"Amnesia","The user temporarily empties its mind to forget its concerns. It sharply raises the user’s Sp. Def stat.",54,0,14,0,20,0,16,0,8,2
+134,134,"Kinesis","The user distracts the foe by bending a spoon. It may lower the target’s accuracy.",23,0,14,80,15,0,0,0,86,2
+135,135,"Softboiled","The user restores its own HP by up to half of its max HP. May be used in the field to heal HP.",32,0,0,0,10,0,16,0,72,2
+136,136,"Hi Jump Kick","The foe is attacked with a knee kick from a jump. If it misses, the user is hurt instead.",45,100,1,90,20,0,0,0,51,0
+137,137,"Glare","The user intimidates the foe with the pattern on its belly to cause paralysis.",67,0,0,75,30,0,0,0,22,2
+138,138,"Dream Eater","An attack that works only on a sleeping foe. It absorbs half the damage caused to heal the user’s HP.",8,100,14,100,15,0,0,0,18,1
+139,139,"Poison Gas","A cloud of poison gas is sprayed in the foe’s face. It may poison the target.",66,0,3,55,40,0,0,0,22,2
+140,140,"Barrage","Round objects are hurled at the foe to strike two to five times in a row.",29,15,0,85,20,0,0,0,114,0
+141,141,"Leech Life","A blood-draining attack. The user’s HP is restored by half the damage taken by the target.",3,20,6,100,15,0,0,0,19,0
+142,142,"Lovely Kiss","With a scary face, the user forces a kiss on the foe. It may make the target fall asleep.",1,0,0,75,10,0,0,0,22,2
+143,143,"Sky Attack","A second-turn attack move with a high critical-hit ratio. It may also make the target flinch.",75,140,2,90,5,30,0,0,50,0
+144,144,"Transform","The user transforms into a copy of the foe right down to having the same move set.",57,0,0,0,10,0,0,0,64,2
+145,145,"Bubble","A spray of countless bubbles is jetted at the foe. It may also lower the target’s Speed stat.",70,20,11,100,30,10,4,0,18,1
+146,146,"Dizzy Punch","The foe is hit with a rhythmically launched punch that may also leave it confused.",76,70,0,100,10,20,0,0,19,0
+147,147,"Spore","The user scatters bursts of spores that induce sleep. ",1,0,12,100,15,0,0,0,22,2
+148,148,"Flash","The user flashes a light that cuts the foe’s accuracy. It can also be used to illuminate caves.",23,0,0,100,20,0,0,0,150,2
+149,149,"Psywave","The foe is attacked with an odd, hot energy wave. The attack varies in intensity.",88,1,14,80,15,0,0,0,50,1
+150,150,"Splash","The user just flops and splashes around to no effect at all... ",85,0,0,0,40,0,16,0,64,2
+151,151,"Acid Armor","The user alters its cellular structure to liquefy itself, sharply raising its Defense stat.",51,0,3,0,40,0,16,0,72,2
+152,152,"Crabhammer","The foe is hammered with a large pincer. This move has a high critical-hit ratio.",43,90,11,85,10,0,0,0,115,0
+153,153,"Explosion","The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.",7,250,0,100,5,0,8,0,50,0
+154,154,"Fury Swipes","The foe is raked with sharp claws or scythes for two to five times in quick succession.",29,18,0,80,15,0,0,0,115,0
+155,155,"Bonemerang","The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.",44,50,4,90,10,0,0,0,114,0
+156,156,"Rest","The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.",37,0,14,0,10,0,16,0,72,2
+157,157,"Rock Slide","Large boulders are hurled at the foe to inflict damage. It may also make the target flinch.",31,75,5,90,10,30,4,0,18,0
+158,158,"Hyper Fang","The user bites hard on the foe with its sharp front fangs. It may also make the target flinch.",31,80,0,90,15,10,0,0,19,0
+159,159,"Sharpen","The user reduces its polygon count to make itself more jagged, raising the Attack stat.",10,0,0,0,30,0,16,0,72,2
+160,160,"Conversion","The user changes its type to become the same type as one of its moves.",30,0,0,0,30,0,16,0,64,2
+161,161,"Tri Attack","The user strikes with a simultaneous three- beam attack. May also paralyze, burn, or freeze the target.",36,80,0,100,10,20,0,0,18,1
+162,162,"Super Fang","The user chomps hard on the foe with its sharp front fangs. It cuts the target’s HP to half.",40,1,0,90,10,0,0,0,83,0
+163,163,"Slash","The foe is attacked with a slash of claws, etc. It has a high critical-hit ratio.",43,70,0,100,20,0,0,0,115,0
+164,164,"Substitute","The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.",79,0,0,0,10,0,16,0,72,2
+165,165,"Struggle","An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.",254,50,0,0,1,0,0,0,99,0
+166,166,"Sketch","It enables the user to learn a move used by the foe. Once used, the move Sketch disappears.",95,0,0,0,1,0,0,0,0,2
+167,167,"Triple Kick","A consecutive three- kick attack that becomes more powerful with each successive hit.",104,10,1,90,10,0,0,0,115,0
+168,168,"Thief","The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.",105,40,17,100,10,0,0,0,83,0
+169,169,"Spider Web","The user ensnares the foe with a thin, gooey silk so it can’t flee from battle.",106,0,6,0,10,0,0,0,22,2
+170,170,"Mind Reader","The user senses the foe’s movements with its mind to ensure its next attack does not miss.",94,0,0,0,5,0,0,0,18,2
+171,171,"Nightmare","A sleeping foe is shown a nightmare that inflicts some damage every turn.",107,0,7,100,15,0,0,0,18,2
+172,172,"Flame Wheel","The user cloaks itself in fire and charges at the foe. It may also leave the target with a burn.",125,60,10,100,25,10,0,0,19,0
+173,173,"Snore","An attack that can be used only if the user is asleep. The harsh noise may also make the foe flinch.",92,40,0,100,15,30,0,0,50,1
+174,174,"Curse","A move that works differently for the Ghost type than for all the other types.",109,0,9,0,10,0,0,0,64,2
+175,175,"Flail","The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.",99,1,0,100,15,0,0,0,115,0
+176,176,"Conversion 2","The user changes its type to make itself resistant to the type of the attack it last took.",93,0,0,0,30,0,16,0,0,2
+177,177,"Aeroblast","A vortex of air is shot at the foe to inflict damage. It has a high critical-hit ratio.",43,100,2,95,5,0,0,0,178,1
+178,178,"Cotton Spore","The user releases cottonlike spores that cling to the foe, sharply reducing its Speed stat.",60,0,12,85,40,0,0,0,86,2
+179,179,"Reversal","An all-out attack that becomes more powerful the less HP the user has.",99,1,1,100,15,0,0,0,115,0
+180,180,"Spite","The user looses its grudge on the move last used by the foe by cutting 4 PP from it.",100,0,7,100,10,0,0,0,18,2
+181,181,"Powder Snow","The user attacks with a chilling gust of powdery snow. It may also freeze the target.",5,40,15,100,25,10,4,0,18,1
+182,182,"Protect","It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",111,0,0,0,10,0,16,3,0,2
+183,183,"Mach Punch","The user throws a punch at blinding speed. It is certain to strike first.",103,40,1,100,30,0,0,1,115,0
+184,184,"Scary Face","The user frightens the foe with a scary face to sharply reduce its Speed stat.",60,0,0,90,10,0,0,0,22,2
+185,185,"Faint Attack","The user draws up to the foe disarmingly, then throws a sucker punch. It hits without fail.",17,60,17,0,20,0,0,0,51,0
+186,186,"Sweet Kiss","The user kisses the foe with a sweet, angelic cuteness that causes confusion.",49,0,0,75,10,0,0,0,22,2
+187,187,"Belly Drum","The user maximizes its Attack stat in exchange for HP equal to half its max HP.",142,0,0,0,10,0,16,0,72,2
+188,188,"Sludge Bomb","The user attacks by hurling filthy sludge at the foe. It may also poison the target.",2,90,3,100,10,30,0,0,18,1
+189,189,"Mud-Slap","The user hurls mud in the foe’s face to inflict damage and lower its accuracy.",73,20,4,100,10,100,0,0,18,1
+190,190,"Octazooka","The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.",73,65,11,85,10,50,0,0,18,1
+191,191,"Spikes","The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.",112,0,4,0,20,0,128,0,0,2
+192,192,"Zap Cannon","The user fires an electric blast like a cannon to inflict damage and cause paralysis.",6,120,13,50,5,100,0,0,146,1
+193,193,"Foresight","Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",113,0,0,0,40,0,0,0,82,2
+194,194,"Destiny Bond","When this move is used, if the user faints, the foe that landed the knockout hit also faints.",98,0,7,0,5,0,16,0,0,2
+195,195,"Perish Song","Any Pokémon that hears this song faints in three turns unless it switches out of battle.",114,0,0,0,5,0,64,0,128,2
+196,196,"Icy Wind","The user attacks with a gust of chilled air. It also lowers the target’s Speed stat.",70,55,15,95,15,100,4,0,18,1
+197,197,"Detect","It enables the user to evade all attacks. Its chance of failing rises if it is used in succession.",111,0,1,0,5,0,16,3,0,2
+198,198,"Bone Rush","The user strikes at the foe with a hard bone two to five times in a row.",29,25,4,80,10,0,0,0,114,0
+199,199,"Lock-On","The user takes sure aim at the foe. It ensures the next attack does not fail to hit the target.",94,0,0,0,5,0,0,0,18,2
+200,200,"Outrage","The user rampages and attacks for two to three turns. However, it then becomes confused.",27,120,16,100,15,0,2,0,179,0
+201,201,"Sandstorm","A five-turn sand- storm is summoned to hurt all combatant types except Rock, Ground, and Steel.",115,0,5,0,10,0,64,0,0,2
+202,202,"Giga Drain","A nutrient-draining attack. The user’s HP is restored by half the damage taken by the target.",3,60,12,100,10,0,0,0,18,1
+203,203,"Endure","The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.",116,0,0,0,10,0,16,3,64,2
+204,204,"Charm","The user charmingly stares at the foe, making it less wary. The target’s Attack is sharply lowered.",58,0,0,100,20,0,0,0,86,2
+205,205,"Rollout","The user continually rolls into the foe over five turns. It becomes stronger each time it hits.",117,30,5,90,20,0,0,0,51,0
+206,206,"False Swipe","A restrained attack that prevents the foe from fainting. The target is left with at least 1 HP.",101,40,0,100,40,0,0,0,115,0
+207,207,"Swagger","The user enrages the foe into confusion. However, it also sharply raises the foe’s Attack stat.",118,0,0,90,15,0,0,0,86,2
+208,208,"Milk Drink","The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.",32,0,0,0,10,0,16,0,8,2
+209,209,"Spark","The user throws an electrically charged tackle at the foe. It may also leave the target paralyzed.",6,65,13,100,20,30,0,0,19,0
+210,210,"Fury Cutter","The foe is slashed with scythes or claws. Its power increases if it hits in succession.",119,10,6,95,20,0,0,0,115,0
+211,211,"Steel Wing","The foe is hit with wings of steel. It may also raise the user’s Defense stat.",138,70,8,90,25,10,0,0,51,0
+212,212,"Mean Look","The user affixes the foe with a dark, arresting look. The target becomes unable to flee.",106,0,0,0,5,0,0,0,22,2
+213,213,"Attract","If it is the opposite gender of the user, the foe becomes infatuated and less likely to attack.",120,0,0,100,15,0,0,0,22,2
+214,214,"Sleep Talk","While it is asleep, the user randomly uses one of the moves it knows.",97,0,0,0,10,0,1,0,0,2
+215,215,"Heal Bell","The user makes a soothing bell chime to heal the status problems of all the party Pokémon.",102,0,0,0,5,0,32,0,72,2
+216,216,"Return","A full-power attack that grows more powerful the more the user likes its Trainer.",121,1,0,100,20,0,0,0,115,0
+217,217,"Present","The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however.",122,1,0,90,15,0,0,0,18,0
+218,218,"Frustration","A full-power attack that grows more powerful the less the user likes its Trainer.",123,1,0,100,20,0,0,0,115,0
+219,219,"Safeguard","The user creates a protective field that prevents status problems for five turns.",124,0,0,0,25,0,32,0,72,2
+220,220,"Pain Split","The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.",91,0,0,0,20,0,0,0,18,2
+221,221,"Sacred Fire","The foe is razed with a mystical fire of great intensity. It may also leave the target with a burn.",125,100,10,95,5,50,0,0,146,0
+222,222,"Magnitude","The user looses a ground-shaking quake affecting everyone in battle. Its power varies.",126,1,4,100,30,0,8,0,50,0
+223,223,"DynamicPunch","The foe is punched with the user’s full, concentrated power. It confuses the foe if it hits.",76,100,1,50,5,100,0,0,147,0
+224,224,"Megahorn","Utilizing its tough and impressive horn, the user rams into the foe with no letup.",0,120,6,85,10,0,0,0,179,0
+225,225,"DragonBreath","The user exhales a mighty gust that inflicts damage. It may also paralyze the target.",6,60,16,100,20,30,0,0,50,1
+226,226,"Baton Pass","The user switches places with a party Pokémon in waiting, passing along any stat changes.",127,0,0,0,40,0,16,0,0,2
+227,227,"Encore","The user compels the foe to keep using only the move it last used for two to six turns.",90,0,0,100,5,0,0,0,18,2
+228,228,"Pursuit","An attack move that inflicts double damage if used on a foe that is switching out of battle.",128,40,17,100,20,0,0,0,147,0
+229,229,"Rapid Spin","A spin attack that can also eliminate such moves as Bind, Wrap, Leech Seed, and Spikes.",129,20,0,100,40,0,0,0,51,0
+230,230,"Sweet Scent","A sweet scent that lowers the foe’s evasiveness. It also lures wild Pokémon if used in grass, etc.",24,0,0,100,20,0,4,0,22,2
+231,231,"Iron Tail","The foe is slammed with a steel-hard tail. It may also lower the target’s Defense stat.",69,100,8,75,15,30,0,0,19,0
+232,232,"Metal Claw","The foe is raked with steel claws. It may also raise the user’s Attack stat.",139,50,8,95,35,10,0,0,19,0
+233,233,"Vital Throw","The user allows the foe to attack first. In return, this throw move is guaranteed not to miss.",78,70,1,0,10,0,0,255,51,0
+234,234,"Morning Sun","The user restores its own HP. The amount of HP regained varies with the weather.",132,0,0,0,5,0,16,0,8,2
+235,235,"Synthesis","The user restores its own HP. The amount of HP regained varies with the weather.",132,0,12,0,5,0,16,0,72,2
+236,236,"Moonlight","The user restores its own HP. The amount of HP regained varies with the weather.",132,0,0,0,5,0,16,0,136,2
+237,237,"Hidden Power","A unique attack that varies in type and intensity depending on the Pokémon using it.",135,1,0,100,15,0,0,0,50,1
+238,238,"Cross Chop","The user delivers a double chop with its forearms crossed. It has a high critical-hit ratio.",43,100,1,80,5,0,0,0,51,0
+239,239,"Twister","The user whips up a vicious twister to tear at the foe. It may also make the foe flinch.",146,40,16,100,20,20,4,0,50,1
+240,240,"Rain Dance","The user summons a heavy rain that falls for five turns, powering up Water- type moves.",136,0,11,0,5,0,64,0,0,2
+241,241,"Sunny Day","The user intensifies the sun for five turns, powering up Fire-type moves.",137,0,10,0,5,0,64,0,0,2
+242,242,"Crunch","The user crunches up the foe with sharp fangs. It may also lower the target’s Defense stat.",69,80,17,100,15,20,0,0,19,0
+243,243,"Mirror Coat","A retaliation move that counters any special attack, inflicting double the damage taken.",144,1,14,100,20,0,1,251,0,1
+244,244,"Psych Up","The user hypnotizes itself into copying any stat change made by the foe.",143,0,0,0,10,0,0,0,72,2
+245,245,"ExtremeSpeed","The user charges the foe at blinding speed. This attack always goes before any other move.",103,80,0,100,5,0,0,1,179,0
+246,246,"AncientPower","The user attacks with a prehistoric power. It may also raise all the user’s stats at once.",140,60,5,100,5,10,0,0,18,1
+247,247,"Shadow Ball","The user hurls a shadowy blob at the foe. It may also lower the foe’s Sp. Def stat.",72,80,7,100,15,20,0,0,18,1
+248,248,"Future Sight","Two turns after this move is used, the foe is attacked with a hunk of psychic energy.",148,80,14,90,15,0,0,0,0,1
+249,249,"Rock Smash","The user slugs the foe with a shattering punch. It can also smash cracked boulders.",69,40,1,100,15,50,0,0,19,0
+250,250,"Whirlpool","The user traps the foe inside a fast, vicious whirlpool that lasts for two to five turns.",261,15,11,70,15,0,0,0,178,1
+251,251,"Beat Up","The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.",154,10,17,100,10,0,0,0,114,0
+252,252,"Fake Out","An attack that hits first and makes the target flinch. This move works only on the first turn.",158,40,0,100,10,100,0,1,19,0
+253,253,"Uproar","The user attacks in an uproar for two to five turns. Over that time, no one can fall asleep.",159,50,0,100,10,0,2,0,50,1
+254,254,"Stockpile","The user charges up power, and raises both its Defense and Sp. Def. The move can be used three times.",160,0,0,0,20,0,16,0,72,2
+255,255,"Spit Up","The power stored using the move Stockpile is released at once in an attack.",161,1,0,100,10,0,0,0,34,1
+256,256,"Swallow","The power stored using the move Stockpile is absorbed by the user to heal its HP.",162,0,0,0,10,0,16,0,72,2
+257,257,"Heat Wave","The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.",4,100,10,90,10,10,4,0,18,1
+258,258,"Hail","The user summons a hailstorm lasting five turns. It damages all Pokémon except the Ice type.",164,0,15,0,10,0,64,0,2,2
+259,259,"Torment","The user torments and enrages the foe, making it incapable of using the same move twice in a row.",165,0,17,100,15,0,0,0,82,2
+260,260,"Flatter","Flattery is used to confuse the foe. However, it also raises the target’s Sp. Atk stat.",166,0,17,100,15,0,0,0,22,2
+261,261,"Will-O-Wisp","The user shoots a sinister, bluish white flame at the foe to inflict a burn.",167,0,10,75,15,0,0,0,22,2
+262,262,"Memento","The user faints upon using this move. In return, it sharply lowers the target’s Attack and Sp. Atk.",168,0,17,100,10,0,0,0,18,2
+263,263,"Facade","An attack move that doubles its power if the user is poisoned, paralyzed, or has a burn.",169,70,0,100,20,0,0,0,83,0
+264,264,"Focus Punch","The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.",170,150,1,100,20,0,0,253,131,0
+265,265,"SmellingSalt","This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.",171,60,0,100,10,0,0,0,19,0
+266,266,"Follow Me","The user draws attention to itself, making all foes take aim only at the user.",172,0,0,0,20,0,16,3,0,2
+267,267,"Nature Power","An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.",173,0,0,0,20,0,1,0,64,2
+268,268,"Charge","The user boosts the power of the Electric move it uses next. It also raises the user’s Sp. Def stat.",174,0,13,0,20,0,16,0,8,2
+269,269,"Taunt","The foe is taunted into a rage that allows it to use only attack moves for two to four turns.",175,0,17,100,20,0,0,0,82,2
+270,270,"Helping Hand","A move that boosts the power of the ally’s attack in a Double Battle.",176,0,0,0,20,0,0,5,0,2
+271,271,"Trick","The user catches the foe off guard and swaps the foe’s held item with its own.",177,0,14,100,10,0,0,0,18,2
+272,272,"Role Play","The user mimics the foe completely, copying the foe’s natural ability.",178,0,14,0,10,0,0,0,0,2
+273,273,"Wish","A self-healing move. The user restores its own HP by up to half of its maximum HP in the next turn.",179,0,0,0,10,0,16,0,128,2
+274,274,"Assist","The user hurriedly and randomly uses a move among those known by other Pokémon in the party.",180,0,0,0,20,0,1,0,0,2
+275,275,"Ingrain","The user lays roots that restore HP on every turn. Because it is rooted, it can’t switch out.",181,0,12,0,20,0,16,0,72,2
+276,276,"Superpower","The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.",182,120,1,100,5,0,0,0,147,0
+277,277,"Magic Coat","A barrier reflects back to the foe moves like Leech Seed and moves that damage status.",183,0,14,0,15,0,1,4,0,2
+278,278,"Recycle","The user recycles a single-use item that has been used in battle so it can be used again.",184,0,0,0,10,0,16,0,64,2
+279,279,"Revenge","An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",185,60,1,100,10,0,0,252,51,0
+280,280,"Brick Break","The user attacks with tough fists, etc. It can also break any barrier such as Light Screen and Reflect.",186,75,1,100,15,0,0,0,51,0
+281,281,"Yawn","The user lets loose a huge yawn that lulls the foe into falling asleep on the next turn.",187,0,0,0,10,0,0,0,22,2
+282,282,"Knock Off","The user slaps down the foe’s held item, preventing the item from being used during the battle.",188,20,17,100,20,0,0,0,19,0
+283,283,"Endeavor","An attack move that cuts down the foe’s HP to equal the user’s HP.",189,1,0,100,5,0,0,0,115,0
+284,284,"Eruption","The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.",190,150,10,100,5,0,4,0,50,1
+285,285,"Skill Swap","The user employs its psychic power to exchange abilities with the foe.",191,0,14,0,10,0,0,0,18,2
+286,286,"Imprison","If the foe knows any move also known by the user, the foe is prevented from using it.",192,0,14,0,10,0,16,0,0,2
+287,287,"Refresh","The user rests to cure itself of a poisoning, burn, or paralysis.",193,0,0,0,20,0,16,0,8,2
+288,288,"Grudge","If the user faints, the user’s grudge fully depletes the PP of the foe’s move that knocked it out.",194,0,7,0,5,0,16,0,0,2
+289,289,"Snatch","The user steals the effects of any healing or status- changing move the foe attempts to use.",195,0,17,0,10,0,1,4,0,2
+290,290,"Secret Power","The user attacks with a secret power. Its added effects vary depending on the user’s environment.",197,70,0,100,20,30,0,0,18,0
+291,291,"Dive","A two-turn attack. The user dives underwater on the first turn, then hits on the next turn.",255,80,11,100,10,0,0,0,51,0
+292,292,"Arm Thrust","The user looses a flurry of open-palmed arm thrusts that hit two to five times in a row.",29,15,1,100,20,0,0,0,115,0
+293,293,"Camouflage","The user’s type is changed depending on its environment, such as at water’s edge, in grass, or in a cave.",213,0,0,0,20,0,16,0,72,2
+294,294,"Tail Glow","The user stares at flashing lights to focus its mind, sharply raising its Sp. Atk stat.",53,0,6,0,20,0,16,0,8,2
+295,295,"Luster Purge","The user looses a damaging burst of light. It may also reduce the target’s Sp. Def stat.",72,70,14,100,5,50,0,0,18,1
+296,296,"Mist Ball","A mistlike flurry of down envelops and damages the foe. It may also lower the target’s Sp. Atk.",71,70,14,100,5,50,0,0,146,1
+297,297,"FeatherDance","The user covers the foe with a mass of down that sharply lowers the Attack stat.",58,0,2,100,15,0,0,0,22,2
+298,298,"Teeter Dance","The user performs a wobbly dance that confuses all the Pokémon in battle.",199,0,0,100,20,0,8,0,18,2
+299,299,"Blaze Kick","The user launches a kick with a high critical-hit ratio. It may also leave the target with a burn.",200,85,10,90,10,10,0,0,19,0
+300,300,"Mud Sport","The user covers itself with mud. It weakens Electric- type moves while the user is in the battle.",201,0,4,0,15,0,64,0,0,2
+301,301,"Ice Ball","The user continually rolls into the foe over five turns. It becomes stronger each time it hits.",117,30,15,90,20,0,0,0,51,0
+302,302,"Needle Arm","The user attacks by wildly swinging its thorny arms. It may also make the target flinch.",31,60,12,100,15,30,0,0,19,0
+303,303,"Slack Off","The user slacks off, restoring its own HP by up to half of its maximum HP.",32,0,0,0,10,0,16,0,72,2
+304,304,"Hyper Voice","The user lets loose a horribly echoing shout with the power to inflict damage.",0,90,0,100,10,0,4,0,18,1
+305,305,"Poison Fang","The user bites the foe with toxic fangs. It may also leave the foe badly poisoned.",202,50,3,100,15,30,0,0,19,0
+306,306,"Crush Claw","The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.",69,75,0,95,10,50,0,0,19,0
+307,307,"Blast Burn","The foe is razed by a fiery explosion. The user must rest on the next turn, however.",80,150,10,90,5,0,0,0,50,1
+308,308,"Hydro Cannon","The foe is hit with a watery blast. The user must rest on the next turn, however.",80,150,11,90,5,0,0,0,178,1
+309,309,"Meteor Mash","The foe is hit with a hard punch fired like a meteor. It may also raise the user’s Attack.",139,100,8,85,10,20,0,0,51,0
+310,310,"Astonish","The user attacks the foe while shouting in a startling fashion. It may also make the target flinch.",31,30,7,100,15,30,0,0,83,0
+311,311,"Weather Ball","An attack move that varies in power and type depending on the weather.",203,50,0,100,10,0,0,0,50,1
+312,312,"Aromatherapy","The user releases a soothing scent that heals all status problems affecting the user’s party.",102,0,12,0,5,0,32,0,8,2
+313,313,"Fake Tears","The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat.",62,0,17,100,20,0,0,0,86,2
+314,314,"Air Cutter","The user launches razorlike wind to slash the foe. It has a high critical-hit ratio.",43,55,2,95,25,0,4,0,50,1
+315,315,"Overheat","The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",204,140,10,90,5,100,0,0,178,1
+316,316,"Odor Sleuth","Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",113,0,0,0,40,0,0,0,82,2
+317,317,"Rock Tomb","Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.",70,50,5,80,10,100,0,0,18,0
+318,318,"Silver Wind","The foe is attacked with powdery scales blown by wind. It may also raise all the user’s stats.",140,60,6,100,5,10,0,0,50,1
+319,319,"Metal Sound","A horrible sound like scraping metal is emitted to sharply reduce the foe’s Sp. Def stat.",62,0,8,85,40,0,0,0,22,2
+320,320,"GrassWhistle","The user plays a pleasant melody that lulls the foe into a deep sleep.",1,0,12,55,15,0,0,0,22,2
+321,321,"Tickle","The user tickles the foe into laughing, reducing its Attack and Defense stats.",205,0,0,100,20,0,0,0,86,2
+322,322,"Cosmic Power","The user absorbs a mystical power from space to raise its Defense and Sp. Def stats.",206,0,14,0,20,0,16,0,136,2
+323,323,"Water Spout","The user spouts water to damage the foe. The lower the user’s HP, the less powerful it becomes.",190,150,11,100,5,0,4,0,18,1
+324,324,"Signal Beam","The user attacks with a sinister beam of light. It may also confuse the target.",76,75,6,100,15,10,0,0,50,1
+325,325,"Shadow Punch","The user throws a punch at the foe from the shadows. The punch lands without fail.",17,60,7,0,20,0,0,0,51,0
+326,326,"Extrasensory","The user attacks with an odd, unseeable power. It may also make the foe flinch.",31,80,14,100,30,10,0,0,18,1
+327,327,"Sky Uppercut","The user attacks the foe with an uppercut thrown skyward with force.",207,85,1,90,15,0,0,0,179,0
+328,328,"Sand Tomb","The user traps the foe inside a harshly raging sandstorm for two to five turns.",42,15,4,70,15,0,0,0,50,0
+329,329,"Sheer Cold","The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.",38,1,15,30,5,0,0,0,18,1
+330,330,"Muddy Water","The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.",73,95,11,85,10,30,4,0,50,1
+331,331,"Bullet Seed","The user forcefully shoots seeds at the foe. Two to five seeds are shot in rapid succession.",29,10,12,100,30,0,0,0,114,0
+332,332,"Aerial Ace","The user confounds the foe with speed, then slashes. The attack lands without fail.",17,60,2,0,20,0,0,0,51,0
+333,333,"Icicle Spear","The user launches sharp icicles at the foe. It strikes two to five times in a row.",29,10,15,100,30,0,0,0,114,0
+334,334,"Iron Defense","The user hardens its body’s surface like iron, sharply raising its Defense stat.",51,0,8,0,15,0,16,0,72,2
+335,335,"Block","The user blocks the foe’s way with arms spread wide to prevent escape.",106,0,0,0,5,0,0,0,22,2
+336,336,"Howl","The user howls loudly to raise its spirit, boosting its Attack stat.",10,0,0,0,40,0,16,0,8,2
+337,337,"Dragon Claw","The user slashes the foe with huge, sharp claws. ",0,80,16,100,15,0,0,0,51,0
+338,338,"Frenzy Plant","The foe is slammed with an enormous tree. The user can’t move on the next turn.",80,150,12,90,5,0,0,0,178,1
+339,339,"Bulk Up","The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.",208,0,1,0,20,0,16,0,72,2
+340,340,"Bounce","The user bounces up high, then drops on the foe on the second turn. It may also paralyze the foe.",263,85,2,85,5,30,0,0,51,0
+341,341,"Mud Shot","The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.",70,55,4,95,15,100,0,0,50,1
+342,342,"Poison Tail","An attack with a high critical-hit ratio. This tail attack may also poison the foe.",209,50,3,100,25,10,0,0,51,0
+343,343,"Covet","The user endearingly approaches the foe, then steals the item the foe is holding.",105,40,0,100,40,0,0,0,19,0
+344,344,"Volt Tackle","The user electrifies itself, then charges at the foe. It causes considerable damage to the user as well.",262,120,13,100,15,10,0,0,179,0
+345,345,"Magical Leaf","The user scatters curious leaves that chase the foe. This attack will not miss.",17,60,12,0,20,0,0,0,50,1
+346,346,"Water Sport","The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.",210,0,11,0,15,0,64,0,0,2
+347,347,"Calm Mind","The user quietly focuses its mind and calms its spirit to raise its Sp. Atk and Sp. Def stats.",211,0,14,0,20,0,16,0,8,2
+348,348,"Leaf Blade","The foe is slashed with a sharp leaf. It has a high critical-hit ratio.",43,90,12,100,15,0,0,0,51,0
+349,349,"Dragon Dance","The user vigorously performs a mystic, powerful dance that boosts its Attack and Speed stats.",212,0,16,0,20,0,16,0,8,2
+350,350,"Rock Blast","The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.",29,25,5,80,10,0,0,0,50,0
+351,351,"Shock Wave","The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.",17,60,13,0,20,0,0,0,50,1
+352,352,"Water Pulse","The user attacks the foe with a pulsing blast of water. It may also confuse the foe.",76,60,11,100,20,20,0,0,178,1
+353,353,"Doom Desire","Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.",148,120,8,85,5,0,0,0,128,1
+354,354,"Psycho Boost","The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",204,140,14,90,5,100,0,0,178,1
+355,355,"Roost","The user lands and rests its body. It restores the user’s HP by up to half of its max HP.",214,0,2,0,10,0,16,0,72,2
+356,356,"Gravity","Gravity is intensified for five turns, making moves involving flying unusable and negating Levitation.",215,0,14,0,5,0,64,0,0,2
+357,357,"Miracle Eye","Enables the user to hit a Ghost type with any type of move. It also enables the user to hit an evasive foe.",216,0,14,0,40,0,0,0,18,2
+358,358,"Wake-Up Slap","This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.",217,60,1,100,10,0,0,0,51,0
+359,359,"Hammer Arm","The user swings and hits with its strong and heavy fist. It lowers the user’s Speed, however.",218,100,1,90,10,0,0,0,51,0
+360,360,"Gyro Ball","The user tackles the foe with a high-speed spin. The slower the user, the greater the damage.",219,1,8,100,5,0,0,0,51,0
+361,361,"Healing Wish","The user faints. In return, the Pokémon taking its place will have its HP restored and status cured.",220,0,14,0,10,0,16,0,0,2
+362,362,"Brine","If the foe’s HP is down to about half, this attack will hit with double the power.",221,65,11,100,10,0,0,0,50,1
+363,363,"Natural Gift","The user draws power to attack by using its held Berry. The Berry determines its type and power.",222,1,0,100,15,0,0,0,82,0
+364,364,"Feint","An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.",223,50,0,100,10,0,0,2,0,0
+365,365,"Pluck","The user pecks the foe. If the foe is holding a Berry, the user plucks it and gains its effect.",224,60,2,100,20,0,0,0,115,0
+366,366,"Tailwind","The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for three turns.",225,0,2,0,30,0,32,0,8,2
+367,367,"Acupressure","The user applies pressure to stress points, sharply boosting one of its stats.",226,0,0,0,30,0,0,0,72,2
+368,368,"Metal Burst","The user retaliates against the foe that last inflicted damage on it with much greater power.",227,1,8,100,10,0,1,0,16,0
+369,369,"U-turn","After making its attack, the user rushes back to switch places with a party Pokémon in waiting.",228,70,6,100,20,0,0,0,51,0
+370,370,"Close Combat","The user fights the foe in close without guarding itself. It also cuts the user’s Defense and Sp. Def.",229,120,1,100,5,0,0,0,179,0
+371,371,"Payback","If the user can use this attack after the foe attacks, its power is doubled.",230,50,17,100,10,0,0,0,51,0
+372,372,"Assurance","If the foe has already taken some damage in the same turn, this attack’s power is doubled.",231,50,17,100,10,0,0,0,51,0
+373,373,"Embargo","It prevents the foe from using its held item. Its Trainer is also prevented from using items on it.",232,0,17,100,15,0,0,0,18,2
+374,374,"Fling","The user flings its held item at the foe to attack. Its power and effects depend on the item.",233,1,17,100,10,0,0,0,18,0
+375,375,"Psycho Shift","Using its psychic power of suggestion, the user transfers its status problems to the target.",234,0,14,90,10,0,0,0,18,2
+376,376,"Trump Card","The fewer PP this move has, the more power it has for attack.",235,1,0,0,5,0,0,0,51,1
+377,377,"Heal Block","The user prevents the foe from using any HP-recovery moves for five turns.",236,0,14,100,15,0,4,0,18,2
+378,378,"Wring Out","The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power.",237,1,0,100,5,0,0,0,51,1
+379,379,"Power Trick","The user employs its psychic power to switch its Attack with its Defense stat.",238,0,14,0,10,0,16,0,64,2
+380,380,"Gastro Acid","The user hurls up its stomach acids on the foe. The fluid eliminates the effect of the foe’s ability.",239,0,3,100,10,0,0,0,22,2
+381,381,"Lucky Chant","The user chants an incantation toward the sky, preventing the foe from landing critical hits.",240,0,0,0,30,0,32,0,64,2
+382,382,"Me First","The user tries to cut ahead of the foe to steal and use the foe’s intended move with greater power.",241,0,0,0,20,0,0,0,2,2
+383,383,"Copycat","The user mimics the move used immediately before it. The move fails if no other move has been used yet.",242,0,0,0,20,0,1,0,0,2
+384,384,"Power Swap","The user employs its psychic power to switch changes to its Attack and Sp. Atk with the foe.",243,0,14,0,10,0,0,0,18,2
+385,385,"Guard Swap","The user employs its psychic power to switch changes to its Defense and Sp. Def with the foe.",244,0,14,0,10,0,0,0,18,2
+386,386,"Punishment","This attack’s power increases the more the foe has powered up with stat changes.",245,1,17,100,5,0,0,0,115,0
+387,387,"Last Resort","This move can be used only after the user has used all the other moves it knows in the battle.",246,130,0,100,5,0,0,0,51,0
+388,388,"Worry Seed","A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.",247,0,12,100,10,0,0,0,22,2
+389,389,"Sucker Punch","This move enables the user to attack first. It fails if the foe is not readying an attack, however.",248,80,17,100,5,0,0,1,115,0
+390,390,"Toxic Spikes","The user lays a trap of poison spikes at the foe’s feet. They poison foes that switch into battle.",249,0,3,0,20,0,128,0,64,2
+391,391,"Heart Swap","The user employs its psychic power to switch stat changes with the foe.",250,0,14,0,10,0,0,0,18,2
+392,392,"Aqua Ring","The user envelops itself in a veil made of water. It regains some HP on every turn.",251,0,11,0,20,0,16,0,0,2
+393,393,"Magnet Rise","The user levitates using electrically generated magnetism for five turns.",252,0,13,0,10,0,16,0,0,2
+394,394,"Flare Blitz","The user cloaks itself in fire and charges at the foe. The user sustains serious damage, too.",253,120,10,100,15,10,0,0,147,0
+395,395,"Force Palm","The foe is attacked with a shock wave. It may also leave the target paralyzed.",6,60,1,100,10,30,0,0,51,0
+396,396,"Aura Sphere","The user looses a blast of aura power from deep within its body. This move is certain to hit.",17,90,1,0,20,0,0,0,178,1
+397,397,"Rock Polish","The user polishes its body to reduce drag. It can sharply raise the Speed stat.",52,0,5,0,20,0,16,0,8,2
+398,398,"Poison Jab","The foe is stabbed with a tentacle or arm steeped in poison. It may also poison the foe.",2,80,3,100,20,30,0,0,51,0
+399,399,"Dark Pulse","The user releases a horrible aura imbued with dark thoughts. It may also make the target flinch.",31,80,17,100,15,20,0,0,50,1
+400,400,"Night Slash","The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.",43,70,17,100,15,0,0,0,51,0
+401,401,"Aqua Tail","The user attacks by swinging its tail as if it were a vicious wave in a raging storm.",0,90,11,90,10,0,0,0,51,0
+402,402,"Seed Bomb","The user slams a barrage of hard- shelled seeds down on the foe from above.",0,80,12,100,15,0,0,0,50,0
+403,403,"Air Slash","The user attacks with a blade of air that slices even the sky. It may also make the target flinch.",31,75,2,95,20,30,0,0,50,1
+404,404,"X-Scissor","The user slashes at the foe by crossing its scythes or claws as if they were a pair of scissors.",0,80,6,100,15,0,0,0,51,0
+405,405,"Bug Buzz","The user vibrates its wings to generate a damaging sound wave. It may also lower the foe’s Sp. Def stat.",72,90,6,100,10,10,0,0,18,1
+406,406,"Dragon Pulse","The foe is attacked with a shock wave generated by the user’s gaping mouth.",0,90,16,100,10,0,0,0,50,1
+407,407,"Dragon Rush","The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.",31,100,16,75,10,20,0,0,51,0
+408,408,"Power Gem","The user attacks with a ray of light that sparkles as if it were made of gemstones.",0,70,5,100,20,0,0,0,50,1
+409,409,"Drain Punch","An energy-draining punch. The user’s HP is restored by half the damage taken by the target.",3,60,1,100,5,0,0,0,51,0
+410,410,"Vacuum Wave","The user whirls its fists to send a wave of pure vacuum at the foe. This move always goes first.",103,40,1,100,30,0,0,1,50,1
+411,411,"Focus Blast","The user heightens its mental focus and unleashes its power. It may also lower the target’s Sp. Def.",72,120,1,70,5,10,0,0,146,1
+412,412,"Energy Ball","The user draws power from nature and fires it at the foe. It may also lower the target’s Sp. Def.",72,80,12,100,10,10,0,0,18,1
+413,413,"Brave Bird","The user tucks in its wings and charges from a low altitude. The user also takes serious damage.",198,120,2,100,15,0,0,0,179,0
+414,414,"Earth Power","The user makes the ground under the foe erupt with power. It may also lower the target’s Sp. Def.",72,90,4,100,10,10,0,0,50,1
+415,415,"Switcheroo","The user trades held items with the foe faster than the eye can follow.",177,0,17,100,10,0,0,0,18,2
+416,416,"Giga Impact","The user charges at the foe using every bit of its power. The user must rest on the next turn.",80,150,0,90,5,0,0,0,179,0
+417,417,"Nasty Plot","The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.",53,0,17,0,20,0,16,0,72,2
+418,418,"Bullet Punch","The user strikes with a tough punch as fast as a bullet. This move always goes first.",103,40,8,100,30,0,0,1,115,0
+419,419,"Avalanche","An attack move that inflicts double the damage if the user has been hurt by the foe in the same turn.",185,60,15,100,10,0,0,252,51,0
+420,420,"Ice Shard","The user flash freezes chunks of ice and hurls them. This move always goes first.",103,40,15,100,30,0,0,1,50,0
+421,421,"Shadow Claw","The user slashes with a sharp claw made from shadows. It has a high critical-hit ratio.",43,70,7,100,15,0,0,0,115,0
+422,422,"Thunder Fang","The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.",275,65,13,95,15,10,0,0,51,0
+423,423,"Ice Fang","The user bites with cold-infused fangs. It may also make the foe flinch or freeze.",274,65,15,95,15,10,0,0,51,0
+424,424,"Fire Fang","The user bites with flame-cloaked fangs. It may also make the foe flinch or sustain a burn.",273,65,10,95,15,10,0,0,51,0
+425,425,"Shadow Sneak","The user extends its shadow and attacks the foe from behind. This move always goes first.",103,40,7,100,30,0,0,1,51,0
+426,426,"Mud Bomb","The user launches a hard-packed mud ball to attack. It may also lower the target’s accuracy.",73,65,4,85,10,30,0,0,50,1
+427,427,"Psycho Cut","The user tears at the foe with blades formed by psychic power. It has a high critical-hit ratio.",43,70,14,100,20,0,0,0,50,0
+428,428,"Zen Headbutt","The user focuses its willpower to its head and rams the foe. It may also make the target flinch.",31,80,14,90,15,20,0,0,51,0
+429,429,"Mirror Shot","The user looses a flash of energy from its polished body. It may also lower the target’s accuracy.",73,65,8,85,10,30,0,0,50,1
+430,430,"Flash Cannon","The user gathers all its light energy and releases it at once. It may also lower the foe’s Sp. Def stat.",72,80,8,100,10,10,0,0,50,1
+431,431,"Rock Climb","A charging attack that may also leave the foe confused. It can also be used to scale rocky walls.",76,90,0,85,20,20,0,0,51,0
+432,432,"Defog","Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog, etc.",258,0,2,0,15,0,0,0,18,2
+433,433,"Trick Room","The user creates a bizarre area in which slower Pokémon get to move first for five turns.",259,0,14,0,5,0,64,249,16,2
+434,434,"Draco Meteor","Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",204,140,16,90,5,100,0,0,50,1
+435,435,"Discharge","A flare of electricity is loosed to strike all Pokémon in battle. It may also cause paralysis.",6,80,13,100,15,30,8,0,50,1
+436,436,"Lava Plume","An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.",4,80,10,100,15,30,8,0,50,1
+437,437,"Leaf Storm","A storm of sharp leaves is whipped up. The attack’s recoil sharply reduces the user’s Sp. Atk stat.",204,140,12,90,5,100,0,0,178,1
+438,438,"Power Whip","The user violently whirls its vines or tentacles to harshly lash the foe.",0,120,12,85,10,0,0,0,179,0
+439,439,"Rock Wrecker","The user launches a huge boulder at the foe to attack. It must rest on the next turn, however.",80,150,5,90,5,0,0,0,178,0
+440,440,"Cross Poison","A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.",209,70,3,100,20,10,0,0,51,0
+441,441,"Gunk Shot","The user shoots filthy garbage at the foe to attack. It may also poison the target.",2,120,3,70,5,30,0,0,178,0
+442,442,"Iron Head","The foe slams the target with its steel-hard head. It may also make the target flinch.",31,80,8,100,15,30,0,0,51,0
+443,443,"Magnet Bomb","The user launches a steel bomb that sticks to the target. This attack will not miss.",17,60,8,0,20,0,0,0,50,0
+444,444,"Stone Edge","The user stabs the foe with a sharpened stone. It has a high critical-hit ratio.",43,100,5,80,5,0,0,0,50,0
+445,445,"Captivate","If it is the opposite gender of the user, the foe is charmed into sharply lowering its Sp. Atk stat.",265,0,0,100,20,0,4,0,86,2
+446,446,"Stealth Rock","The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.",266,0,5,0,20,0,128,0,0,2
+447,447,"Grass Knot","The user snares the foe with grass and trips it. The heavier the foe, the greater the damage.",196,1,12,100,20,0,0,0,115,1
+448,448,"Chatter","The user attacks using a sound wave based on words it has learned. It may also confuse the foe.",267,60,2,100,20,0,0,0,66,1
+449,449,"Judgment","The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.",268,100,0,100,10,0,0,0,50,1
+450,450,"Bug Bite","The user bites the foe. If the foe is holding a Berry, the user eats it and gains its effect.",224,60,6,100,20,0,0,0,115,0
+451,451,"Charge Beam","The user fires a concentrated bundle of electricity. It may also raise the user’s Sp. Atk stat.",276,50,13,90,10,70,0,0,50,1
+452,452,"Wood Hammer","The user slams its rugged body into the foe to attack. The user also sustains serious damage.",198,120,12,100,15,0,0,0,51,0
+453,453,"Aqua Jet","The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.",103,40,11,100,20,0,0,1,51,0
+454,454,"Attack Order","The user calls out its underlings to pummel the foe. It has a high critical-hit ratio.",43,90,6,100,15,0,0,0,50,0
+455,455,"Defend Order","The user calls out its underlings to make a living shield, raising its Defense and Sp. Def stats.",206,0,6,0,10,0,16,0,8,2
+456,456,"Heal Order","The user calls out its underlings to heal it. The user regains up to half of its max HP.",32,0,6,0,10,0,16,0,8,2
+457,457,"Head Smash","The user delivers a life-endangering head butt at full power. The user also takes terrible damage.",269,150,5,80,5,0,0,0,179,0
+458,458,"Double Hit","The user slams the foe with a tail, etc. The target is hit twice in a row.",44,35,0,90,10,0,0,0,51,0
+459,459,"Roar of Time","The user blasts the foe with power that distorts even time. The user must rest on the next turn.",80,150,16,90,5,0,0,0,50,1
+460,460,"Spacial Rend","The user tears the foe along with the space around it. This move has a high critical-hit ratio.",43,100,16,95,5,0,0,0,178,1
+461,461,"Lunar Dance","The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.",270,0,14,0,10,0,16,0,128,2
+462,462,"Crush Grip","The foe is crushed with great force. The attack is more powerful the more HP the foe has left.",237,1,0,100,5,0,0,0,51,0
+463,463,"Magma Storm","The foe becomes trapped within a maelstrom of fire that rages for two to five turns.",42,120,10,70,5,0,0,0,178,1
+464,464,"Dark Void","The foe is dragged into a world of total darkness that puts it to sleep.",1,0,17,80,10,0,4,0,150,2
+465,465,"Seed Flare","The user generates a shock wave from within its body. It may also lower the target’s Sp. Def.",271,120,12,85,5,40,0,0,178,1
+466,466,"Ominous Wind","The user creates a gust of repulsive wind. It may also raise all the user’s stats at once.",140,60,7,100,5,10,0,0,50,1
+467,467,"Shadow Force","The user disappears, then strikes the foe on the second turn. It hits even if the foe used Protect.",272,120,7,100,5,0,0,0,49,0 
