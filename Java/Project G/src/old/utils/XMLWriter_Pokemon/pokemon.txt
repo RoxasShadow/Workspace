@@ -1,0 +1,656 @@
+Abomasnow,Abomasnow,Snow Warning,Snow Warning,460,90,92,75,92,85,60
+Abra,Abra,Synchronize,Inner Focus,63,25,20,15,105,55,90
+Absol,Absol,Pressure,Super Luck,359,65,130,60,75,60,75
+Accelgor,Accelgor,Hydration,Sticky Hold,617,80,70,40,100,60,145
+Aerodactyl,Aerodactyl,Rock Head,Pressure,142,80,105,65,60,75,130
+Aggron,Aggron,Sturdy,Rock Head,306,70,110,180,60,60,50
+Aipom,Aipom,Run Away,Pick Up,190,55,70,55,40,55,85
+Alakazam,Alakazam,Synchronize,Inner Focus,65,55,50,45,135,85,120
+Alomomola,Alomomola,Healer,Hydration,594,165,75,80,40,45,65
+Altaria,Altaria,Natural Cure,Natural Cure,334,75,70,90,70,105,80
+Ambipom,Ambipom,Technician,Pick Up,424,75,100,66,60,66,115
+Amoonguss,Amoonguss,Effect Spore,Effect Spore,591,114,85,70,85,80,30
+Ampharos,Ampharos,Static,Static,181,90,75,75,115,90,55
+Anorith,Anorith,Battle Armor,Battle Armor,347,45,95,50,40,50,75
+Arbok,Arbok,Intimidate,Shed Skin,24,60,85,69,65,79,80
+Arcanine,Arcanine,Intimidate,Flash Fire,59,90,110,80,100,80,95
+Arceus,Arceus,Multitype,Multitype,493,120,120,120,120,120,120
+Archen,Archen,Defeatist,Defeatist,566,55,112,45,74,45,70
+Archeops,Archeops,Defeatist,Defeatist,567,75,140,65,112,65,110
+Ariados,Ariados,Swarm,Insomnia,168,70,90,70,60,60,40
+Armaldo,Armaldo,Battle Armor,Battle Armor,348,75,125,100,70,80,45
+Aron,Aron,Sturdy,Rock Head,304,50,70,100,40,40,30
+Articuno,Articuno,Pressure,Pressure,144,90,85,100,95,125,85
+Audino,Audino,Healer,Regenerator,531,103,60,86,60,86,50
+Axew,Axew,Rivalry,Mold Breaker,610,46,87,60,30,40,57
+Azelf,Azelf,Levitate,Levitate,482,75,125,70,125,70,115
+Azumarill,Azumarill,Thick Fat,Huge Power,184,100,50,80,50,80,50
+Azurill,Azurill,Thick Fat,Huge Power,298,50,20,40,20,40,20
+Bagon,Bagon,Rock Head,Rock Head,371,45,75,60,40,30,50
+Baltoy,Baltoy,Levitate,Levitate,343,40,40,55,40,70,55
+Banette,Banette,Insomnia,Frisk,354,64,115,65,83,63,65
+Barboach,Barboach,Oblivious,Anticipation,339,50,48,43,46,41,60
+Basculin,Basculin,Reckless,Adaptability,550,70,92,65,80,55,98
+Bastiodon,Bastiodon,Sturdy,Sturdy,411,60,52,168,47,138,30
+Bayleef,Bayleef,Overgrow,Overgrow,153,60,62,80,63,80,60
+Beartic,Beartic,Snow Cloak,Snow Cloak,614,95,110,80,70,80,50
+Beautifly,Beautifly,Swarm,Swarm,267,60,70,50,90,50,65
+Beedrill,Beedrill,Swarm,Swarm,15,65,80,40,45,80,75
+Beheeyem,Beheeyem,Telepathy,Synchronize,606,75,75,75,125,95,40
+Beldum,Beldum,Clear Body,Clear Body,374,40,55,80,35,60,30
+Bellossom,Bellossom,Chlorophyll,Chlorophyll,182,75,80,85,90,100,50
+Bellsprout,Bellsprout,Chlorophyll,Chlorophyll,69,50,75,35,70,30,40
+Bibarel,Bibarel,Simple,Unaware,400,79,85,60,55,60,71
+Bidoof,Bidoof,Simple,Unaware,399,59,45,40,35,40,31
+Bisharp,Bisharp,Defiant,Inner Focus,625,65,125,100,60,70,70
+Blastoise,Blastoise,Torrent,Torrent,9,79,83,100,85,105,78
+Blaziken,Blaziken,Blaze,Blaze,257,80,120,70,110,70,80
+Blissey,Blissey,Natural Cure,Serene Grace,242,255,10,10,75,135,55
+Blitzle,Blitzle,Lightningrod,Motor Drive,522,45,60,32,50,32,76
+Boldore,Boldore,Sturdy,Sturdy,525,70,105,105,50,40,20
+Bonsly,Bonsly,Study,Rock Head,438,50,80,95,10,45,10
+Bouffalant,Bouffalant,Reckless,Sap Sipper,626,95,110,95,40,95,55
+Braviary,Braviary,Keen Eye,Sheer Force,628,100,123,75,57,75,80
+Breloom,Breloom,Effect Spore,Poison Heal,286,60,130,80,60,60,70
+Bronzong,Bronzong,Levitate,Heatproof,437,67,89,116,79,116,33
+Bronzor,Bronzor,Levitate,Heatproof,436,57,24,86,24,86,23
+Budew,Budew,Natural Cure,Poison Point,406,40,30,35,50,70,55
+Buizel,Buizel,Swift Swim,Swift Swim,418,55,65,35,60,30,85
+Bulbasaur,Bulbasaur,Overgrow,Overgrow,1,45,49,49,65,65,45
+Buneary,Buneary,Run Away,Klutz,427,55,66,44,44,56,85
+Burmy,Burmy,Shed Skin,Shed Skin,412,40,29,45,29,45,36
+Butterfree,Butterfree,Compoundeyes,Compoundeyes,12,60,45,50,80,80,70
+Cacnea,Cacnea,Sand Veil,Sand Veil,331,50,85,40,85,40,35
+Cacturne,Cacturne,Sand Veil,Sand Veil,332,70,115,60,115,60,55
+Camerupt,Camerupt,Magma Armor,Solid Rock,323,70,100,70,105,75,40
+Carnivine,Carnivine,Levitate,Levitate,455,74,100,72,90,72,46
+Carracosta,Carracosta,Solid Rock,Sturdy,565,74,108,133,83,65,32
+Carvanha,Carvanha,Rough Skin,Rough Skin,318,45,90,20,65,20,65
+Cascoon,Cascoon,Shed Skin,Shed Skin,268,50,35,55,25,25,15
+Castform,Castform,Forecast,Forecast,351,70,70,70,70,70,70
+Caterpie,Caterpie,Shield Dust,Shield Dust,10,45,30,35,20,20,45
+Celebi,Celebi,Natural Cure,Natural Cure,251,100,100,100,100,100,100
+Chandelure,Chandelure,Flash Fire,Flame Body,609,60,55,90,145,90,80
+Chansey,Chansey,Natural Cure,Serene Grace,113,250,5,5,35,105,50
+Charizard,Charizard,Blaze,Blaze,6,78,84,78,109,85,100
+Charmander,Charmander,Blaze,Blaze,4,39,52,43,60,50,65
+Charmeleon,Charmeleon,Blaze,Blaze,5,58,64,58,80,65,80
+Chatot,Chatot,Keen Eye,Tangled Feet,441,76,65,45,92,42,91
+Cherrim,Cherrim,Flower Gift,Flower Gift,421,70,60,70,87,78,85
+Cherubi,Cherubi,Chlorophyll,Chlorophyll,420,45,35,45,62,53,35
+Chikorita,Chikorita,Overgrow,Overgrow,152,45,49,65,49,65,45
+Chimchar,Chimchar,Blaze,Blaze,390,44,58,44,58,44,61
+Chimecho,Chimecho,Levitate,Levitate,358,65,50,70,95,80,65
+Chinchou,Chinchou,Volt Absorb,Illuminate,170,75,38,38,56,56,67
+Chingling,Chingling,Levitate,Levitate,433,45,30,50,65,50,45
+Cinccino,Cinccino,Cute Charm,Technician,573,75,95,60,65,60,115
+Clamperl,Clamperl,Shell Armor,Shell Armor,366,35,64,85,74,55,32
+Claydol,Claydol,Levitate,Levitate,344,60,70,105,70,120,75
+Clefable,Clefable,Cute Charm,Magic Guard,36,95,70,73,85,90,60
+Clefairy,Clefairy,Cute Charm,Magic Guard,35,70,45,48,60,65,35
+Cleffa,Cleffa,Cute Charm,Magic Guard,173,50,25,28,45,55,15
+Cloyster,Cloyster,Shell Armor,Skill Link,91,50,95,180,85,45,70
+Cobalion,Cobalion,Justified,Justified,638,91,90,129,90,72,108
+Cofagrigus,Cofagrigus,Mummy,Mummy,563,58,50,145,95,105,30
+Combee,Combee,Honey Gather,Honey Gather,415,30,30,42,30,42,70
+Combusken,Combusken,Blaze,Blaze,256,60,85,60,85,60,55
+Conkeldurr,Conkeldurr,Guts,Sheer Force,534,105,140,95,55,65,45
+Corphish,Corphish,Hyper Cutter,Shell Armor,341,43,80,65,50,35,35
+Corsola,Corsola,Hustle,Natural Cure,222,55,55,85,65,85,35
+Cottonee,Cottonee,Prankster,Slip Through,546,40,27,60,37,50,66
+Cradily,Cradily,Suction Cups,Suction Cups,346,86,81,97,81,107,43
+Cranidos,Cranidos,Mold Breaker,Mold Breaker,408,67,125,40,30,30,58
+Crawdaunt,Crawdaunt,Hyper Cutter,Shell Armor,342,63,120,85,90,55,55
+Cresselia,Cresselia,Levitate,Levitate,488,120,70,120,75,130,85
+Croagunk,Croagunk,Anticipation,Dry Skin,453,48,61,40,61,40,50
+Crobat,Crobat,Inner Focus,Inner Focus,169,85,90,80,70,80,130
+Croconaw,Croconaw,Torrent,Torrent,159,65,80,80,59,63,58
+Crustle,Crustle,Sturdy,Shell Armor,558,70,95,125,65,75,45
+Cryogonal,Cryogonal,Levitate,Levitate,615,70,50,30,95,135,105
+Cubchoo,Cubchoo,Snow Cloak,Snow Cloak,613,55,70,40,60,40,40
+Cubone,Cubone,Rock Head,Lightningrod,104,50,50,95,40,50,35
+Cyndaquil,Cyndaquil,Blaze,Blaze,155,39,52,43,60,50,65
+Darkrai,Darkrai,Bad Dreams,Bad Dreams,491,70,90,90,135,90,125
+Darmanitan,Darmanitan,Sheer Force,Sheer Force,555,105,140,55,30,55,95
+Darumaka,Darumaka,Hustle,Hustle,554,70,90,45,15,45,50
+Deerling,Deerling,Chlorophyll,Sap Sipper,585,60,60,50,40,50,75
+Deino,Deino,Hustle,Hustle,633,52,65,50,45,50,38
+Delcatty,Delcatty,Cute Charm,Normalize,301,70,65,65,55,55,70
+Delibird,Delibird,Vital Spirit,Hustle,225,45,55,45,65,45,75
+Deoxys,Deoxys,Pressure,Pressure,386,50,150,50,150,50,150
+Deoxys-E,Deoxys-E,Pressure,Pressure,386,50,95,90,95,90,180
+Deoxys-F,Deoxys-F,Pressure,Pressure,386,50,180,20,180,20,150
+Deoxys-L,Deoxys-L,Pressure,Pressure,386,50,70,160,70,160,90
+Dewgong,Dewgong,Thick Fat,Hydration,87,90,70,80,70,95,70
+Dewott,Dewott,Torrent,Torrent,502,75,75,60,83,60,60
+Dialga,Dialga,Pressure,Pressure,483,100,120,120,150,100,90
+Diglett,Diglett,Sand Veil,Arena Trap,50,10,55,25,35,45,95
+Ditto,Ditto,Limber,Limber,132,48,48,48,48,48,48
+Dodrio,Dodrio,Run Away,Early Bird,85,60,110,70,60,60,100
+Doduo,Doduo,Run Away,Early Bird,84,35,85,45,35,35,75
+Donphan,Donphan,Sturdy,Sturdy,232,90,120,120,60,60,50
+Dragonair,Dragonair,Shed Skin,Shed Skin,148,61,84,65,70,70,70
+Dragonite,Dragonite,Inner Focus,Inner Focus,149,91,134,95,100,100,80
+Drapion,Drapion,Battle Armor,Sniper,452,70,90,110,60,75,95
+Dratini,Dratini,Shed Skin,Shed Skin,147,41,64,45,50,50,50
+Drifblim,Drifblim,Aftermath,Unburden,426,150,80,44,90,54,80
+Drifloon,Drifloon,Aftermath,Unburden,425,90,50,34,60,44,70
+Drilbur,Drilbur,Sand Throw,Sand Force,529,60,85,40,30,45,68
+Drowzee,Drowzee,Insomnia,Forewarn,96,60,48,45,43,90,42
+Druddigon,Druddigon,Rough Skin,Sheer Force,621,77,120,90,60,90,48
+Ducklett,Ducklett,Keen Eye,Big Pecks,580,62,44,50,44,50,55
+Dugtrio,Dugtrio,Sand Veil,Arena Trap,51,35,80,50,50,70,120
+Dunsparce,Dunsparce,Serene Grace,Run Away,206,100,70,70,65,65,45
+Duosion,Duosion,Dustproof,Magic Guard,578,65,40,50,125,60,30
+Durant,Durant,Swarm,Hustle,632,58,109,112,48,48,109
+Dusclops,Dusclops,Pressure,Pressure,356,40,70,130,60,130,25
+Dusknoir,Dusknoir,Pressure,Pressure,477,45,100,135,65,135,45
+Duskull,Duskull,Levitate,Levitate,355,20,40,90,30,90,25
+Dustox,Dustox,Shield Dust,Shield Dust,269,60,50,70,50,90,65
+Dwebble,Dwebble,Sturdy,Shell Armor,557,50,65,85,35,35,55
+Eelektrik,Eelektrik,Levitate,Levitate,603,65,85,70,75,70,40
+Eelektross,Eelektross,Levitate,Levitate,604,85,115,80,105,80,50
+Eevee,Eevee,Run Away,Adaptability,133,55,55,50,45,65,55
+Ekans,Ekans,Intimidate,Shed Skin,23,35,60,44,40,54,55
+Electabuzz,Electabuzz,Static,Static,125,65,83,57,95,85,105
+Electivire,Electivire,Motor Drive,Motor Drive,466,75,123,67,95,85,95
+Electrike,Electrike,Static,Lightningrod,309,40,45,40,65,40,65
+Electrode,Electrode,Soundproof,Static,101,60,50,70,80,80,140
+Elekid,Elekid,Static,Static,239,45,63,37,65,55,95
+Elgyem,Elgyem,Telepathy,Synchronize,605,55,55,55,85,55,30
+Emboar,Emboar,Blaze,Blaze,500,110,123,65,100,65,65
+Emolga,Emolga,Static,Static,587,55,75,60,75,60,103
+Empoleon,Empoleon,Torrent,Torrent,395,84,86,88,111,101,60
+Entei,Entei,Pressure,Pressure,244,115,115,85,90,75,100
+Escavalier,Escavalier,Swarm,Shell Armor,589,70,135,105,60,105,20
+Espeon,Espeon,Synchronize,Synchronize,196,65,65,60,130,95,110
+Excadrill,Excadrill,Sand Throw,Sand Force,530,110,135,60,50,65,88
+Exeggcute,Exeggcute,Chlorophyll,Chlorophyll,102,60,40,80,60,45,40
+Exeggutor,Exeggutor,Chlorophyll,Chlorophyll,103,95,95,85,125,65,55
+Exploud,Exploud,Soundproof,Soundproof,295,104,91,63,91,63,68
+Farfetch'd,Farfetch'd,Keen Eye,Inner Focus,83,52,65,55,58,62,60
+Fearow,Fearow,Keen Eye,Keen Eye,22,65,90,65,61,61,100
+Feebas,Feebas,Swift Swim,Swift Swim,349,20,15,20,10,55,80
+Feraligatr,Feraligatr,Torrent,Torrent,160,85,105,100,79,83,78
+Ferroseed,Ferroseed,Iron Barbs,Iron Barbs,597,44,50,91,24,86,10
+Ferrothorn,Ferrothorn,Iron Barbs,Iron Barbs,598,74,94,131,54,116,20
+Finneon,Finneon,Swift Swim,Storm Drain,456,49,49,56,49,61,66
+Flaaffy,Flaaffy,Static,Static,180,70,55,55,80,60,45
+Flareon,Flareon,Flash Fire,Flash Fire,136,65,130,60,95,110,65
+Floatzel,Floatzel,Swift Swim,Swift Swim,419,85,105,55,85,50,115
+Flygon,Flygon,Levitate,Levitate,330,80,100,80,80,80,100
+Foongus,Foongus,Effect Spore,Effect Spore,590,69,55,45,55,55,15
+Forretress,Forretress,Sturdy,Sturdy,205,75,90,140,60,60,40
+Fraxure,Fraxure,Rivalry,Mold Breaker,611,66,117,70,40,50,67
+Frillish,Frillish,Water Absorb,Cursed Body,592,55,40,50,65,85,40
+Froslass,Froslass,Snow Cloak,Snow Cloak,478,70,80,70,80,70,110
+Furret,Furret,Run Away,Keen Eye,162,85,76,64,45,55,90
+Gabite,Gabite,Sand Veil,Sand Veil,444,68,90,65,50,55,82
+Gallade,Gallade,Steadfast,Steadfast,475,68,125,65,65,115,80
+Galvantula,Galvantula,Compoundeyes,Unnerve,596,70,77,60,97,60,108
+Garbodor,Garbodor,Stench,Weak Armor,569,80,95,82,60,82,75
+Garchomp,Garchomp,Sand Veil,Sand Veil,445,108,130,95,80,85,102
+Gardevoir,Gardevoir,Synchronize,Trace,282,68,65,65,125,115,80
+Gastly,Gastly,Levitate,Levitate,92,30,35,30,100,35,80
+Gastrodon,Gastrodon,Sticky Hold,Storm Drain,423,111,83,68,92,82,39
+Genesect,Genesect,Download,Download,649,71,120,95,120,95,99
+Gengar,Gengar,Levitate,Levitate,94,60,65,60,130,75,110
+Geodude,Geodude,Rock Head,Sturdy,74,40,80,100,30,30,20
+Gible,Gible,Sand Veil,Sand Veil,443,58,70,45,40,45,42
+Gigalith,Gigalith,Sturdy,Sturdy,526,85,135,130,60,70,25
+Girafarig,Girafarig,Inner Focus,Early Bird,203,70,80,65,90,65,85
+Giratina,Giratina,Pressure,Pressure,487,150,100,120,100,120,90
+Giratina-O,Giratina-O,Levitate,Levitate,487,150,120,100,120,100,90
+Glaceon,Glaceon,Snow Cloak,Snow Cloak,471,65,60,110,130,95,65
+Glalie,Glalie,Inner Focus,Ice Body,362,80,80,80,80,80,80
+Glameow,Glameow,Limber,Own Tempo,431,49,55,42,42,37,85
+Gligar,Gligar,Hyper Cutter,Sand Veil,207,65,75,105,35,65,85
+Gliscor,Gliscor,Hyper Cutter,Sand Veil,472,75,95,125,45,75,95
+Gloom,Gloom,Chlorophyll,Chlorophyll,44,60,65,70,85,75,40
+Golbat,Golbat,Inner Focus,Inner Focus,42,75,80,70,65,75,90
+Goldeen,Goldeen,Swift Swim,Water Veil,118,45,67,60,35,50,63
+Golduck,Golduck,Damp,Cloud Nine,55,80,82,78,95,80,85
+Golem,Golem,Rock Head,Sturdy,76,80,110,130,55,65,45
+Golett,Golett,Iron Fist,Klutz,622,59,74,50,35,50,35
+Golurk,Golurk,Iron Fist,Klutz,623,89,124,80,55,80,55
+Gorebyss,Gorebyss,Swift Swim,Swift Swim,368,55,84,105,114,75,52
+Gothita,Gothita,Frisk,Frisk,574,45,30,50,55,65,45
+Gothitelle,Gothitelle,Frisk,Frisk,576,70,55,95,95,110,65
+Gothorita,Gothorita,Frisk,Frisk,575,60,45,70,75,85,55
+Granbull,Granbull,Intimidate,Quick Feet,210,90,120,75,60,60,45
+Graveler,Graveler,Rock Head,Sturdy,75,55,95,115,45,45,35
+Grimer,Grimer,Stench,Sticky Hold,88,80,80,50,40,50,25
+Grotle,Grotle,Overgrow,Overgrow,388,75,89,85,55,65,36
+Groudon,Groudon,Drought,Drought,383,100,150,140,100,90,90
+Grovyle,Grovyle,Overgrow,Overgrow,253,50,65,45,85,65,95
+Growlithe,Growlithe,Intimidate,Flash Fire,58,55,70,45,70,50,60
+Grumpig,Grumpig,Thick Fat,Own Tempo,326,80,45,65,90,110,80
+Gulpin,Gulpin,Liquid Ooze,Sticky Hold,316,70,43,53,43,53,40
+Gurdurr,Gurdurr,Guts,Sheer Force,533,85,105,85,40,50,40
+Gyarados,Gyarados,Intimidate,Intimidate,130,95,125,79,60,100,81
+Happiny,Happiny,Natural Cure,Serene Grace,440,100,5,5,15,65,30
+Hariyama,Hariyama,Thick Fat,Guts,297,144,120,60,40,60,50
+Haunter,Haunter,Levitate,Levitate,93,45,50,45,115,55,95
+Haxorus,Haxorus,Rivalry,Mold Breaker,612,76,147,90,60,70,97
+Heatmor,Heatmor,Gluttony,Flash Fire,631,85,97,66,105,66,65
+Heatran,Heatran,Flash Fire,Flash Fire,485,91,90,106,130,106,77
+Heracross,Heracross,Swarm,Guts,214,80,125,75,40,95,85
+Herdier,Herdier,Intimidate,Sand Throw,507,65,80,65,35,65,60
+Hippopotas,Hippopotas,Sand Stream,Sand Stream,449,68,72,78,38,42,32
+Hippowdon,Hippowdon,Sand Stream,Sand Stream,450,108,112,118,68,72,47
+Hitmonchan,Hitmonchan,Keen Eye,Iron Fist,107,50,105,79,35,110,76
+Hitmonlee,Hitmonlee,Limber,Reckless,106,50,120,53,35,110,87
+Hitmontop,Hitmontop,Intimidate,Technician,237,50,95,95,35,110,70
+Honchkrow,Honchkrow,Insomnia,Super Luck,430,100,125,52,105,52,71
+Ho-oh,Ho-oh,Pressure,Pressure,250,106,130,90,110,154,90
+Hoothoot,Hoothoot,Insomnia,Keen Eye,163,60,30,30,36,56,50
+Hoppip,Hoppip,Chlorophyll,Leaf Guard,187,35,35,40,35,55,50
+Horsea,Horsea,Swift Swim,Sniper,116,30,40,70,70,25,60
+Houndoom,Houndoom,Early Bird,Flash Fire,229,75,90,50,110,80,95
+Houndour,Houndour,Early Bird,Flash Fire,228,45,60,30,80,50,65
+Huntail,Huntail,Swift Swim,Swift Swim,367,55,104,105,94,75,52
+Hydreigon,Hydreigon,Levitate,Levitate,635,92,105,90,125,90,98
+Hypno,Hypno,Insomnia,Forwarn,97,85,73,70,73,115,67
+Igglybuff,Igglybuff,Cute Charm,Cute Charm,174,90,30,15,40,20,15
+Illumise,Illumise,Oblivious,Tinted Lens,314,65,47,55,73,75,85
+Infernape,Infernape,Blaze,Blaze,392,76,104,71,104,71,108
+Ivysaur,Ivysaur,Overgrow,Overgrow,2,60,62,63,80,80,60
+Jellicent,Jellicent,Water Absorb,Cursed Body,593,100,60,70,85,105,60
+Jigglypuff,Jigglypuff,Cute Charm,Cute Charm,39,115,45,20,45,25,20
+Jirachi,Jirachi,Serene Grace,Serene Grace,385,100,100,100,100,100,100
+Jolteon,Jolteon,Volt Absorb,Volt Absorb,135,65,65,60,110,95,130
+Joltik,Joltik,Compoundeyes,Unnerve,595,50,47,50,57,50,65
+Jumpluff,Jumpluff,Chlorophyll,Leaf Guard,189,75,55,70,55,85,110
+Jynx,Jynx,Oblivious,Forewarn,124,65,50,35,115,95,95
+Kabuto,Kabuto,Swift Swim,Battle Armor,140,30,80,90,55,45,55
+Kabutops,Kabutops,Swift Swim,Battle Armor,141,60,115,105,65,70,80
+Kadabra,Kadabra,Synchronize,Inner Focus,64,40,35,30,120,70,105
+Kakuna,Kakuna,Shed Skin,Shed Skin,14,45,25,50,25,25,35
+Kangaskhan,Kangaskhan,Early Bird,Scrappy,115,105,95,80,40,80,90
+Karrablast,Karrablast,Swarm,Shed Skin,588,50,75,45,40,45,60
+Kecleon,Kecleon,Color Change,Color Change,352,60,90,70,60,120,40
+Keldeo,Keldeo,Justified,Justified,647,91,72,90,129,90,108
+Kingdra,Kingdra,Swift Swim,Sniper,230,75,95,95,95,95,85
+Kingler,Kingler,Hyper Cutter,Shell Armor,99,55,130,115,50,50,75
+Kirlia,Kirlia,Synchronize,Trace,281,38,35,35,65,55,50
+Klang,Klang,Plus,Minus,600,60,80,95,70,85,50
+Klink,Klink,Plus,Minus,599,40,55,70,45,60,30
+Klinklang,Klinklang,Plus,Minus,601,60,100,115,70,85,90
+Koffing,Koffing,Levitate,Levitate,109,40,65,95,60,45,35
+Krabby,Krabby,Hyper Cutter,Shell Armor,98,30,105,90,25,25,50
+Kricketot,Kricketot,Shed Skin,Shed Skin,401,37,25,41,25,41,25
+Kricketune,Kricketune,Swarm,Swarm,402,77,85,51,55,51,65
+Krokorok,Krokorok,Intimidate,Moxie,552,60,82,45,45,45,74
+Krookodile,Krookodile,Intimidate,Moxie,553,95,117,70,65,70,92
+Kyogre,Kyogre,Drizzle,Drizzle,382,100,100,90,150,140,90
+Kyurem,Kyurem,Pressure,Pressure,646,125,130,90,130,90,95
+Lairon,Lairon,Sturdy,Rock Head,305,60,90,140,50,50,40
+Lampent,Lampent,Flash Fire,Flame Body,608,60,40,60,95,60,55
+Landorus,Landorus,Sand Force,Sand Force,645,89,125,90,115,80,101
+Lanturn,Lanturn,Volt Absorb,Illuminate,171,125,58,58,76,76,67
+Lapras,Lapras,Water Absorb,Shell Armor,131,130,85,80,85,95,60
+Larvesta,Larvesta,Flame Body,Flame Body,636,55,85,55,50,55,60
+Larvitar,Larvitar,Guts,Guts,246,50,64,50,45,50,41
+Latias,Latias,Levitate,Levitate,380,80,80,90,110,130,110
+Latios,Latios,Levitate,Levitate,381,80,90,80,130,110,110
+Leafeon,Leafeon,Leaf Guard,Leaf Guard,470,65,110,130,60,65,95
+Leavanny,Leavanny,Swarm,Chlorophyll,542,75,103,80,70,70,92
+Ledian,Ledian,Swarm,Early Bird,166,55,35,50,55,110,85
+Ledyba,Ledyba,Swarm,Early Bird,165,40,20,30,40,80,55
+Lickilicky,Lickilicky,Own Tempo,Oblivious,463,110,85,95,80,95,50
+Lickitung,Lickitung,Own Tempo,Oblivious,108,90,55,75,60,75,30
+Liepard,Liepard,Limber,Unburden,510,64,88,50,88,50,106
+Lileep,Lileep,Suction Cups,Suction Cups,345,66,41,77,61,87,23
+Lilligant,Lilligant,Chlorophyll,Own Tempo,549,70,60,75,110,75,90
+Lillipup,Lillipup,Vital Spirit,Pickup,506,45,60,45,25,45,55
+Linoone,Linoone,Pickup,Gluttony,264,78,70,61,50,61,100
+Litwick,Litwick,Flash Fire,Flame Body,607,50,30,55,65,55,20
+Lombre,Lombre,Swift Swim,Rain Dish,271,60,50,50,60,70,50
+Lopunny,Lopunny,Cute Charm,Klutz,428,65,76,84,54,96,105
+Lotad,Lotad,Swift Swim,Rain Dish,270,40,30,30,40,50,30
+Loudred,Loudred,Soundproof,Soundproof,294,84,71,43,71,43,48
+Lucario,Lucario,Steadfast,Inner Focus,448,70,110,70,115,70,90
+Ludicolo,Ludicolo,Swift Swim,Rain Dish,272,80,70,70,90,100,70
+Lugia,Lugia,Pressure,Pressure,249,106,90,130,90,154,110
+Lumineon,Lumineon,Swift Swim,Storm Drain,457,69,69,76,69,86,91
+Lunatone,Lunatone,Levitate,Levitate,337,70,55,65,95,85,70
+Luvdisc,Luvdisc,Swift Swim,Swift Swim,370,43,30,55,40,65,97
+Luxio,Luxio,Rivalry,Intimidate,404,60,85,49,60,49,60
+Luxray,Luxray,Rivalry,Intimidate,405,80,120,79,95,79,70
+Machamp,Machamp,Guts,No Guard,68,90,130,80,65,85,55
+Machoke,Machoke,Guts,No Guard,67,80,100,70,50,60,45
+Machop,Machop,Guts,No Guard,66,70,80,50,35,35,35
+Magby,Magby,Flame Body,Flame Body,240,45,75,37,70,55,83
+Magcargo,Magcargo,Magma Armor,Flame Body,219,50,50,120,80,80,30
+Magikarp,Magikarp,Swift Swim,Swift Swim,129,20,10,55,15,20,80
+Magmar,Magmar,Flame Body,Flame Body,126,65,95,57,100,85,93
+Magmortar,Magmortar,Flame Body,Flame Body,467,75,95,67,125,95,83
+Magnemite,Magnemite,Magnet Pull,Sturdy,81,25,35,70,95,55,45
+Magneton,Magneton,Magnet Pull,Sturdy,82,50,60,95,120,70,70
+Magnezone,Magnezone,Magnet Pull,Sturdy,462,70,70,115,130,90,60
+Makuhita,Makuhita,Thick Fat,Guts,296,72,60,30,20,30,25
+Mamoswine,Mamoswine,Oblivious,Snow Cloak,473,110,130,80,70,60,80
+Manaphy,Manaphy,Hydration,Hydration,490,100,100,100,100,100,100
+Mandibuzz,Mandibuzz,Big Pecks,Dustproof,630,110,65,105,55,95,80
+Manectric,Manectric,Static,Lightningrod,310,70,75,60,105,60,105
+Mankey,Mankey,Vital Spirit,Anger Point,56,40,80,35,35,45,70
+Mantine,Mantine,Swift Swim,Water Absorb,226,65,40,70,80,140,70
+Mantyke,Mantyke,Swift Swim,Water Absorb,458,45,20,50,60,120,50
+Maractus,Maractus,Water Absorb,Chlorophyll,556,75,86,67,106,67,60
+Mareep,Mareep,Static,Static,179,55,40,40,65,45,35
+Marill,Marill,Thick Fat,Huge Power,183,70,20,50,20,50,40
+Marowak,Marowak,Rock Head,Lightningrod,105,60,80,110,50,80,45
+Marshtomp,Marshtomp,Torrent,Torrent,259,70,85,70,60,70,50
+Masquerain,Masquerain,Intimidate,Intimidate,284,70,60,62,80,82,60
+Mawile,Mawile,Hyper Cutter,Intimidate,303,50,85,85,55,55,50
+Medicham,Medicham,Pure Power,Pure Power,308,60,60,75,60,75,80
+Meditite,Meditite,Pure Power,Pure Power,307,30,40,55,40,55,60
+Meganium,Meganium,Overgrow,Overgrow,154,80,82,100,83,100,80
+Meloetta,Meloetta,Serene Grace,Serene Grace,648,100,77,77,128,128,90
+Meowth,Meowth,Pickup,Technician,52,40,45,35,40,40,90
+Mesprit,Mesprit,Levitate,Levitate,481,80,105,105,105,105,80
+Metagross,Metagross,Clear Body,Clear Body,376,80,135,130,95,90,70
+Metang,Metang,Clear Body,Clear Body,375,60,75,100,55,80,50
+Metapod,Metapod,Shed Skin,Shed Skin,11,50,20,55,25,25,30
+Mew,Mew,Synchronize,Synchronize,151,100,100,100,100,100,100
+Mewtwo,Mewtwo,Pressure,Pressure,150,106,110,90,154,90,130
+Mienfoo,Mienfoo,Inner Focus,Regenerator,619,45,85,50,55,50,65
+Mienshao,Mienshao,Inner Focus,Regenerator,620,65,125,60,95,60,105
+Mightyena,Mightyena,Intimidate,Quick Feet,262,70,90,70,60,60,70
+Milotic,Milotic,Marvel Scale,Marvel Scale,350,95,60,79,100,125,81
+Miltank,Miltank,Thick Fat,Scrappy,241,95,80,105,40,70,100
+Mime Jr.,Mime Jr.,Soundproof,Filter,439,20,25,45,70,90,60
+Minccino,Minccino,Cute Charm,Technician,572,55,50,40,40,40,75
+Minun,Minun,Minus,Minus,312,60,40,50,75,85,95
+Misdreavus,Misdreavus,Levitate,Levitate,200,60,60,60,85,85,85
+Mismagius,Mismagius,Levitate,Levitate,429,60,60,60,105,105,105
+Moltres,Moltres,Pressure,Pressure,146,90,100,90,125,85,90
+Monferno,Monferno,Blaze,Blaze,391,64,78,52,78,52,81
+Mothim,Mothim,Swarm,Swarm,414,70,94,50,94,50,66
+Mr. Mime,Mr. Mime,Soundproof,Filter,122,40,45,65,100,120,90
+Mudkip,Mudkip,Torrent,Torrent,258,50,70,50,50,50,40
+Muk,Muk,Stench,Sticky Hold,89,105,105,75,65,100,50
+Munchlax,Munchlax,Pickup,Thick Fat,446,135,85,40,40,85,5
+Munna,Munna,Forewarn,Synchronize,517,76,25,45,67,55,24
+Murkrow,Murkrow,Insomnia,Super Luck,198,60,85,42,85,42,91
+Musharna,Musharna,Forewarn,Synchronize,518,116,55,85,107,95,29
+Natu,Natu,Synchronize,Early Bird,177,40,50,45,70,45,70
+Nidoking,Nidoking,Poison Point,Rivalry,34,81,92,77,85,75,85
+Nidoqueen,Nidoqueen,Poison Point,Rivalry,31,90,82,87,75,85,76
+Nidoran-F,Nidoran-F,Poison Point,Rivalry,29,55,47,52,40,40,41
+Nidoran-M,Nidoran-M,Poison Point,Rivalry,32,46,57,40,40,40,50
+Nidorina,Nidorina,Poison Point,Rivalry,30,70,62,67,55,55,56
+Nidorino,Nidorino,Poison Point,Rivalry,33,61,72,57,55,55,65
+Nincada,Nincada,Compoundeyes,Compoundeyes,290,31,45,90,30,30,40
+Ninetales,Ninetales,Flash Fire,Flash Fire,38,73,76,75,81,100,100
+Ninjask,Ninjask,Speed Boost,Speed Boost,291,61,90,45,50,50,160
+Noctowl,Noctowl,Insomnia,Keen Eye,164,100,50,50,76,96,70
+Nosepass,Nosepass,Sturdy,Magnet Pull,299,30,45,135,45,90,30
+Numel,Numel,Oblivious,Simple,322,60,60,40,65,45,35
+Nuzleaf,Nuzleaf,Chlorophyll,Early Bird,274,70,70,40,60,40,60
+Octillery,Octillery,Suction Cups,Sniper,224,75,105,75,105,75,45
+Oddish,Oddish,Chlorophyll,Chlorophyll,43,45,50,55,75,65,30
+Omanyte,Omanyte,Swift Swim,Shell Armor,138,35,40,100,90,55,35
+Omastar,Omastar,Swift Swim,Shell Armor,139,70,60,125,115,70,55
+Onix,Onix,Rock Head,Sturdy,95,35,45,160,30,45,70
+Oshawott,Oshawott,Torrent,Torrent,501,55,55,45,63,45,45
+Pachirisu,Pachirisu,Run Away,Pickup,417,60,45,70,45,90,95
+Palkia,Palkia,Pressure,Pressure,484,90,120,100,150,120,100
+Palpitoad,Palpitoad,Swift Swim,Hydration,536,75,65,55,65,55,69
+Panpour,Panpour,Gluttony,Gluttony,515,50,53,48,53,48,64
+Pansage,Pansage,Gluttony,Gluttony,511,50,53,48,53,48,64
+Pansear,Pansear,Gluttony,Gluttony,513,50,53,48,53,48,64
+Paras,Paras,Effect Spore,Dry Skin,46,35,70,55,45,55,25
+Parasect,Parasect,Effect Spore,Dry Skin,47,60,95,80,60,80,30
+Patrat,Patrat,Run Away,Keen Eye,504,45,55,39,35,39,42
+Pawniard,Pawniard,Defiant,Inner Focus,624,45,85,70,40,40,60
+Pelipper,Pelipper,Keen Eye,Keen Eye,279,60,50,100,85,70,65
+Persian,Persian,Limber,Technician,53,65,70,60,65,65,115
+Petilil,Petilil,Chlorophyll,Own Tempo,548,45,35,50,70,50,30
+Phanpy,Phanpy,Pickup,Pickup,231,90,60,60,40,40,40
+Phione,Phione,Hydration,Hydration,489,80,80,80,80,80,80
+Pichu,Pichu,Static,Static,172,20,40,15,35,35,60
+Pidgeot,Pidgeot,Keen Eye,Tangled Feet,18,83,80,75,70,70,91
+Pidgeotto,Pidgeotto,Keen Eye,Tangled Feet,17,63,60,55,50,50,71
+Pidgey,Pidgey,Keen Eye,Tangled Feet,16,40,45,40,35,35,56
+Pidove,Pidove,Big Pecks,Super Luck,519,50,55,50,36,30,43
+Pignite,Pignite,Blaze,Blaze,499,90,93,55,70,55,55
+Pikachu,Pikachu,Static,Static,25,35,55,30,50,40,90
+Piloswine,Piloswine,Oblivious,Snow Cloak,221,100,100,80,60,60,50
+Pineco,Pineco,Sturdy,Sturdy,204,50,65,90,35,35,15
+Pinsir,Pinsir,Hyper Cutter,Mold Breaker,127,65,125,100,55,70,85
+Piplup,Piplup,Torrent,Torrent,393,53,51,53,61,56,40
+Plusle,Plusle,Plus,Plus,311,60,50,40,85,75,95
+Politoed,Politoed,Water Absorb,Damp,186,90,75,75,90,100,70
+Poliwag,Poliwag,Water Absorb,Damp,60,40,50,40,40,40,90
+Poliwhirl,Poliwhirl,Water Absorb,Damp,61,65,65,65,50,50,90
+Poliwrath,Poliwrath,Water Absorb,Damp,62,90,85,95,70,90,70
+Ponyta,Ponyta,Run Away,Flash Fire,77,50,85,55,65,65,90
+Poochyena,Poochyena,Run Away,Quick Feet,261,35,55,35,30,30,35
+Porygon,Porygon,Trace,Download,137,65,60,70,85,75,40
+Porygon2,Porygon2,Trace,Download,233,85,80,90,105,95,60
+Porygon-Z,Porygon-Z,Adaptability,Download,474,85,80,70,135,75,90
+Primeape,Primeape,Vital Spirit,Anger Point,57,65,105,60,60,70,95
+Prinplup,Prinplup,Torrent,Torrent,394,64,66,68,81,76,50
+Probopass,Probopass,Sturdy,Magnet Pull,476,60,55,145,75,150,40
+Psyduck,Psyduck,Damp,Cloud Nine,54,50,52,48,65,50,55
+Pupitar,Pupitar,Shed Skin,Shed Skin,247,70,84,70,65,70,51
+Purrloin,Purrloin,Limber,Unburden,509,41,50,37,50,37,66
+Purugly,Purugly,Thick Fat,Own Tempo,432,71,82,64,64,59,112
+Quagsire,Quagsire,Damp,Water Absorb,195,95,85,85,65,65,35
+Quilava,Quilava,Blaze,Blaze,156,58,64,58,80,65,80
+Qwilfish,Qwilfish,Poison Point,Swift Swim,211,65,95,75,55,55,85
+Raichu,Raichu,Static,Static,26,60,90,55,90,80,100
+Raikou,Raikou,Pressure,Pressure,243,90,85,75,115,100,115
+Ralts,Ralts,Synchronize,Trace,280,28,25,25,45,35,40
+Rampardos,Rampardos,Mold Breaker,Mold Breaker,409,97,165,60,65,50,58
+Rapidash,Rapidash,Run Away,Flash Fire,78,65,100,70,80,80,105
+Raticate,Raticate,Run Away,Guts,20,55,81,60,50,70,97
+Rattata,Rattata,Run Away,Guts,19,30,56,35,25,35,72
+Rayquaza,Rayquaza,Air Lock,Air Lock,384,105,150,90,150,90,95
+Regice,Regice,Clear Body,Clear Body,378,80,50,100,100,200,50
+Regigigas,Regigigas,Slow Start,Slow Start,486,110,160,110,80,110,100
+Regirock,Regirock,Clear Body,Clear Body,377,80,100,200,50,100,50
+Registeel,Registeel,Clear Body,Clear Body,379,80,75,150,75,150,50
+Relicanth,Relicanth,Swift Swim,Rock Head,369,100,90,130,45,65,55
+Remoraid,Remoraid,Hustle,Sniper,223,35,65,35,65,35,65
+Reshiram,Reshiram,Turbo Blaze,Turbo Blaze,643,100,120,100,150,120,90
+Reuniclus,Reuniclus,Dustproof,Magic Guard,579,110,65,75,125,85,30
+Rhydon,Rhydon,Lightningrod,Rock Head,112,105,130,120,45,45,40
+Rhyhorn,Rhyhorn,Lightningrod,Rock Head,111,80,85,95,30,30,25
+Rhyperior,Rhyperior,Lightningrod,Solid Rock,464,115,140,130,55,55,40
+Riolu,Riolu,Steadfast,Inner Focus,447,40,70,40,35,40,60
+Roggenrola,Roggenrola,Sturdy,Sturdy,524,55,75,85,25,25,15
+Roselia,Roselia,Natural Cure,Poison Point,315,50,60,45,100,80,65
+Roserade,Roserade,Natural Cure,Poison Point,407,60,70,55,125,105,90
+Rotom,Rotom,Levitate,Levitate,479,50,50,77,95,77,91
+Rufflet,Rufflet,Keen Eye,Sheer Force,627,70,83,50,37,50,60
+Sableye,Sableye,Keen Eye,Stall,302,50,75,75,65,65,50
+Salamence,Salamence,Intimidate,Intimidate,373,95,135,80,110,80,100
+Samurott,Samurott,Torrent,Torrent,503,95,100,85,108,70,70
+Sandile,Sandile,Intimidate,Moxie,551,50,72,35,35,35,65
+Sandshrew,Sandshrew,Sand Veil,Sand Veil,27,50,75,85,20,30,40
+Sandslash,Sandslash,Sand Veil,Sand Veil,28,75,100,110,45,55,65
+Sawk,Sawk,Sturdy,Inner Focus,539,75,125,75,30,75,85
+Sawsbuck,Sawsbuck,Chlorophyll,Sap Sipper,586,80,100,70,60,70,95
+Sceptile,Sceptile,Overgrow,Overgrow,254,70,85,65,105,85,120
+Scizor,Scizor,Swarm,Technician,212,70,130,100,55,80,65
+Scolipede,Scolipede,Poison Point,Swarm,545,60,90,89,55,69,112
+Scrafty,Scrafty,Shed Skin,Moxie,560,65,90,115,45,115,58
+Scraggy,Scraggy,Shed Skin,Moxie,559,50,75,70,35,70,48
+Scyther,Scyther,Swarm,Technician,123,70,110,80,55,80,105
+Seadra,Seadra,Poison Point,Sniper,117,55,65,95,95,45,85
+Seaking,Seaking,Swift Swim,Water Veil,119,80,92,65,65,80,68
+Sealeo,Sealeo,Thick Fat,Ice Body,364,90,60,70,75,70,45
+Seedot,Seedot,Chlorophyll,Early Bird,273,40,40,50,30,30,30
+Seel,Seel,Thick Fat,Hydration,86,65,45,55,45,70,45
+Seismitoad,Seismitoad,Swift Swim,Poison Touch,537,105,85,75,85,75,74
+Sentret,Sentret,Run Away,Keen Eye,161,35,46,34,35,45,20
+Serperior,Serperior,Overgrow,Overgrow,497,75,75,95,75,95,113
+Servine,Servine,Overgrow,Overgrow,496,60,60,75,60,75,83
+Seviper,Seviper,Shed Skin,Shed Skin,336,73,100,60,100,60,65
+Sewaddle,Sewaddle,Swarm,Chlorophyll,540,45,53,70,40,60,42
+Sharpedo,Sharpedo,Rough Skin,Rough Skin,319,70,120,40,95,40,95
+Shaymin,Shaymin,Natural Cure,Natural Cure,492,100,100,100,100,100,100
+Shaymin-S,Shaymin-S,Serene Grace,Serene Grace,492,100,103,75,120,75,127
+Shedinja,Shedinja,Wonder Guard,Wonder Guard,292,1,90,45,30,30,40
+Shelgon,Shelgon,Rock Head,Rock Head,372,65,95,100,60,50,50
+Shellder,Shellder,Shell Armor,Skill Link,90,30,65,100,45,25,40
+Shellos,Shellos,Sticky Hold,Storm Drain,422,76,48,48,57,62,34
+Shelmet,Shelmet,Hydration,Shell Armor,616,50,40,85,40,65,25
+Shieldon,Shieldon,Sturdy,Sturdy,410,30,42,118,42,88,30
+Shiftry,Shiftry,Chlorophyll,Early Bird,275,90,100,60,90,60,80
+Shinx,Shinx,Rivalry,Intimidate,403,45,65,34,40,34,45
+Shroomish,Shroomish,Effect Spore,Poison Heal,285,60,40,60,40,60,35
+Shuckle,Shuckle,Sturdy,Gluttony,213,20,10,230,10,230,5
+Shuppet,Shuppet,Insomnia,Frisk,353,44,75,35,63,33,45
+Sigilyph,Sigilyph,Wonder Skin,Magic Guard,561,72,58,80,103,80,97
+Silcoon,Silcoon,Shed Skin,Shed Skin,266,50,35,55,25,25,15
+Simipour,Simipour,Gluttony,Gluttony,516,75,98,63,98,63,101
+Simisage,Simisage,Gluttony,Gluttony,512,75,98,63,98,63,101
+Simisear,Simisear,Gluttony,Gluttony,514,75,98,63,98,63,101
+Skarmory,Skarmory,Keen Eye,Sturdy,227,65,80,140,40,70,70
+Skiploom,Skiploom,Chlorophyll,Leaf Guard,188,55,45,50,45,65,80
+Skitty,Skitty,Cute Charm,Normalize,300,50,45,45,35,35,50
+Skorupi,Skorupi,Battle Armor,Sniper,451,40,50,90,30,55,65
+Skuntank,Skuntank,Stench,Aftermath,435,103,93,67,71,61,84
+Slaking,Slaking,Truant,Truant,1289,150,160,100,95,65,100
+Slakoth,Slakoth,Truant,Truant,1287,60,60,60,35,35,30
+Slowbro,Slowbro,Oblivious,Own Tempo,80,95,75,110,100,80,30
+Slowking,Slowking,Oblivious,Own Tempo,199,95,75,80,100,110,30
+Slowpoke,Slowpoke,Oblivious,Own Tempo,79,90,65,65,40,40,15
+Slugma,Slugma,Magma Armor,Flame Body,218,40,40,40,70,40,20
+Smeargle,Smeargle,Own Tempo,Technician,235,55,20,35,20,45,75
+Smoochum,Smoochum,Oblivious,Forewarn,238,45,30,15,85,65,65
+Sneasel,Sneasel,Inner Focus,Keen Eye,215,55,95,55,35,75,115
+Snivy,Snivy,Overgrow,Overgrow,495,45,45,55,45,55,63
+Snorlax,Snorlax,Immunity,Thick Fat,143,160,110,65,65,110,30
+Snorunt,Snorunt,Inner Focus,Ice Body,361,50,50,50,50,50,50
+Snover,Snover,Snow Warning,Snow Warning,459,60,62,50,62,60,40
+Snubbull,Snubbull,Intimidate,Run Away,209,60,80,50,40,40,30
+Solosis,Solosis,Dustproof,Magic Guard,577,45,30,40,105,50,20
+Solrock,Solrock,Levitate,Levitate,338,70,95,85,55,65,70
+Spearow,Spearow,Keen Eye,Keen Eye,21,40,60,30,31,31,70
+Spheal,Spheal,Thick Fat,Ice Body,363,70,40,50,55,50,25
+Spinarak,Spinarak,Swarm,Insomnia,167,40,60,40,40,40,30
+Spinda,Spinda,Own Tempo,Tangled Feet,327,60,60,60,60,60,60
+Spiritomb,Spiritomb,Pressure,Pressure,442,50,92,108,92,108,35
+Spoink,Spoink,Thick Fat,Own Tempo,325,60,25,35,70,80,60
+Squirtle,Squirtle,Torrent,Torrent,7,44,48,65,50,64,43
+Stantler,Stantler,Intimidate,Frisk,234,73,95,62,85,65,85
+Staraptor,Staraptor,Intimidate,Intimidate,398,85,120,70,50,50,100
+Staravia,Staravia,Intimidate,Intimidate,397,55,75,50,40,40,80
+Starly,Starly,Keen Eye,Keen Eye,396,40,55,30,30,30,60
+Starmie,Starmie,Illuminate,Natural Cure,121,60,75,85,100,85,115
+Staryu,Staryu,Illuminate,Natural Cure,120,30,45,55,70,55,85
+Steelix,Steelix,Rock Head,Sturdy,208,75,85,200,55,65,30
+Stoutland,Stoutland,Intimidate,Sand Throw,508,85,100,90,45,90,80
+Stunfisk,Stunfisk,Static,Limber,618,109,66,84,81,99,32
+Stunky,Stunky,Stench,Aftermath,434,63,63,47,41,41,74
+Sudowoodo,Sudowoodo,Sturdy,Rock Head,185,70,100,115,30,65,30
+Suicune,Suicune,Pressure,Pressure,245,100,75,115,90,115,85
+Sunflora,Sunflora,Chlorophyll,Solar Power,192,75,75,55,105,85,30
+Sunkern,Sunkern,Chlorophyll,Solar Power,191,30,30,30,30,30,30
+Surskit,Surskit,Swift Swim,Swift Swim,283,40,30,32,50,52,65
+Swablu,Swablu,Natural Cure,Natural Cure,333,45,40,60,40,75,50
+Swadloon,Swadloon,Leaf Guard,Chlorophyll,541,55,63,90,50,80,42
+Swalot,Swalot,Liquid Ooze,Sticky Hold,317,100,73,83,73,83,55
+Swampert,Swampert,Torrent,Torrent,260,100,110,90,85,90,60
+Swanna,Swanna,Keen Eye,Big Pecks,581,75,87,63,87,63,98
+Swellow,Swellow,Guts,Guts,277,60,85,60,50,50,125
+Swinub,Swinub,Oblivious,Snow Cloak,220,50,50,40,30,30,50
+Swoobat,Swoobat,Unaware,Klutz,528,67,57,55,77,55,114
+Taillow,Taillow,Guts,Guts,276,40,55,30,30,30,85
+Tangela,Tangela,Chlorophyll,Leaf Guard,114,65,55,115,100,40,60
+Tangrowth,Tangrowth,Chlorophyll,Leaf Guard,465,100,100,125,110,50,50
+Tauros,Tauros,Intimidate,Anger Point,128,75,100,95,40,70,110
+Teddiursa,Teddiursa,Pickup,Quick Feet,216,60,80,50,50,50,40
+Tentacool,Tentacool,Clear Body,Liquid Ooze,72,40,40,35,50,100,70
+Tentacruel,Tentacruel,Clear Body,Liquid Ooze,73,80,70,65,80,120,100
+Tepig,Tepig,Blaze,Blaze,498,65,63,45,45,45,45
+Terrakion,Terrakion,Justified,Justified,639,91,129,90,72,90,108
+Throh,Throh,Guts,Inner Focus,538,120,100,85,30,85,45
+Thundurus,Thundurus,Prankster,Prankster,642,79,115,70,125,80,111
+Timburr,Timburr,Guts,Sheer Force,532,75,80,55,25,35,35
+Tirtouga,Tirtouga,Solid Rock,Sturdy,564,54,78,103,53,45,22
+Togekiss,Togekiss,Hustle,Serene Grace,468,85,50,95,120,115,80
+Togepi,Togepi,Hustle,Serene Grace,175,35,20,65,40,65,20
+Togetic,Togetic,Hustle,Serene Grace,176,55,40,85,80,105,40
+Torchic,Torchic,Blaze,Blaze,255,45,60,40,70,50,45
+Torkoal,Torkoal,White Smoke,White Smoke,324,70,85,140,85,70,20
+Tornadus,Tornadus,Prankster,Prankster,641,79,115,70,125,80,111
+Torterra,Torterra,Overgrow,Overgrow,389,95,109,105,75,85,56
+Totodile,Totodile,Torrent,Torrent,158,50,65,64,44,48,43
+Toxicroak,Toxicroak,Anticipation,Dry Skin,454,83,106,65,86,65,85
+Tranquill,Tranquill,Big Pecks,Super Luck,520,62,77,62,50,42,65
+Trapinch,Trapinch,Hyper Cutter,Arena Trap,328,45,100,45,45,45,10
+Treecko,Treecko,Overgrow,Overgrow,252,40,45,35,65,55,70
+Tropius,Tropius,Chlorophyll,Solar Power,357,99,68,83,72,87,51
+Trubbish,Trubbish,Stench,Sticky Hold,568,50,50,62,40,62,65
+Turtwig,Turtwig,Overgrow,Overgrow,387,55,68,64,45,55,31
+Tympole,Tympole,Swift Swim,Hydration,535,50,50,40,50,40,64
+Tynamo,Tynamo,Levitate,Levitate,602,35,55,40,45,40,60
+Typhlosion,Typhlosion,Blaze,Blaze,157,78,84,78,109,85,100
+Tyranitar,Tyranitar,Sand Stream,Sand Stream,248,100,134,110,95,100,61
+Tyrogue,Tyrogue,Guts,Steadfast,236,35,35,35,35,35,35
+Umbreon,Umbreon,Synchronize,Synchronize,197,95,65,110,60,130,65
+Unfezant,Unfezant,Big Pecks,Super Luck,521,80,105,80,65,55,93
+Unown,Unown,Levitate,Levitate,201,48,72,48,72,48,48
+Ursaring,Ursaring,Guts,Quick Feet,217,90,130,75,75,75,55
+Uxie,Uxie,Levitate,Levitate,480,75,75,130,75,130,95
+Vanillish,Vanillish,Ice Body,Ice Body,583,51,65,65,80,75,59
+Vanillite,Vanillite,Ice Body,Ice Body,582,36,50,50,65,60,44
+Vanilluxe,Vanilluxe,Ice Body,Ice Body,584,71,95,85,110,95,79
+Vaporeon,Vaporeon,Water Absorb,Water Absorb,134,130,65,60,110,95,65
+Venipede,Venipede,Poison Point,Swarm,543,30,45,59,30,39,57
+Venomoth,Venomoth,Shield Dust,Tinted Lens,49,70,65,60,90,75,90
+Venonat,Venonat,Compoundeyes,Tinted Lens,48,60,55,50,40,55,45
+Venusaur,Venusaur,Overgrow,Overgrow,3,80,82,83,100,100,80
+Vespiquen,Vespiquen,Pressure,Pressure,416,70,80,102,80,102,40
+Vibrava,Vibrava,Levitate,Levitate,329,50,70,50,50,50,70
+Victini,Victini,Victory Star,Victory Star,494,100,100,100,100,100,100
+Victreebel,Victreebel,Chlorophyll,Chlorophyll,71,80,105,65,100,60,70
+Vigoroth,Vigoroth,Vital Spirit,Vital Spirit,288,80,80,80,55,55,90
+Vileplume,Vileplume,Chlorophyll,Chlorophyll,45,75,80,85,100,90,50
+Virizion,Virizion,Justified,Justified,640,91,90,72,90,129,108
+Volbeat,Volbeat,Illuminate,Swarm,313,65,73,55,47,75,85
+Volcarona,Volcarona,Flame Body,Flame Body,637,85,60,65,135,105,100
+Voltorb,Voltorb,Soundproof,Static,100,40,30,50,55,55,100
+Vullaby,Vullaby,Big Pecks,Dustproof,629,70,55,75,45,65,60
+Vulpix,Vulpix,Flash Fire,Flash Fire,37,38,41,40,50,65,65
+Wailmer,Wailmer,Water Veil,Oblivious,320,130,70,35,70,35,60
+Wailord,Wailord,Water Veil,Oblivious,321,170,90,45,90,45,60
+Walrein,Walrein,Thick Fat,Ice Body,365,110,80,90,95,90,65
+Wartortle,Wartortle,Torrent,Torrent,8,59,63,80,65,80,58
+Watchog,Watchog,Illuminate,Keen Eye,505,60,85,69,60,69,77
+Weavile,Weavile,Pressure,Pressure,461,70,120,65,45,85,125
+Weedle,Weedle,Shield Dust,Shield Dust,13,40,35,30,20,20,50
+Weepinbell,Weepinbell,Chlorophyll,Chlorophyll,70,65,90,50,85,45,55
+Weezing,Weezing,Levitate,Levitate,110,65,90,120,85,70,60
+Whimsicott,Whimsicott,Prankster,Slip Through,547,60,67,85,77,75,116
+Whirlipede,Whirlipede,Poison Point,Swarm,544,40,55,99,40,79,47
+Whiscash,Whiscash,Oblivious,Anticipation,340,110,78,73,76,71,60
+Whismur,Whismur,Soundproof,Soundproof,293,64,51,23,51,23,28
+Wigglytuff,Wigglytuff,Cute Charm,Cute Charm,40,140,70,45,75,50,45
+Wingull,Wingull,Keen Eye,Keen Eye,278,40,30,30,55,30,85
+Wobbuffet,Wobbuffet,Shadow Tag,Shadow Tag,202,190,33,58,33,58,33
+Woobat,Woobat,Unaware,Klutz,527,55,45,43,55,43,72
+Wooper,Wooper,Damp,Water Absorb,194,55,45,45,25,25,15
+Wormadam (Ground),Wormadam (Ground),Anticipation,Anticipation,413,60,79,105,59,85,36
+Wormadam (Steel),Wormadam (Steel),Anticipation,Anticipation,413,60,69,95,69,95,36
+Wormadam,Wormadam,Anticipation,Anticipation,413,60,59,85,79,105,36
+Wurmple,Wurmple,Shield Dust,Shield Dust,265,45,45,35,20,30,20
+Wynaut,Wynaut,Shadow Tag,Shadow Tag,360,95,23,48,23,48,23
+Xatu,Xatu,Synchronize,Early Bird,178,65,75,70,95,70,95
+Yamask,Yamask,Mummy,Mummy,562,38,30,85,55,65,30
+Yanma,Yanma,Speed Boost,Compoundeyes,193,65,65,45,75,45,95
+Yanmega,Yanmega,Speed Boost,Tinted Lens,469,86,76,86,116,56,95
+Zangoose,Zangoose,Immunity,Immunity,335,73,115,60,60,60,90
+Zapdos,Zapdos,Pressure,Pressure,145,90,90,85,125,90,100
+Zebstrika,Zebstrika,Lightningrod,Motor Drive,523,75,100,63,80,63,116
+Zekrom,Zekrom,Teravolt,Teravolt,644,100,150,120,120,100,90
+Zigzagoon,Zigzagoon,Pickup,Gluttony,263,38,30,41,30,41,60
+Zoroark,Zoroark,Illusion,Illusion,571,60,105,60,120,60,105
+Zorua,Zorua,Illusion,Illusion,570,40,65,40,80,40,65
+Zubat,Zubat,Inner Focus,Inner Focus,41,40,45,35,30,40,55
+Zweilous,Zweilous,Hustle,Hustle,634,72,85,70,65,70,58

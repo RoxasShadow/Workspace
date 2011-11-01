@@ -1,3 +1,3 @@
-type1 e type2 ai Pokémon;
-Mosse di 5°generazione;
-Implementa altro nella GUI (magari inizia dal pokédex :).
+Fix Pokédex getResistence(), getWeakness() e getImmunitance();
+ImageButton Pokédex a destra;
+Lista Pokédex ordinata in ordine alfabetico ma senza spostare le categorie di appartenenza.

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: Giovanni Capuano
+Main-Class: ProjectG
+
