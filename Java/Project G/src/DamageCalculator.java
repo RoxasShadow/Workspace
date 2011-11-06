@@ -55,12 +55,9 @@ public class DamageCalculator extends JFrame implements ProjectGUI {
 			double stab = ((playerType[0].equals(moveType)) || (playerType[1].equals(moveType))) ? 1.5 : 1.0;
 			
 			double effective = 0.0;
-			/*String[] weakness = utils.getWeakness(opponentType[0]);
+			String[] weakness = utils.getWeakness(opponentType[0]);
 			String[] resistence = utils.getResistence(opponentType[0]);
-			String[] immunitance = utils.getImmunitance(opponentType[0]);*/
-			String[] weakness = utils.getWeakness("Grass");
-			String[] resistence = utils.getResistence("Grass");
-			String[] immunitance = utils.getImmunitance("Grass");
+			String[] immunitance = utils.getImmunitance(opponentType[0]);
 			
 			for(int i=0, count=weakness.length; i<count; ++i)
 				if((weakness[i].equals(moveType)) || (weakness[i].equals(moveType)))
@@ -73,12 +70,9 @@ public class DamageCalculator extends JFrame implements ProjectGUI {
 					effective = 0.0;
 		
 			if(!opponentType[1].equals("???")) {
-				/*weakness = utils.getWeakness(opponentType[1]);
+				weakness = utils.getWeakness(opponentType[1]);
 				resistence = utils.getResistence(opponentType[1]);
-				immunitance = utils.getImmunitance(opponentType[1]);*/
-				weakness = utils.getWeakness("Poison");
-				resistence = utils.getResistence("Poison");
-				immunitance = utils.getImmunitance("Poison");
+				immunitance = utils.getImmunitance(opponentType[1]);
 				for(int i=0, count=weakness.length; i<count; ++i)
 					if((weakness[i].equals(moveType)) || (weakness[i].equals(moveType)))
 						effective += 2.0;

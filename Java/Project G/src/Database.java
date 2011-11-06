@@ -2,53 +2,61 @@
 	Database.java
 	(C) Giovanni Capuano 2011
 */
-import java.io.File;
-import java.io.IOException;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.URL;
-import java.util.Map;
-import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Observable;
 
-/* Provvede al parsing del database. */
-public class Database {
-	private ArrayList<String> abilities;
+public class Database extends Observable {
+	private Map<String, String> abilities;
+	private ArrayList<String> abilitiesbyid;
 	private Map<String, Map<String, String>> moves;
 	private Map<String, Map<String, String>> movesbyid;
 	private ArrayList<String> natures;
 	private Map<String, Map<String, String>> pokemon;
+	private Map<String, Map<String, String>> pokemonbyid;
 	private Map<String, Map<String, ArrayList<String>>> specialmoves;
 	private ArrayList<String> types;
-	
-	public ArrayList<String> getAbilities() {
+
+	public Map<String, String> getAbilities() {
 		return abilities;
 	}
-	
+
+	public ArrayList<String> getAbilitiesById() {
+		return abilitiesbyid;
+	}
+
 	public Map<String, Map<String, String>> getMoves() {
 		return moves;
 	}
-	
+
 	public Map<String, Map<String, String>> getMovesById() {
 		return movesbyid;
 	}
-	
+
 	public ArrayList<String> getNatures() {
 		return natures;
 	}
-	
+
 	public Map<String, Map<String, String>> getPokemon() {
 		return pokemon;
 	}
-	
+
+	public Map<String, Map<String, String>> getPokemonById() {
+		return pokemonbyid;
+	}
+
 	public Map<String, Map<String, ArrayList<String>>> getSpecialMoves() {
 		return specialmoves;
 	}
-	
+
 	public ArrayList<String> getTypes() {
 		return types;
 	}
-	
+
 	private ArrayList<String> loadResource(String path) throws IOException {
 		try {
 			ArrayList<String> object = new ArrayList<String>();
@@ -57,13 +65,14 @@ public class Database {
 			while((line = reader.readLine()) != null)
 				object.add(line);
 			reader.close();
+			changedState(new LoaderState(2, path));
 			return object;
 		}
 		catch(IOException e) {
 			throw new IOException();
 		}
 	}
-	
+
 	private Map<String, ArrayList<String>> loadResourceSplitting(String path) throws IOException {
 		try {
 			Map<String, ArrayList<String>> object = new HashMap<String, ArrayList<String>>();
@@ -79,13 +88,14 @@ public class Database {
 				object.put(split[0], tmp);
 			}
 			reader.close();
+			changedState(new LoaderState(2, path));
 			return object;
 		}
 		catch(IOException e) {
 			throw new IOException();
 		}
 	}
-	
+
 	private ArrayList<String> loadResourceIgnoring(String path) throws IOException {
 		try {
 			ArrayList<String> object = new ArrayList<String>();
@@ -104,24 +114,30 @@ public class Database {
 				object.add(split[1]);
 			}
 			reader.close();
+			changedState(new LoaderState(2, path));
 			return object;
 		}
 		catch(IOException e) {
 			throw new IOException();
 		}
 	}
-	
+
 	private void fetchAbilities() throws ResourceNotFound {
 		try {
-			abilities = loadResource("db/abilities/name.txt");
+			abilities = new HashMap<String, String>();
+			ArrayList<String> name = loadResource("db/abilities/name.txt");
+			ArrayList<String> description = loadResource("db/abilities/description.txt");
+			for(int i=0, count = name.size(); i < count; ++i)
+				abilities.put(name.get(i), description.get(i));
+			abilitiesbyid = loadResource("db/abilities/name.txt");
 		}
-		catch(IOException e) {
+		catch(IOException localIOException) {
 			throw new ResourceNotFound();
 		}
 	}
-		
+
 	private void fetchMoves() throws ResourceNotFound {
-		try {			
+		try {
 			ArrayList<String> accuracy = loadResource("db/moves/accuracy.txt");
 			ArrayList<String> criticalhit = loadResource("db/moves/criticalhit.txt");
 			ArrayList<String> description = loadResource("db/moves/description.txt");
@@ -134,33 +150,33 @@ public class Database {
 			ArrayList<String> priority = loadResource("db/moves/priority.txt");
 			ArrayList<String> recoil = loadResource("db/moves/recoil.txt");
 			ArrayList<String> type = loadResource("db/moves/type.txt");
-			Map<String, String> values;
 			moves = new HashMap<String, Map<String, String>>();
 			movesbyid = new HashMap<String, Map<String, String>>();
-			
-			for(int i=0, count=name.size(); i<count; ++i) {
-				values = new HashMap<String, String>();
-				values.put("name", name.get(i));
-				values.put("accuracy", accuracy.get(i));
-				values.put("criticalhit", criticalhit.get(i));
-				values.put("description", description.get(i));
-				values.put("effect", effect.get(i));
-				values.put("flinch", flinch.get(i));
-				values.put("healing", healing.get(i));
-				values.put("power", power.get(i));
-				values.put("pp", pp.get(i));
-				values.put("priority", priority.get(i));
-				values.put("recoil", recoil.get(i));
-				values.put("type", type.get(i));
-				moves.put(name.get(i), values);
-				movesbyid.put(Integer.toString(i), values);
+
+			for(int i=0, count = name.size(); i < count; ++i) {
+				HashMap<String, String> value = new HashMap<String, String>();
+				value.put("name", name.get(i));
+				value.put("accuracy", accuracy.get(i));
+				value.put("criticalhit", criticalhit.get(i));
+				value.put("description", description.get(i));
+				value.put("effect", effect.get(i));
+				value.put("flinch", flinch.get(i));
+				value.put("healing", healing.get(i));
+				value.put("power", power.get(i));
+				value.put("pp", pp.get(i));
+				value.put("priority", priority.get(i));
+				value.put("recoil", recoil.get(i));
+				value.put("type", type.get(i));
+				value.put("number", Integer.toString(i));
+				moves.put(name.get(i), value);
+				movesbyid.put(Integer.toString(i), value);
 			}
 		}
 		catch(IOException e) {
 			throw new ResourceNotFound();
 		}
 	}
-	
+
 	private void fetchNatures() throws ResourceNotFound {
 		try {
 			natures = loadResource("db/natures/name.txt");
@@ -169,7 +185,7 @@ public class Database {
 			throw new ResourceNotFound();
 		}
 	}
-	
+
 	private void fetchPokemon() throws ResourceNotFound {
 		try {
 			BufferedReader reader;
@@ -192,6 +208,7 @@ public class Database {
 			ArrayList<String> spdef = new ArrayList<String>();
 			ArrayList<String> spe = new ArrayList<String>();
 			pokemon = new HashMap<String, Map<String, String>>();
+			pokemonbyid = new HashMap<String, Map<String, String>>();
 			
 			reader = new BufferedReader(new InputStreamReader(getClass().getClassLoader().getResourceAsStream("db/pokemon/name.txt")));
 			while((line = reader.readLine()) != null) {
@@ -240,13 +257,14 @@ public class Database {
 				values.put("type1", type1.get(i));
 				values.put("type2", type2.get(i));
 				pokemon.put(name.get(i), values);
+				pokemonbyid.put(number.get(i), values);
 			}
 		}
 		catch(IOException e) {
 			throw new ResourceNotFound();
 		}
 	}
-	
+
 	private void fetchSpecialMoves() throws ResourceNotFound {
 		try {
 			specialmoves = new HashMap<String, Map<String, ArrayList<String>>>();
@@ -262,7 +280,7 @@ public class Database {
 			throw new ResourceNotFound();
 		}
 	}
-	
+
 	private void fetchTypes() throws ResourceNotFound {
 		try {
 			types = loadResource("db/types/name.txt");
@@ -271,19 +289,41 @@ public class Database {
 			throw new ResourceNotFound();
 		}
 	}
-	
-	public Database() throws ResourceNotFound {
+
+	public Database() {
+		changedState(new LoaderState(0, "Ready."));
+	}
+
+	public void init(Utils utils) throws ResourceNotFound {
 		try {
+			int i = 6;
+			changedState(new LoaderState(1, "Abilities", 1, i));
 			fetchAbilities();
+			changedState(new LoaderState(1, "Moves", 2, i));
 			fetchMoves();
+			changedState(new LoaderState(1, "Natures", 3, i));
 			fetchNatures();
+			changedState(new LoaderState(1, "Pokémon", 4, i));
 			fetchPokemon();
+			changedState(new LoaderState(1, "Special moves", 5, i));
 			fetchSpecialMoves();
+			changedState(new LoaderState(1, "Types", 6, i));
 			fetchTypes();
 		}
-		catch(ResourceNotFound e) {
+		catch (ResourceNotFound e) {
+			changedState(new LoaderState(4, e));
 			throw new ResourceNotFound();
 		}
+		changedState(new LoaderState(5, "Initializing the online database..."));
+		if(utils.initOnline())
+			changedState(new LoaderState(5, "Online database has been initialized."));
+		else
+			changedState(new LoaderState(5, "Online database cannot be initialized."));
+		changedState(new LoaderState(3, "Done."));
+	}
+
+	private void changedState(LoaderState msg) {
+		setChanged();
+		notifyObservers(msg);
 	}
 }
-			

@@ -1,150 +1,100 @@
-/**
-	ProjectG.java
-	(C) Giovanni Capuano 2011
-*/
-import java.util.Map;
-import java.util.ArrayList;
-import java.awt.*;
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Container;
 import java.awt.event.*;
+import java.io.PrintStream;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.*;
+import javax.swing.*;
+import javax.swing.UIManager.LookAndFeelInfo;
 
 public class ProjectG extends JFrame implements ProjectGUI {
-	private	Utils utils;
-	private	Database db;
+	private Utils utils;
+	private Database db;
 	private JPanel jPanel1;
 	private JButton jButton1;
 	private JButton jButton2;
 	private JButton jButton3;
 	private JButton jButton4;
-	
+	private JButton jButton5;
+
 	public ProjectG() {
 		super("Project G - Development version");
-		setSize(400, 300);
-		setVisible(true);
-		setFocusable(true);
 		utils = new Utils();
 		try {
 			db = new Database();
+			db.addObserver(new LoaderObserver());
+			db.init(utils);
 		}
-		catch(ResourceNotFound e) {
-			JOptionPane.showMessageDialog(null, "Database not found.", "Error", JOptionPane.ERROR_MESSAGE);
+		catch(ResourceNotFound rnf) {
+			JOptionPane.showMessageDialog(null, "Database not found.", "Error", 0);
 			try {
 				utils.cleanOnline();
 			}
-			catch(Exception ex) {}
+			catch(Exception e) {}
 			System.exit(1);
 		}
-		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		setSize(400, 300);
+		setVisible(true);
+		setFocusable(true);
+		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 		addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent e) {
 				utils.cleanOnline();
+				System.exit(0);
 			}
 		});
 		initComponents();
 	}
-	
+
 	private void initComponents() {
 		jPanel1 = new JPanel();
 		jButton1 = new JButton("Damage calculator");
 		jButton2 = new JButton("Hidden Power");
 		jButton3 = new JButton("Pokédex");
-		jButton4 = new JButton("Fill~");
+		jButton4 = new JButton("Abilitydex");
+		jButton5 = new JButton("Movedex");
 
 		jButton1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent evt) {
+			public void actionPerformed(ActionEvent paramActionEvent) {
 				new DamageCalculator(db, utils);
 			}
 		});
-
 		jButton2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent evt) {
+			public void actionPerformed(ActionEvent paramActionEvent) {
 				new HiddenPowerCalculator(db, utils);
 			}
 		});
-
 		jButton3.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent evt) {
+			public void actionPerformed(ActionEvent paramActionEvent) {
 				new Pokedex(db, utils);
 			}
 		});
-
 		jButton4.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent evt) {
-				//
+			public void actionPerformed(ActionEvent paramActionEvent) {
+				new Abilitydex(db, utils);
 			}
 		});
-
-		GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
-		jPanel1.setLayout(jPanel1Layout);
-		jPanel1Layout.setHorizontalGroup(
-		    jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
-		    .addGroup(jPanel1Layout.createSequentialGroup()
-		        .addContainerGap()
-		        .addComponent(jButton1)
-		        .addGap(18, 18, 18)
-		        .addComponent(jButton2)
-		        .addGap(18, 18, 18)
-		        .addComponent(jButton3)
-		        .addGap(18, 18, 18)
-		        .addComponent(jButton4)
-		        .addContainerGap(20, Short.MAX_VALUE))
-		);
-		jPanel1Layout.setVerticalGroup(
-		    jPanel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING)
-		    .addGroup(jPanel1Layout.createSequentialGroup()
-		        .addContainerGap()
-		        .addGroup(jPanel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-		            .addComponent(jButton1)
-		            .addComponent(jButton2)
-		            .addComponent(jButton3)
-		            .addComponent(jButton4))
-		        .addContainerGap(235, Short.MAX_VALUE))
-		);
-		GroupLayout layout = new GroupLayout(getContentPane());
-		getContentPane().setLayout(layout);
-		layout.setHorizontalGroup(
-		    layout.createParallelGroup(GroupLayout.Alignment.LEADING)
-		    .addGroup(layout.createSequentialGroup()
-		        .addContainerGap()
-		        .addComponent(jPanel1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-		        .addContainerGap())
-		);
-		layout.setVerticalGroup(
-		    layout.createParallelGroup(GroupLayout.Alignment.LEADING)
-		    .addGroup(layout.createSequentialGroup()
-		        .addContainerGap()
-		        .addComponent(jPanel1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-		        .addContainerGap())
-		);
+		jButton5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent paramActionEvent) {
+				new Movedex(db, utils);
+			}
+		});
+		
+		GroupLayout localGroupLayout1 = new GroupLayout(jPanel1);
+		jPanel1.setLayout(localGroupLayout1);
+		localGroupLayout1.setHorizontalGroup(localGroupLayout1.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(localGroupLayout1.createSequentialGroup().addContainerGap().addComponent(jButton1).addGap(18, 18, 18).addComponent(jButton2).addGap(18, 18, 18).addComponent(jButton3).addGap(18, 18, 18).addComponent(jButton4).addGap(18, 18, 18).addComponent(jButton5).addContainerGap(20, 32767)));
+		localGroupLayout1.setVerticalGroup(localGroupLayout1.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(localGroupLayout1.createSequentialGroup().addContainerGap().addGroup(localGroupLayout1.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(jButton1).addComponent(jButton2).addComponent(jButton3).addComponent(jButton4).addComponent(jButton5)).addContainerGap(235, 32767)));
+		GroupLayout localGroupLayout2 = new GroupLayout(getContentPane());
+		getContentPane().setLayout(localGroupLayout2);
+		localGroupLayout2.setHorizontalGroup(localGroupLayout2.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(localGroupLayout2.createSequentialGroup().addContainerGap().addComponent(jPanel1, -1, -1, 32767).addContainerGap()));
+		localGroupLayout2.setVerticalGroup(localGroupLayout2.createParallelGroup(GroupLayout.Alignment.LEADING).addGroup(localGroupLayout2.createSequentialGroup().addContainerGap().addComponent(jPanel1, -1, -1, 32767).addContainerGap()));
 		pack();
 	}
-	
+
 	public static void main(String[] args) {
-		if((args.length > 0) && (!args[0].equals(""))) {
-			if(args[0].equals("help")) {
-				System.out.println("Project G - Development version");
-				System.out.println("java Project [opt] [args]");
-				System.out.println("\tclean -> Deletes the temp files downloaded by online server");
-				System.out.println("\tgetiv statistic nature level basestatistic ev -> Calculates the IV from its statistic. (Nature: 0.9|1|1.1).");
-				System.out.println("\tgethp iv level basestatistic ev -> Calculates the HP.");
-				System.out.println("\tgetstat iv nature level basestatistic ev -> Calculates the statistics. (Nature: 0.9|1|1.1).");
-				System.out.println("\thelp -> shows this help.");
-			}
-			else if(args[0].equals("clean"))
-				new Utils().cleanOnline();
-			else if((args[0].equals("getiv")) && (args.length == 6))
-				System.out.println("IV: "+new Utils().getIV(Integer.parseInt(args[1]), Double.parseDouble(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]), Integer.parseInt(args[5])));
-			else if((args[0].equals("gethp")) && (args.length == 5))
-				System.out.println("HP: "+new Utils().getHP(Integer.parseInt(args[1]), Integer.parseInt(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4])));
-			else if((args[0].equals("getstat")) && (args.length == 6))
-				System.out.println("Statistic: "+new Utils().getStat(Integer.parseInt(args[1]), Double.parseDouble(args[2]), Integer.parseInt(args[3]), Integer.parseInt(args[4]), Integer.parseInt(args[5])));
-			System.exit(0);
-		}
 		try {
-			for(UIManager.LookAndFeelInfo info:UIManager.getInstalledLookAndFeels())
-				if("Nimbus".equals(info.getName())) {
-					UIManager.setLookAndFeel(info.getClassName());
+			for(UIManager.LookAndFeelInfo lookAndFeel : UIManager.getInstalledLookAndFeels())
+				if("Nimbus".equals(lookAndFeel.getName())) {
+					UIManager.setLookAndFeel(lookAndFeel.getClassName());
 					break;
 				}
 		}

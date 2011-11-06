@@ -2,26 +2,22 @@
 	Utils.java
 	(C) Giovanni Capuano 2011
 */
+import java.io.*;
+import java.net.URL;
+import java.net.MalformedURLException;
+import javax.swing.ImageIcon;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Arrays;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.InputStreamReader;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.net.URL;
-import java.net.MalformedURLException;
-import javax.swing.ImageIcon;
+import java.util.Collections;
 
 /* Provvede a fornire metodi per comunicare online e effettuare i calcoli per le formule. */
 public class Utils {
-	private int maxEvPokemon = 255; // Valore massimo di evs che può ricevere un Pokémon.
-	private int maxEvStat = 85; // Valore massimo di evs che può ricevere una statistica.
-	private String dbOnlineName = "db.projg"; // Il nome del database locale.
-	private String dbOnlineURL = "http://www.doomdesire.it/project-g/db.projg"; // URL del database online.
+	private int maxEvPokemon = 255;
+	private int maxEvStat = 85;
+	private String dbOnlineName = "db.projg";
+	private String dbOnlineURL = "http://www.doomdesire.it/project-g/db.projg";
 	
 	/* Controlla se un file esiste. */
 	private boolean fileExists(String filename) {
@@ -413,78 +409,78 @@ public class Utils {
 	/* Dato un tipo ritorna le sue debolezze (x2). */
 	public String[] getWeakness(String type) {
 		ArrayList<String> weakness = new ArrayList<String>();
-		if(type == "Normal")
+		if(type.equals("Normal"))
 			weakness.add("Fighting");
-		else if(type == "Fire") {
+		else if(type.equals("Fire")) {
 			weakness.add("Fighting");
 			weakness.add("Rock");
 		}
-		else if(type == "Water") {
+		else if(type.equals("Water")) {
 			weakness.add("Grass");
 			weakness.add("Electric");
 		}
-		else if(type == "Grass") {
+		else if(type.equals("Grass")) {
 			weakness.add("Fire");
 			weakness.add("Ice");
 			weakness.add("Poison");
 			weakness.add("Flying");
 			weakness.add("Bug");
 		}
-		else if(type == "Electric")
+		else if(type.equals("Electric"))
 			weakness.add("Ground");
-		else if(type == "Ice") {
+		else if(type.equals("Ice")) {
 			weakness.add("Fire");
 			weakness.add("Fighting");
 			weakness.add("Rock");
 			weakness.add("Steel");
 		}
-		else if(type == "Fighting") {
+		else if(type.equals("Fighting")) {
 			weakness.add("Flying");
 			weakness.add("Psychic");
 		}
-		else if(type == "Poison") {
+		else if(type.equals("Poison")) {
 			weakness.add("Ground");
 			weakness.add("Psychic");
 		}
-		else if(type == "Ground") {
+		else if(type.equals("Ground")) {
 			weakness.add("Water");
 			weakness.add("Grass");
 			weakness.add("Ice");
 		}
-		else if(type == "Flying") {
+		else if(type.equals("Flying")) {
 			weakness.add("Electric");
 			weakness.add("Ice");
 			weakness.add("Rock");
 		}
-		else if(type == "Psychic") {
+		else if(type.equals("Psychic")) {
 			weakness.add("Bug");
 			weakness.add("Ghost");
 			weakness.add("Dark");
 		}
-		else if(type == "Bug") {
+		else if(type.equals("Bug")) {
 			weakness.add("Fire");
 			weakness.add("Flying");
 			weakness.add("Rock");
 		}
-		else if(type == "Rock") {
+		else if(type.equals("Rock")) {
 			weakness.add("Water");
 			weakness.add("Grass");
 			weakness.add("Fighting");
 			weakness.add("Ground");
 		}
-		else if(type == "Ghost") {
+		else if(type.equals("Ghost")) {
 			weakness.add("Ghost");
 			weakness.add("Dark");
 		}
-		else if(type == "Dragon") {
+		else if(type.equals("Dragon")) {
 			weakness.add("Ice");
 			weakness.add("Dragon");
 		}
-		else if(type == "Dark") {
+		else if(type.equals("Dark")) {
 			weakness.add("Fighting");
 			weakness.add("Bug");
 		}
-		else if(type == "Steel") {
+		else if(type.equals("Steel")) {
 			weakness.add("Fire");
 			weakness.add("Fighting");
 			weakness.add("Ground");
@@ -495,82 +491,82 @@ public class Utils {
 	/* Dato un tipo ritorna le sue resistenze (x0.5) */
 	public String[] getResistence(String type) {
 		ArrayList<String> resistence = new ArrayList<String>();
-		if(type == "Fire") {
+		if(type.equals("Fire")) {
 			resistence.add("Fire");
 			resistence.add("Grass");
 			resistence.add("Ice");
 			resistence.add("Bug");
 			resistence.add("Steel");
 		}
-		else if(type == "Water") {
+		else if(type.equals("Water")) {
 			resistence.add("Fire");
 			resistence.add("Water");
 			resistence.add("Ice");
 			resistence.add("Steel");
 		}
-		else if(type == "Grass") {
+		else if(type.equals("Grass")) {
 			resistence.add("Water");
 			resistence.add("Grass");
 			resistence.add("Electric");
 			resistence.add("Ground");
 		}
-		else if(type == "Electric") {
+		else if(type.equals("Electric")) {
 			resistence.add("Electric");
 			resistence.add("Flying");
 			resistence.add("Steel");
 		}
-		else if(type == "Ice")
+		else if(type.equals("Ice"))
 			resistence.add("Ice");
-		else if(type == "Fighting") {
+		else if(type.equals("Fighting")) {
 			resistence.add("Bug");
 			resistence.add("Rock");
 			resistence.add("Dark");
 		}
-		else if(type == "Poison") {
+		else if(type.equals("Poison")) {
 			resistence.add("Grass");
 			resistence.add("Fighting");
 			resistence.add("Poison");
 			resistence.add("Bug");
 		}
-		else if(type == "Ground") {
+		else if(type.equals("Ground")) {
 			resistence.add("Poison");
 			resistence.add("Rock");
 		}
-		else if(type == "Flying") {
+		else if(type.equals("Flying")) {
 			resistence.add("Grass");
 			resistence.add("Fighting");
 			resistence.add("Bug");
 		}
-		else if(type == "Psychic") {
+		else if(type.equals("Psychic")) {
 			resistence.add("Fighting");
 			resistence.add("Psychic");
 		}
-		else if(type == "Bug") {
+		else if(type.equals("Bug")) {
 			resistence.add("Grass");
 			resistence.add("Fighting");
 			resistence.add("Bug");
 		}
-		else if(type == "Rock") {
+		else if(type.equals("Rock")) {
 			resistence.add("Normal");
 			resistence.add("Fire");
 			resistence.add("Poison");
 			resistence.add("Flying");
 		}
-		else if(type == "Ghost") {
+		else if(type.equals("Ghost")) {
 			resistence.add("Poison");
 			resistence.add("Bug");
 		}
-		else if(type == "Dragon") {
+		else if(type.equals("Dragon")) {
 			resistence.add("Fire");
 			resistence.add("Water");
 			resistence.add("Grass");
 			resistence.add("Electric");
 		}
-		else if(type == "Dark") {
+		else if(type.equals("Dark")) {
 			resistence.add("Ghost");
 			resistence.add("Dark");
 		}
-		else if(type == "Steel") {
+		else if(type.equals("Steel")) {
 			resistence.add("Normal");
 			resistence.add("Grass");
 			resistence.add("Ice");
@@ -589,19 +585,19 @@ public class Utils {
 	/* Dato un tipo ritorna le sue immunità (x0). */
 	public String[] getImmunitance(String type) {
 		ArrayList<String> immunitance = new ArrayList<String>();
-		if(type == "Normal")
+		if(type.equals("Normal"))
 			immunitance.add("Ghost");
-		else if(type == "Ground")
+		else if(type.equals("Ground"))
 			immunitance.add("Electric");
-		else if(type == "Flying")
+		else if(type.equals("Flying"))
 			immunitance.add("Ground");
-		else if(type == "Ghost") {
+		else if(type.equals("Ghost")) {
 			immunitance.add("Normal");
 			immunitance.add("Fighting");
 		}
-		else if(type == "Dark")
+		else if(type.equals("Dark"))
 			immunitance.add("Psychic");
-		else if(type == "Steel")
+		else if(type.equals("Steel"))
 			immunitance.add("Poison");
 		return immunitance.toArray(new String[immunitance.size()]);
 	}
@@ -623,7 +619,7 @@ public class Utils {
 	/* Controlla se un Pokémon è presente nel database locale. */
 	public boolean isOnline(String name) {
 		String db = getOnlineDatabaseLocal();
-		if(db == "")
+		if(db.equals(""))
 			return false;
 		return (db.indexOf(name) != -1) ? true : false;
 	}

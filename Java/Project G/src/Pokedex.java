@@ -5,13 +5,13 @@
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
-import javax.swing.event.ListSelectionListener;
-import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Pokedex extends JFrame implements ProjectGUI {
 	private final Utils utils;
@@ -43,6 +43,7 @@ public class Pokedex extends JFrame implements ProjectGUI {
 	private JScrollPane jScrollPane1;
 	private JScrollPane jScrollPane2;
 	private JSplitPane jSplitPane1;
+	private Map<String, Map<String, String>> pokemonList;
 	
 	public Pokedex(Database db, Utils utils) {
 		super("Pokédex - Project G - Development version");
@@ -50,6 +51,7 @@ public class Pokedex extends JFrame implements ProjectGUI {
 		setFocusable(true);
 		this.utils = utils;
 		this.db = db;
+		pokemonList = db.getPokemon();
 		initComponents();
 	}
 	
@@ -57,35 +59,22 @@ public class Pokedex extends JFrame implements ProjectGUI {
 		final String selectedPokemon = (String)jList1.getSelectedValue();
 		Map<String, Map<String, ArrayList<String>>> specialmoves = db.getSpecialMoves();
 		ArrayList<String> types = db.getTypes();
-		ArrayList<String> abilities = db.getAbilities();
-		
-		/* Ottenimento dati */
-		Map<String, Map<String, String>> pokemonList = db.getPokemon();
+		Object[] abilities = db.getAbilitiesById().toArray();
 		Map<String, Map<String, String>> moveListById = db.getMovesById();
-		
-		Map<String, ArrayList<String>> levelupList = specialmoves.get("levelup");
-		Map<String, ArrayList<String>> dwList = specialmoves.get("dw");
-		Map<String, ArrayList<String>> eggList = specialmoves.get("egg");
-		Map<String, ArrayList<String>> preevoList = specialmoves.get("preevo");
-		Map<String, ArrayList<String>> specialList = specialmoves.get("special");
-		Map<String, ArrayList<String>> tmhmList = specialmoves.get("tmhm");
-		Map<String, ArrayList<String>> tutorList = specialmoves.get("tutor");
-		
-		/* Prelievo selezione */
 		Map<String, String> pokemonInfo = pokemonList.get(selectedPokemon);
 		
-		ArrayList<String> levelupInfo = levelupList.get(pokemonInfo.get("number"));
-		ArrayList<String> dwInfo = dwList.get(pokemonInfo.get("number"));
-		ArrayList<String> eggInfo = eggList.get(pokemonInfo.get("number"));
-		ArrayList<String> preevoInfo = preevoList.get(pokemonInfo.get("number"));
-		ArrayList<String> specialInfo = specialList.get(pokemonInfo.get("number"));
-		ArrayList<String> tmhmInfo = tmhmList.get(pokemonInfo.get("number"));
-		ArrayList<String> tutorInfo = tutorList.get(pokemonInfo.get("number"));
+		ArrayList<String> levelupInfo = specialmoves.get("levelup").get(pokemonInfo.get("number"));
+		ArrayList<String> dwInfo = specialmoves.get("dw").get(pokemonInfo.get("number"));
+		ArrayList<String> eggInfo = specialmoves.get("egg").get(pokemonInfo.get("number"));
+		ArrayList<String> preevoInfo = specialmoves.get("preevo").get(pokemonInfo.get("number"));
+		ArrayList<String> specialInfo = specialmoves.get("special").get(pokemonInfo.get("number"));
+		ArrayList<String> tmhmInfo = specialmoves.get("tmhm").get(pokemonInfo.get("number"));
+		ArrayList<String> tutorInfo = specialmoves.get("tutor").get(pokemonInfo.get("number"));
 		
 		jLabel2.setText(pokemonInfo.get("name"));
 		jLabel4.setText(pokemonInfo.get("number"));
 		jLabel6.setText(types.get(Integer.parseInt(pokemonInfo.get("type1")))+((types.get(Integer.parseInt(pokemonInfo.get("type2"))).equals("???")) ? "" : "-"+types.get(Integer.parseInt(pokemonInfo.get("type2")))));
-		jLabel8.setText(abilities.get(Integer.parseInt(pokemonInfo.get("ability1")))+((abilities.get(Integer.parseInt(pokemonInfo.get("ability2"))).equals("")) ? "" : "-"+abilities.get(Integer.parseInt(pokemonInfo.get("ability2")))));
+		jLabel8.setText(abilities[Integer.parseInt(pokemonInfo.get("ability1"))]+((abilities[Integer.parseInt(pokemonInfo.get("ability2"))].equals("")) ? "" : "-"+abilities[Integer.parseInt(pokemonInfo.get("ability2"))]));
 		jLabel10.setText(pokemonInfo.get("hp"));
 		jLabel12.setText(pokemonInfo.get("atk"));
 		jLabel14.setText(pokemonInfo.get("def"));
@@ -122,66 +111,94 @@ public class Pokedex extends JFrame implements ProjectGUI {
 			jButton1.setVisible(false);
 		/* /Button */
 		
-		ArrayList<String> moveList = new ArrayList<String>();
+		ArrayList<String> levelupList = new ArrayList<String>();
+		ArrayList<String> dwList = new ArrayList<String>();
+		ArrayList<String> eggList = new ArrayList<String>();
+		ArrayList<String> preevoList = new ArrayList<String>();
+		ArrayList<String> specialList = new ArrayList<String>();
+		ArrayList<String> tmhmList = new ArrayList<String>();
+		ArrayList<String> tutorList = new ArrayList<String>();
 		Map<String, String> tmp;
-		int i, count;
 		if(levelupInfo != null) {
-			moveList.add("<html><font color=\"red\"><right>---Level up---</right></font></html>");
-			for(i=0, count=levelupInfo.size(); i<count; ++i) {
+			for(int i=0, count=levelupInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(levelupInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					levelupList.add(tmp.get("name"));
 			}
+			Collections.sort(levelupList);
+			levelupList.add(0, "<html><font color=\"red\"><right>---Level up---</right></font></html>");
 		}
 		if(dwInfo != null) {
-			moveList.add("<html><font color=\"red\">---Dream world---</font></html>");
-			for(i=0, count=dwInfo.size(); i<count; ++i) {
+			for(int i=0, count=dwInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(dwInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					dwList.add(tmp.get("name"));
 			}
+			Collections.sort(dwList);
+			dwList.add(0, "<html><font color=\"red\">---Dream world---</font></html>");
 		}
 		if(eggInfo != null) {
-			moveList.add("<html><font color=\"red\">---By egg---</font></html>");
-			for(i=0, count=eggInfo.size(); i<count; ++i) {
+			for(int i=0, count=eggInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(eggInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					eggList.add(tmp.get("name"));
 			}
+			Collections.sort(eggList);
+			eggList.add(0, "<html><font color=\"red\">---By egg---</font></html>");
 		}
 		if(preevoInfo != null) {
-			moveList.add("<html><font color=\"red\">---Pre-evolution---</font></html>");
-			for(i=0, count=preevoInfo.size(); i<count; ++i) {
+			for(int i=0, count=preevoInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(preevoInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					preevoList.add(tmp.get("name"));
 			}
+			Collections.sort(preevoList);
+			preevoList.add(0, "<html><font color=\"red\">---Pre-evolution---</font></html>");
 		}
 		if(specialInfo != null) {
-			moveList.add("<html><font color=\"red\">---Special---</font></html>");
-			for(i=0, count=specialInfo.size(); i<count; ++i) {
+			for(int i=0, count=specialInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(specialInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					specialList.add(tmp.get("name"));
 			}
+			Collections.sort(specialList);
+			specialList.add(0, "<html><font color=\"red\">---Special---</font></html>");
 		}
 		if(tmhmInfo != null) {
-			moveList.add("<html><font color=\"red\">---TM-HM---</font></html>");
-			for(i=0, count=tmhmInfo.size(); i<count; ++i) {
+			for(int i=0, count=tmhmInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(tmhmInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					tmhmList.add(tmp.get("name"));
 			}
+			Collections.sort(tmhmList);
+			tmhmList.add(0, "<html><font color=\"red\">---TM-HM---</font></html>");
 		}
 		if(tutorInfo != null) {
-			moveList.add("<html><font color=\"red\">---Tutor---</font></html>");
-			for(i=0, count=tutorInfo.size(); i<count; ++i) {
+			for(int i=0, count=tutorInfo.size(); i<count; ++i) {
 				tmp = moveListById.get(tutorInfo.get(i));
 				if(tmp != null)
-					moveList.add(tmp.get("name"));
+					tutorList.add(tmp.get("name"));
 			}
+			Collections.sort(tutorList);
+			tutorList.add(0, "<html><font color=\"red\">---Tutor---</font></html>");
 		}
-			
+	
+		ArrayList<String> moveList = new ArrayList<String>();
+		for(int i=0, count=levelupList.size(); i<count; ++i)
+			moveList.add(levelupList.get(i));
+		for(int i=0, count=dwList.size(); i<count; ++i)
+			moveList.add(dwList.get(i));
+		for(int i=0, count=eggList.size(); i<count; ++i)
+			moveList.add(eggList.get(i));
+		for(int i=0, count=preevoList.size(); i<count; ++i)
+			moveList.add(preevoList.get(i));
+		for(int i=0, count=specialList.size(); i<count; ++i)
+			moveList.add(specialList.get(i));
+		for(int i=0, count=tmhmList.size(); i<count; ++i)
+			moveList.add(tmhmList.get(i));
+		for(int i=0, count=tutorList.size(); i<count; ++i)
+			moveList.add(tutorList.get(i));
+		
 		final Object[] moveArrList = moveList.toArray();			
 		jList2.setModel(new AbstractListModel() {
 		    public int getSize() {
@@ -191,7 +208,7 @@ public class Pokedex extends JFrame implements ProjectGUI {
 		    	return moveArrList[i];
 		    }
 		});
-		pack(); // jButton1 can be now (un)visible and the GUI must be repacked. 
+		pack();
 	}
 		
 	private void initComponents() {
@@ -230,15 +247,15 @@ public class Pokedex extends JFrame implements ProjectGUI {
 		jSplitPane1.setRightComponent(jPanel1);
 		jScrollPane2.setViewportView(jList2);
 		
-		final Object[] pokemonList = utils.getMapAsArray(db.getPokemon(), "name");
+		final Object[] pokemonArrList = utils.getMapAsArray(pokemonList, "name");
 		
 		jList1.setModel(new AbstractListModel() {
 		    public int getSize() {
-		    	return pokemonList.length;
+		    	return pokemonArrList.length;
 		    }
 		    
 		    public Object getElementAt(int i) {
-		    	return pokemonList[i];
+		    	return pokemonArrList[i];
 		    }
 		});
 		

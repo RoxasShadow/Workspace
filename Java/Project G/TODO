@@ -1,3 +1,3 @@
-Fix Pokédex getResistence(), getWeakness() e getImmunitance();
 ImageButton Pokédex a destra;
-Lista Pokédex ordinata in ordine alfabetico ma senza spostare le categorie di appartenenza.
+Liste di appartenenza anche a Movedex e Abilitydex;
+Commentare metodi e crea javadoc per Database, Utils, le interface e le exception (ma prima backuppa tutto e toccati).
