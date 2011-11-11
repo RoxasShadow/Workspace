@@ -18,7 +18,7 @@ class ArtificialNiggerIntelligence
 	attr_accessor :db
 	
 	def initialize(db = nil)
-		@db = !db ? 'db' : db
+		@db = db || 'db'
 		if !File.exist?(@db)
 			File.new(@db, 'w')
 		end
@@ -42,9 +42,7 @@ class ArtificialNiggerIntelligence
 	end
 	
 	def learn(question, answer)
-		file = File.open(@db, 'a')
-		file.write("#{question}|#{answer}") # Why the fucking concatenation with ,/+/<< doesn't work?
-		file.close
+		File.open(@db, ?a) { |f| f.write "#{question}|#{answer}" }
 	end
 	
 	def clear
