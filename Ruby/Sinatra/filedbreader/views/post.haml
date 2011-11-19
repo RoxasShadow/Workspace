@@ -1,0 +1,15 @@
+!!!5
+%html
+	%head
+		%title #{@title}
+	%body
+		#main
+			- if @text
+				%h1 #{@text}
+			- else
+				%form{:method => 'post'}
+					%input{:name => 'p', :type => 'text'}
+					%input{:type => 'submit', :value => 'Read'}
+		#footer{:align => 'right'}
+			%p
+				%i= Time.now

@@ -1,0 +1,86 @@
+!!!5
+%html
+	%head
+		%title
+			#{@title}
+		%meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+		%link(rel='stylesheet' type='text/css' href='../views/css/print.css' media='print')
+		%link(rel='stylesheet' type='text/css' href='../views/css/screen.css' media='screen')
+		/[if lt IE 8]
+			%link(rel='stylesheet' type='text/css' href='../views/css/ie.css' media='screen, projection')
+		%link(rel='stylesheet' type='text/css' href='../views/css/style.css' media='screen')
+		%meta(name='robots' content='index, follow')
+	%body
+		.container
+			%h2.alt(align='center')
+				#{@title} &raquo;
+				%a(href=@url)
+					#{@blogname}
+			.span-24
+				-if @error
+					%section
+						.error
+							#{@error}
+				-elsif @last
+					%section
+						.notice
+							-if @last == -1
+								Last news read: None
+							-else
+								Last news read:
+								%a(href=@last)
+									\##{@last}
+				-elsif @text
+					%section
+						.success
+							#{@text}
+				-elsif @news.kind_of?(Array) && @news[0].kind_of?(Hash)
+					-@news.each_with_index do |news, i|
+						%section
+							%header
+								%b Title:
+								%a(href="#{news[:id]}")
+									#{news[:title]}
+								%br
+								%b Date:
+								#{news[:date]}
+								%br
+							%article
+								%p
+									#{news[:content]}
+						-if i < (@news.length - 1)
+							%hr
+				-elsif @news.kind_of?(Hash)
+					%section
+						%header
+							%b Title:
+							#{@news[:title]}
+							%br
+							%b Date:
+							#{@news[:date]}
+							%br
+						%article
+							%p
+								#{@news[:content]}
+			-if @nav.kind_of?(Array)
+				#navigator(align='center')
+					%p.small
+						-@nav.each do |i|
+							-if i == @page
+								%a(href="?p=#{i}")
+									%u
+										#{i}
+							-else
+								%a(href="?p=#{i}")
+									#{i}
+							-if i < @nav.length
+								&#124; 
+			#footer(align='right')
+				%p.small
+					%em= "#{(Time.now - @start).to_s} seconds"
+					%br
+					%a(href='/sinatra/public/blog/lastnews')
+						Last news
+					|
+					%a(href='/sinatra/public/blog/clear')
+						Clear

@@ -1,0 +1,13 @@
+!!!5
+%html
+	%head
+		%title #{@title}
+	%body
+		#main
+			- if @msg
+				%h1 #{@msg}
+			- else
+				#{@text}
+		#footer{:align => 'right'}
+			%p
+				%i= Time.now
