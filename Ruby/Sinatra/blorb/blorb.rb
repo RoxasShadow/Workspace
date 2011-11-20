@@ -20,12 +20,13 @@ DB	=	'public/news.xml'	# Name of the XML database
 INDEX	=	'blog/' 		# Relative path of the index page 
 TITLE	=	'BloRB' 		# Name of the blog
 COOKIE	=	:last 			# Name of the cookie (don't touch the colon `:`)
-TPL	=	:index			# Name of the template (don't touch the colon `:`)
+TPL	=	:ajax			# Name of the template (don't touch the colon `:`)
 URL	=	'http://localhost/sinatra/public/blog/'	# URL at the index page 
 ######### CONFIGURATION END
 
 require 'sinatra'
 require 'nokogiri'
+require 'json'
 set :sessions, true
 
 class News
@@ -136,7 +137,7 @@ get '/blog/:id' do
 	@start = Time.now
 	if !is_numeric? params[:id]
 		raise NewsNotFound, 'Nothing to show.'
-	end	
+	end
 	news = get_news(News.parse(get_db), params[:id].to_i)
 	if news == nil
 		raise NewsNotFound, 'Nothing to show.'
@@ -165,4 +166,30 @@ not_found do
 	@error = 'Error 404: Not found'
 	status 404
 	haml TPL
+end
+
+### AJAX API ###
+get '/blog/ajax/lastnews' do
+	content_type :json
+	{:title => 'Last news', :last => session[COOKIE]||-1}.to_json
+end
+
+get '/blog/ajax/:id' do
+	content_type :json
+	if !is_numeric? params[:id]
+		{:error => 'Nothing to show.'}.to_json
+	end
+	news = get_news(News.parse(get_db), params[:id].to_i)
+	if news == nil
+		{:error => 'Nothing to show.'}.to_json
+	else
+		article = {}
+		article[:id] = params[:id]
+		article[:title] = news.title
+		article[:date] = news.date
+		article[:content] = news.content
+		title = "News \##{params[:id]}"
+		session[COOKIE] = params[:id]
+		{:news => article, :title => title}.to_json
+	end
 end

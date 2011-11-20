@@ -1,0 +1,139 @@
+!!!5
+%html
+	%head
+		%title
+			#{@title}
+		%meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+		%link(rel='stylesheet' type='text/css' href='../views/css/print.css' media='print')
+		%link(rel='stylesheet' type='text/css' href='../views/css/screen.css' media='screen')
+		/[if lt IE 8]
+			%link(rel='stylesheet' type='text/css' href='../views/css/ie.css' media='screen, projection')
+		%link(rel='stylesheet' type='text/css' href='../views/css/style.css' media='screen')
+		%meta(name='robots' content='index, follow')
+		
+		%script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js")
+		:javascript
+			$(document).ready(function() {
+				$('#clear').click(function() {
+					$.getJSON('ajax/clear');
+					$('#contents').fadeOut('slow');
+					$('#navigator').fadeOut('slow');
+					$('#contents').fadeIn('slow', function() {
+						$('#contents').html('<section><div class="success">All clear.</div></section>');
+					});
+				});
+				$('#lastnews').click(function() {
+					$.getJSON('ajax/lastnews', function(data) {
+						$('#contents').fadeOut('slow');
+						$('#navigator').fadeOut('slow');
+						$('#contents').fadeIn('slow', function() {
+							if(data.last == -1)
+								$('#contents').html('<section><div class="notice"><b>Last news read:</b> None.</div></section>');
+							else
+								$('#contents').html('<section><div class="success"><b>Last news read:</b> <a href="'+data.last+'">#'+data.last+'</a></div></section>');
+							$('title').text(data.title);
+						});
+					});
+				});			
+				$('.news').click(function() {
+					id = this.id
+					$.getJSON('ajax/'+this.id, function(data) {
+						$('#contents').fadeOut('slow');
+						$('#navigator').fadeOut('slow');
+						if(data == null)
+							$('#contents').fadeIn('slow', function() {
+								$('#contents').html('<section><div class="error">Error 404: Not found</div></section>');
+								$('title').text('404');
+							});
+						else if(data.error != null)
+							$('#contents').fadeIn('slow', function() {
+								$('#contents').html('<section><div class="error">'+data.error+'</div></section>');
+								$('title').text('Error');
+							});
+						else
+							$('#contents').fadeIn('slow', function() {
+								$('#contents').html('<section><header>');
+								$('#contents').append('<b>Title:</b> '+data.news.title+'<br />');
+								$('#contents').append('<b>Date:</b> '+data.news.date+'<br />');
+								$('#contents').append('</header><article>');
+								$('#contents').append('<p>'+data.news.content+'</p>');
+								$('#contents').append('</header></section>');
+								$('title').text(data.title);
+							});
+					});
+				});
+			});
+	%body
+		.container
+			%h2.alt(align='center')
+				#{@title} &raquo;
+				%a(href=@url)
+					#{@blogname}
+			.span-24(id='contents')
+				-if @error
+					%section
+						.error
+							#{@error}
+				-elsif @last
+					%section
+						.notice
+							-if @last == -1
+								Last news read: None
+							-else
+								Last news read:
+								%a(href=@last)
+									\##{@last}
+				-elsif @text
+					%section
+						.success
+							#{@text}
+				-elsif @news.kind_of?(Array) && @news[0].kind_of?(Hash)
+					-@news.each_with_index do |news, i|
+						%section
+							%header
+								%b Title:
+								%a(id="#{news[:id]}" class='news')
+									#{news[:title]}
+								%br
+								%b Date:
+								#{news[:date]}
+								%br
+							%article
+								%p
+									#{news[:content]}
+						-if i < (@news.length - 1)
+							%hr
+				-elsif @news.kind_of?(Hash)
+					%section
+						%header
+							%b Title:
+							#{@news[:title]}
+							%br
+							%b Date:
+							#{@news[:date]}
+							%br
+						%article
+							%p
+								#{@news[:content]}
+			-if @nav.kind_of?(Array)
+				#navigator(align='center')
+					%p.small
+						-@nav.each do |i|
+							-if i == @page
+								%a(href="?p=#{i}")
+									%u
+										#{i}
+							-else
+								%a(href="?p=#{i}")
+									#{i}
+							-if i < @nav.length
+								&#124; 
+			#footer(align='right')
+				%p.small
+					%em= "#{(Time.now - @start).to_s} seconds"
+					%br
+					%a(id='lastnews')
+						Last news
+					|
+					%a(id='clear')
+						Clear
