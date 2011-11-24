@@ -90,7 +90,7 @@ before do
 	@url = URL
 end
 
-get '/blog/' do
+get '/blog/?' do
 	@start = Time.now
 	@title = 'Home'
 	current = params[:p] != nil && params[:p].to_i > 0 ? params[:p].to_i : 1
@@ -117,9 +117,10 @@ get '/blog/' do
 	haml TPL
 end
 
-get '/blog' do
-	redirect_home
-end
+#DEPRECATED
+#get '/blog' do
+#	redirect_home
+#end
 
 get '/blog/lastnews' do
 	@start = Time.now
