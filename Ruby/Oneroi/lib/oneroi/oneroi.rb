@@ -14,23 +14,32 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ##########################################################################
 require 'net/pop'
-require 'destroyer'
+include ObjectSpace
 
-class Oneroi < Destroyer
+class Oneroi
 	attr_accessor :server, :username, :password, :inbox
 	
-	def initialize(server, username, password, inbox=nil)
+	def initialize(server=nil, username=nil, password=nil, inbox=nil)
 		@server = server
 		@username = username
 		@password = password
 		@inbox = inbox||'inbox/'
+		Dir.mkdir(@inbox) unless File.directory? @inbox
 		
-		@pop = Net::POP3.new(@server)
-		@pop.start(@username, @password)
+		if server != nil && username != nil && password != nil
+			@pop = Net::POP3.new(@server)
+			@pop.start(@username, @password)
+			ObjectSpace.define_finalizer(self, self.class.method(:finalize).to_proc)
+		end
 	end
 	
-	def __destroy
+	def Oneroi.finalize
 		@pop.finish
+	end
+	
+	def reset
+		delete_local
+		Dir.delete @inbox
 	end
 	
 	def fetch(delete=false)
@@ -96,7 +105,7 @@ class Oneroi < Destroyer
 			File.delete(@inbox+id.to_s) if exists_local?(id)
 		else
 			Dir["#{@inbox}*"].each { |file|
-				File.delete(@inbox+file)
+				File.delete(file)
 			}
 		end
 	end
@@ -107,7 +116,7 @@ class Oneroi < Destroyer
 		else
 			emails = []
 			Dir["#{@inbox}*"].each { |file|
-				emails << File.read(@inbox+id.to_s)
+				emails << File.read(file)
 			}
 			return emails
 		end

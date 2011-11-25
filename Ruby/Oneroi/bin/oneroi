@@ -15,14 +15,67 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ##########################################################################
 require 'oneroi'
+require 'oneroi/version'
+require 'optparse'
 
-mailer = Oneroi.new('pop3.yourdomain.ext', 'username', 'password')
-if mailer.is_empty?
-	puts '0 mails.'
-else
-	puts "Server: #{mailer.count_remote}."
-	puts "Local: #{mailer.count_local}."
-	mailer.fetch
-	puts 'Mails fetched.'
+options = {}
+OptionParser.new { |opts|
+	opts.banner = 'Usage: ruby oneroi [option] [arg]'
+	
+	opts.on '-h', '--help', 'Display this screen' do
+		puts opts
+		exit
+	end
+	opts.on '-v', '--version', 'Display the version' do
+		puts Oneroi.version
+		exit
+	end
+	opts.on '-s ', '--host ', 'Host' do |value|
+		options[:host] = value||nil
+	end
+	opts.on '-u ', '--username ', 'Username' do |value|
+		options[:username] = value||nil
+	end
+	opts.on '-p ', '--password ', 'Password' do |value|
+		options[:password] = value||nil
+	end
+	opts.on '-i ', '--inbox ', 'Path to the inbox' do |value|
+		options[:inbox] = value||nil
+	end
+	
+	#Methods
+	opts.on '--reset', 'Deletes the inbox' do
+		options[:reset] = true
+	end
+	opts.on '--fetch', 'Fetches new mails by the server' do
+		options[:fetch] = true
+	end
+	opts.on '--countremote', 'Gets how mails are in the server' do
+		options[:countremote] = true
+	end
+	opts.on '--countlocal', 'Gets how mails are in the inbox' do
+		options[:countlocal] = true
+	end
+	opts.on '--deleteremote', 'Deletes a mail in the server' do
+		options[:deleteremote] = true
+	end
+	opts.on '--deletelocal', 'Deletes a mail in the inbox' do
+		options[:deletelocal] = true
+	end
+	opts.on '--read', 'Reads all mails in the inbox' do
+		options[:read] = true
+	end
+}.parse!
+
+if options[:host] && options[:username] && options[:password]
+	mailer = Oneroi.new(options[:host], options[:username], options[:password], options[:inbox]||nil)
+
+	mailer.fetch if options[:fetch]
+	p mailer.count_remote if options[:countremote]
+	p mailer.delete_remote if options[:deleteremote]
 end
-puts "Local: #{mailer.count_local}."
+mailer = Oneroi.new(nil, nil, nil, options[:inbox]||nil)
+mailer.reset if options[:reset]
+mailer.delete_local if options[:deletelocal]
+p mailer.count_local if options[:countlocal]
+p mailer.read if options[:read]

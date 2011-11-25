@@ -9,7 +9,7 @@ Gem::Specification.new { |s|
 	s.platform      = Gem::Platform::RUBY
 	s.summary       = 'A POP3 mail manager.'
 	s.description   = 'A simple POP3 mail manager with daemon and client functions.'
-	s.require_paths = 'lib'
+	s.require_paths = ['lib']
 	s.files         = Dir.glob('lib/**/*.rb')
 	s.executables   = 'oneroi'
 }

@@ -1,2 +1,1 @@
-Ok, the gem doesn't work.
-If you install it, rubygems will be break.
+A simple POP3 mail manager with daemon and client functions.
