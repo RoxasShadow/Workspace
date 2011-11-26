@@ -12,4 +12,6 @@ Gem::Specification.new { |s|
 	s.require_paths = ['lib']
 	s.files         = Dir.glob('lib/**/*.rb')
 	s.executables   = 'oneroi'
+	s.add_dependency 'mail'
+	s.add_dependency 'daemons'
 }

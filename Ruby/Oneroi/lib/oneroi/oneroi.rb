@@ -14,6 +14,7 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ##########################################################################
 require 'net/pop'
+require 'mail'
 include ObjectSpace
 
 class Oneroi
@@ -33,6 +34,11 @@ class Oneroi
 		end
 	end
 	
+	def started?
+		@pop.started?
+	end
+		alias :active? :started?
+	
 	def Oneroi.finalize
 		@pop.finish
 	end
@@ -41,6 +47,7 @@ class Oneroi
 		delete_local
 		Dir.delete @inbox
 	end
+		alias :clear :reset
 	
 	def fetch(delete=false)
 		i = 0
@@ -54,11 +61,7 @@ class Oneroi
 	end
 	
 	def count_remote
-		i = 0
-		@pop.each_mail { |m|
-			i += 1
-		}
-		i
+		@pop.n_mails
 	end
 	
 	def count_local
@@ -76,9 +79,7 @@ class Oneroi
 	def exists_remote?(id)
 		i = 0
 		@pop.each_mail { |m|
-			if id == i
-				return true
-			end
+			return true if id == 1
 			i += 1
 		}
 		false
@@ -89,15 +90,15 @@ class Oneroi
 	end
 	
 	def delete_remote(id=nil)
-		i = 0
-		@pop.each_mail { |m|
-			if id == nil
-				m.delete
-			elsif id == i
-				m.delete
-			end
-			i += 1
-		}
+		if id == nil
+			@pop.delete_all
+		else
+			i = 0
+			@pop.each_mail { |m|
+				m.delete if id == i
+				i += 1
+			}
+		end
 	end
 	
 	def delete_local(id=nil)
@@ -121,5 +122,38 @@ class Oneroi
 			return emails
 		end
 		nil
+	end
+	
+	def Oneroi.parse(shitmail)
+		if shitmail.is_a? Array
+			parsed = []
+			shitmail.each { |m|
+				res = {}
+				mail = Mail.new(m)
+				res['from'] = mail.from
+				res['to'] = mail.to
+				res['cc'] = mail.cc
+				res['subject'] = mail.subject
+				res['date'] = mail.date.to_s
+				res['body'] = mail.body.decoded
+				parsed << res
+			}
+			return parsed
+		else
+			res = {}
+			mail = Mail.new(shitmail)
+			res['from'] = mail.from
+			res['to'] = mail.to
+			res['cc'] = mail.cc
+			res['subject'] = mail.subject
+			res['date'] = mail.date.to_s
+			res['body'] = mail.body.decoded
+			return res
+		end
+		nil
+	end
+	
+	def new_mail?
+		count_remote > count_local ? true : false
 	end
 end

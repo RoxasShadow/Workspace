@@ -1,3 +1,2 @@
-/bin/oneroi
-	Sends args to methods (ex.: read=5 => reads 5 mails; read => reads all mails)
-Daemon.
+*This shit doesn't delete emails in the server after the reading >:(
+*This shit doesn't parse/rm the HTML tags >:(
