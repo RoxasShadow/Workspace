@@ -95,7 +95,7 @@ if options[:host] && options[:username] && options[:password]
 						system("notify-send 'New mail' 'You have a new mail' -t 3000")
 					end
 					mailer.fetch
-					sleep(ARGV[0].to_i.minutes||15.minutes)
+					sleep(ARGV[0].to_i*60||15*60)
 				end
 			end
 		end

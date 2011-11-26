@@ -25,7 +25,6 @@ class Oneroi
 		@username = username
 		@password = password
 		@inbox = inbox||'inbox/'
-		Dir.mkdir(@inbox) unless File.directory? @inbox
 		
 		if server != nil && username != nil && password != nil
 			@pop = Net::POP3.new(@server)
@@ -50,6 +49,7 @@ class Oneroi
 		alias :clear :reset
 	
 	def fetch(delete=false)
+		Dir.mkdir(@inbox) unless File.directory? @inbox
 		i = 0
 		@pop.each_mail { |m|
 			File.open("#{@inbox}#{i}", 'w') { |f|
