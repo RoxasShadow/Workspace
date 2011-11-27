@@ -2,6 +2,7 @@ Oneroi - A POP3 mail manager.
 =============================
 A simple POP3 mail manager with daemon and client functions.
 
+-----------------------------
 The daemon works only with libnotify-bin on Gnome.
 
 On Debian and its derivates (like Ubuntu), do
