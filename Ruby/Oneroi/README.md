@@ -17,7 +17,8 @@ On Arch, do
 sudo pacman -S libnotify
 ```
 
-After the installation, try it running in the bash terminal
+After the installation, try it running in a terminal emulator
+
 ```bash
 notify-send 'Hi' 'Hello, World!' -t 3000
 ```
