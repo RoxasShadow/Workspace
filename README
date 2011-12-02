@@ -1,22 +1,17 @@
 This is my workspace.
-Here you will find all my works in various programming language.
+Here you will find all my softwares and codes in various programming language.
 All software are released under a GNU/GPLv3 licence, even where not specified.
+My main softwares are in dedicated repositories. So, go there.
 
 Here you can find almost a program for each language which I (at least minimally) know.
 Please, if you wish to install these softwares, try to download it at <http://www.giovannicapuano.net/sezioni.php?titolo=i-miei-programmi>.
 In this way, you will help me to mean the number of people affected by the various packages, in way to continue their developing.
 I'm sorry for non-italian people, but the most of they are in italian language. But their UI should be very simple to means each feature :)
 
-*Best projects:
-	Bash/WIL
-	Java/GjTris
-	Java/GjBoard
-	Java/ClipManager
-	Java/Mantis
-	Python/rs-sendpkm(-bw)
-	Python/dmg
-In Perl you can find some (in)utilities for your PC, and in VB.NET some softwares which not even remember.
-You will find in WWW my webapp, built in PHP, MySQL, Javascript, etc. (you can give also a look at OcarinaProject repository).
+***REPEAT***
+	Here you will find all my codes of ever.
+	So, if you're searching something, take a look first in main repositoryies.
+***/REPEAT***
 
 Happy hacking!
 	~ Giovanni Capuano <http://www.giovannicapuano.net>
