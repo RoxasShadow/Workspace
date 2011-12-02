@@ -1,3 +1,4 @@
+It's a fake Pokémon GTS server.
 rs-sendpkm.py is modificated version of ir-gts'sendpkm.py <http://code.google.com/p/ir-gts/>.
 To install, just copy `sendpkm.py` on /ir-gts/src/.
 Tested only on ir-gts 0.43 <http://code.google.com/p/ir-gts/>
