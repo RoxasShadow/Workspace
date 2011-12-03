@@ -43,7 +43,11 @@ public class Pokedex extends JFrame implements ProjectGUI {
 	private JScrollPane jScrollPane1;
 	private JScrollPane jScrollPane2;
 	private JSplitPane jSplitPane1;
-	private Map<String, Map<String, String>> pokemonList;
+	private Map<String, Map<String, String>> pokemonList, moveListById;
+	private Map<String, Map<String, ArrayList<String>>> specialmoves;
+	private ArrayList<String> types;
+	private Map<String, ArrayList<String>> levelup, dw, egg, preevo, special, tmhm, tutor;
+	private Object[] abilities;
 	
 	public Pokedex(Database db, Utils utils) {
 		super("Pokédex - Project G - Development version");
@@ -52,24 +56,30 @@ public class Pokedex extends JFrame implements ProjectGUI {
 		this.utils = utils;
 		this.db = db;
 		pokemonList = db.getPokemon();
+		types = db.getTypes();
+		abilities = db.getAbilitiesById().toArray();
+		moveListById = db.getMovesById();
+		specialmoves = db.getSpecialMoves();
+		levelup = specialmoves.get("levelup");
+		dw = specialmoves.get("dw");
+		egg = specialmoves.get("egg");
+		preevo = specialmoves.get("preevo");
+		special = specialmoves.get("special");
+		tmhm = specialmoves.get("tmhm");
+		tutor = specialmoves.get("tutor");
 		initComponents();
 	}
 	
 	private void loadPokemon() {
 		final String selectedPokemon = (String)jList1.getSelectedValue();
-		Map<String, Map<String, ArrayList<String>>> specialmoves = db.getSpecialMoves();
-		ArrayList<String> types = db.getTypes();
-		Object[] abilities = db.getAbilitiesById().toArray();
-		Map<String, Map<String, String>> moveListById = db.getMovesById();
 		Map<String, String> pokemonInfo = pokemonList.get(selectedPokemon);
-		
-		ArrayList<String> levelupInfo = specialmoves.get("levelup").get(pokemonInfo.get("number"));
-		ArrayList<String> dwInfo = specialmoves.get("dw").get(pokemonInfo.get("number"));
-		ArrayList<String> eggInfo = specialmoves.get("egg").get(pokemonInfo.get("number"));
-		ArrayList<String> preevoInfo = specialmoves.get("preevo").get(pokemonInfo.get("number"));
-		ArrayList<String> specialInfo = specialmoves.get("special").get(pokemonInfo.get("number"));
-		ArrayList<String> tmhmInfo = specialmoves.get("tmhm").get(pokemonInfo.get("number"));
-		ArrayList<String> tutorInfo = specialmoves.get("tutor").get(pokemonInfo.get("number"));
+		ArrayList<String> levelupInfo = levelup.get(pokemonInfo.get("number"));
+		ArrayList<String> dwInfo = dw.get(pokemonInfo.get("number"));
+		ArrayList<String> eggInfo = egg.get(pokemonInfo.get("number"));
+		ArrayList<String> preevoInfo = preevo.get(pokemonInfo.get("number"));
+		ArrayList<String> specialInfo = special.get(pokemonInfo.get("number"));
+		ArrayList<String> tmhmInfo = tmhm.get(pokemonInfo.get("number"));
+		ArrayList<String> tutorInfo = tutor.get(pokemonInfo.get("number"));
 		
 		jLabel2.setText(pokemonInfo.get("name"));
 		jLabel4.setText(pokemonInfo.get("number"));

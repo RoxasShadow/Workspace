@@ -2,27 +2,22 @@
 	Abilitydex.java
 	(C) Giovanni Capuano 2011
 */
-import java.awt.Container;
-import java.util.Arrays;
-import java.util.Map;
-import java.util.Set;
-import javax.swing.AbstractListModel;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.*;
+import java.awt.*;
+import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.event.*;
+import java.util.*;
 
 public class Abilitydex extends JFrame implements ProjectGUI {
 	private Utils utils;
 	private Database db;
-	private Map<String, String> abilities;
 	private JPanel jPanel1;
 	private JLabel jLabel1;
 	private JLabel jLabel2;
 	private JList jList1;
 	private JScrollPane jScrollPane1;
 	private JSplitPane jSplitPane1;
+	private Map<String, String> abilities;
 
 	public Abilitydex(Database db, Utils utils) {
 		super("Abilitydex - Project G - Development version");

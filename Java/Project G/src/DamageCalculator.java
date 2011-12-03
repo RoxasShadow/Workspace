@@ -3,12 +3,11 @@
 	(C) Giovanni Capuano 2011
 */
 import java.awt.*;
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import java.util.*;
 import java.text.NumberFormat;
-import java.util.Map;
-import java.util.ArrayList;
 
 public class DamageCalculator extends JFrame implements ProjectGUI {
 	private	Utils utils;
@@ -29,6 +28,8 @@ public class DamageCalculator extends JFrame implements ProjectGUI {
 	private JFormattedTextField jFormattedTextField1;
 	private JFormattedTextField jFormattedTextField2;
 	private JFormattedTextField jFormattedTextField3;
+	private Map<String, Map<String, String>> pokemonList, moveList;
+	private ArrayList<String> types;
 	
 	public DamageCalculator(Database db, Utils utils) {
 		super("Damage calculator - Project G - Development version");
@@ -37,23 +38,22 @@ public class DamageCalculator extends JFrame implements ProjectGUI {
 		setFocusable(true);
 		this.utils = utils;
 		this.db = db;
+		pokemonList = db.getPokemon();
+		moveList = db.getMoves();
+		types = db.getTypes();
 		initComponents();
 	}
 	
 	public void calculateDamage() {
 		try {
 			int critical = jCheckBox1.isSelected() ? 2 : 1;
-			Map<String, Map<String, String>> pokemonList = db.getPokemon();
 			Map<String, String> player = pokemonList.get((String)jComboBox1.getSelectedItem());
 			Map<String, String> opponent = pokemonList.get((String)jComboBox3.getSelectedItem());
-			Map<String, Map<String, String>> moveList = db.getMoves();
 			Map<String, String> moveInfo = moveList.get((String)jComboBox2.getSelectedItem());
-			ArrayList<String> type = db.getTypes();
-			String moveType = type.get(Integer.parseInt(moveInfo.get("type")));
-			String[] playerType = {type.get(Integer.parseInt(player.get("type1"))), type.get(Integer.parseInt(player.get("type2")))};
-			String[] opponentType = {type.get(Integer.parseInt(opponent.get("type1"))), type.get(Integer.parseInt(opponent.get("type2")))};
+			String moveType = types.get(Integer.parseInt(moveInfo.get("type")));
+			String[] playerType = {types.get(Integer.parseInt(player.get("type1"))), types.get(Integer.parseInt(player.get("type2")))};
+			String[] opponentType = {types.get(Integer.parseInt(opponent.get("type1"))), types.get(Integer.parseInt(opponent.get("type2")))};
 			double stab = ((playerType[0].equals(moveType)) || (playerType[1].equals(moveType))) ? 1.5 : 1.0;
-			
 			double effective = 0.0;
 			String[] weakness = utils.getWeakness(opponentType[0]);
 			String[] resistence = utils.getResistence(opponentType[0]);
@@ -117,7 +117,7 @@ public class DamageCalculator extends JFrame implements ProjectGUI {
 		jComboBox2 = new JComboBox();
 		jComboBox3 = new JComboBox();
 		jButton1 = new JButton("Calculate");
-
+		
 		jButton1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent evt) {
 				if(jFormattedTextField1.getText().equals("") || jFormattedTextField2.getText().equals("") || jFormattedTextField3.getText().equals(""))
@@ -127,11 +127,11 @@ public class DamageCalculator extends JFrame implements ProjectGUI {
 			}
 		});
 		
-		Object[] pokemonList = utils.getMapAsArray(db.getPokemon(), "name");
-		Object[] moveList = utils.getMapAsArray(db.getMoves(), "name");
-		jComboBox1.setModel(new DefaultComboBoxModel(pokemonList));
-		jComboBox2.setModel(new DefaultComboBoxModel(moveList));
-		jComboBox3.setModel(new DefaultComboBoxModel(pokemonList));
+		Object[] pokemonArrList = utils.getMapAsArray(pokemonList, "name");
+		Object[] moveArrList = utils.getMapAsArray(moveList, "name");
+		jComboBox1.setModel(new DefaultComboBoxModel(pokemonArrList));
+		jComboBox2.setModel(new DefaultComboBoxModel(moveArrList));
+		jComboBox3.setModel(new DefaultComboBoxModel(pokemonArrList));
 
 		GroupLayout jPanel1Layout = new GroupLayout(jPanel1);
 		jPanel1.setLayout(jPanel1Layout);
