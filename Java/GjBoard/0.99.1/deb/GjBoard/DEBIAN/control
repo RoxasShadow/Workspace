@@ -1,7 +1,7 @@
 Package: GjBoard
 Version: 0.99.1
 Section: main
-Architecture: i386
+Architecture: all
 Maintainer: Giovanni Capuano <webmaster@giovannicapuano.net>
 Homepage: <http://www.giovannicapuano.net>
 Description: Un gestore di appunti avanzato con l'appoggio di un database standalone.

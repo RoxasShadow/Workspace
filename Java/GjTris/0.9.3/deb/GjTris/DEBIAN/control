@@ -1,7 +1,7 @@
 Package: GjTris
 Version: 0.9.3
 Section: main
-Architecture: i386
+Architecture: all
 Maintainer: Giovanni Capuano <webmaster@giovannicapuano.net>
 Homepage: <http://www.giovannicapuano.net>
 Description: Un semplice clone del Tris (tic-tac-toe).

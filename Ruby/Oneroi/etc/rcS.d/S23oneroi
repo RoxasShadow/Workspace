@@ -1,0 +1,1 @@
+oneroi -s HOST -u USERNAME -p PASSWORD --daemonize 60

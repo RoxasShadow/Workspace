@@ -22,3 +22,7 @@ After the installation, try it running in a terminal emulator
 ```bash
 notify-send 'Hi' 'Hello, World!' -t 3000
 ```
+
+To demonize at startup in GNU/Linux, edit and copy this etc/rcS.d/S23oneroi in /etc/rcS.d/S23oneroi.
+
+If exists a daemon with "23" prefix, simply change it with the lastest+1 (ie.: if you have S23lol, rename S23oneroi in S24oneroi).

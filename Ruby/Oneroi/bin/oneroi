@@ -90,9 +90,9 @@ if options[:host] && options[:username] && options[:password]
 				if mailer.new_mail?
 					n = mailer.count_remote - mailer.count_local
 					if n > 1
-						system("notify-send 'New mails' 'You have #{n} new mails' -t 3000")
+						system("notify-send 'New mails' 'You have #{n} new mails' -t 0")
 					else
-						system("notify-send 'New mail' 'You have a new mail' -t 3000")
+						system("notify-send 'New mail' 'You have a new mail' -t 0")
 					end
 					mailer.fetch
 					sleep(ARGV[0].to_i*60||15*60)
