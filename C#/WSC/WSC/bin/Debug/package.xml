@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+	<package>
+		<path>http://www.giovannicapuano.net/repository/utility/everest/everesthome220.exe</path>
+		<icon>http://g0.gstatic.com/ig/images/weather/partly_cloudy.png</icon>
+		<name>Everest Home Edition</name>
+		<version>2.20</version>
+		<category>Utility</category>
+		<description>Everest è un'utility che permette di monitorare e verificare il corretto funzionamento dei vari componenti del proprio PC. Oltre a questo, integra alcune funzionalità di benchmarking del sistema.</description>
+		<weight>3.98</weight>
+	</package>
+	<package>
+		<path>http://www.giovannicapuano.net/repository/internet/filezilla/FileZilla_3.5.3_win32-setup.exe</path>
+		<icon>http://g0.gstatic.com/ig/images/weather/partly_cloudy.png</icon>
+		<name>FileZilla</name>
+		<version>3.5.3</version>
+		<category>Internet</category>
+		<description>FileZilla Client è uno strumento che permette di eseguire la connessione ai server web per trasferire file e cartelle in maniera facile e veloce.</description>
+		<weight>4.30</weight>
+	</package>
+	<package>
+		<path>http://www.giovannicapuano.net/repository/editor/notepad++/npp.5.9.8.Installer.exe</path>
+		<icon>http://g0.gstatic.com/ig/images/weather/partly_cloudy.png</icon>
+		<name>Notepad++</name>
+		<version>5.9.8</version>
+		<category>Editor</category>
+		<description>Notepad++ è un editor di testo libero per Windows, che supporta diversi linguaggi di programmazione.</description>
+		<weight>5.38</weight>
+	</package>
+	<package>
+		<path>http://www.giovannicapuano.net/repository/utility/winrar/WRar410b5it.exe</path>
+		<icon>http://g0.gstatic.com/ig/images/weather/partly_cloudy.png</icon>
+		<name>WinRar</name>
+		<version>4.10</version>
+		<category>Utility</category>
+		<description>WinRAR permette di unire e comprimere piu' file in un unico archivio, in modo intuitivo e veloce.</description>
+		<weight>1.54</weight>
+	</package>
+	<package>
+		<path>http://www.giovannicapuano.net/repository/utility/winrar/WinRAR-x64-410b5it.exe</path>
+		<icon>http://g0.gstatic.com/ig/images/weather/partly_cloudy.png</icon>
+		<name>WinRar x64</name>
+		<version>4.10</version>
+		<category>Utility</category>
+		<description>WinRAR permette di unire e comprimere piu' file in un unico archivio, in modo intuitivo e veloce.</description>
+		<weight>1.54</weight>
+	</package>
+</packages>

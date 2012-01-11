@@ -1,0 +1,13 @@
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\bin\Debug\WSC.exe
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\bin\Debug\WSC.pdb
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\bin\Debug\WAPT.dll
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\bin\Debug\WAPT.pdb
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\WSC.Program.resources
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\WSC.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\WSC.exe
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\WSC.pdb
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\WSC.PackageForm.resources
+C:\Users\Giovanni\Desktop\APT\WSC\WSC\obj\x86\Debug\WSC.Loading.resources
