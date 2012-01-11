@@ -1,0 +1,10 @@
+C:\Users\Giovanni\Desktop\WAPT\WAPT\bin\Release\WAPT.dll
+C:\Users\Giovanni\Desktop\WAPT\WAPT\bin\Release\WAPT.pdb
+C:\Users\Giovanni\Desktop\WAPT\WAPT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\WAPT\WAPT\obj\Release\WAPT.dll
+C:\Users\Giovanni\Desktop\WAPT\WAPT\obj\Release\WAPT.pdb
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\bin\Release\WAPT.dll
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\bin\Release\WAPT.pdb
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\obj\Release\WAPT.dll
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\obj\Release\WAPT.pdb

@@ -1,0 +1,15 @@
+C:\Users\Giovanni\AppData\Local\Temporary Projects\WAPT\bin\Debug\WAPT.dll
+C:\Users\Giovanni\AppData\Local\Temporary Projects\WAPT\bin\Debug\WAPT.pdb
+C:\Users\Giovanni\AppData\Local\Temporary Projects\WAPT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Giovanni\AppData\Local\Temporary Projects\WAPT\obj\Debug\WAPT.dll
+C:\Users\Giovanni\AppData\Local\Temporary Projects\WAPT\obj\Debug\WAPT.pdb
+C:\Users\Giovanni\Desktop\WAPT\WAPT\bin\Debug\WAPT.dll
+C:\Users\Giovanni\Desktop\WAPT\WAPT\bin\Debug\WAPT.pdb
+C:\Users\Giovanni\Desktop\WAPT\WAPT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\WAPT\WAPT\obj\Debug\WAPT.dll
+C:\Users\Giovanni\Desktop\WAPT\WAPT\obj\Debug\WAPT.pdb
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\bin\Debug\WAPT.dll
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\bin\Debug\WAPT.pdb
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\obj\Debug\WAPT.dll
+C:\Users\Giovanni\Desktop\APT\WAPT\WAPT\obj\Debug\WAPT.pdb
