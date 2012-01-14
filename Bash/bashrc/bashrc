@@ -17,6 +17,7 @@ alias htstart='sudo /etc/init.d/apache2 start'
 alias htstop='sudo /etc/init.d/apache2 stop'
 alias htrestart='sudo /etc/init.d/apache2 restart'
 alias prog='cd ~/Documenti/Programmazione/'
+alias win='cd /windows/C/Users/Giovanni/Desktop/'
 alias screenshot="scrot ~/Scrivania/'%Y-%m-%d_%T.png'"
 alias ss=screenshot
 
