@@ -1,0 +1,65 @@
+export EDITOR=/usr/bin/nano
+export VISUAL=/usr/bin/nano
+export WEBSITE=http://www.giovannicapuano.net/
+export WWW=/srv/www/htdocs/
+#export DEVKITPRO=/opt/devkitpro
+#export DEVKITPPC=$DEVKITPRO/devkitPPC
+#export WIILOAD=tcp:192.168.1.92
+test -s ~/.alias && . ~/.alias || true
+
+alias rm='rm -i'
+alias rmdir='rmdir -i'
+alias gsu='gnomesu'
+alias trash='rm -fr ~/.Trash'
+alias reboot='sudo shutdown -r now'
+alias ref='sudo zypper ref && sudo zypper up && sudo zypper dup'
+alias htstart='sudo /etc/init.d/apache2 start'
+alias htstop='sudo /etc/init.d/apache2 stop'
+alias htrestart='sudo /etc/init.d/apache2 restart'
+alias prog='cd ~/Documenti/Programmazione/'
+alias screenshot="scrot ~/Scrivania/'%Y-%m-%d_%T.png'"
+alias ss=screenshot
+
+sprunge() {
+	cat $1 | curl -s -F 'sprunge=<-' http://sprunge.us
+}
+
+img() {
+	curl -s -F "image=@$1" -F "key=486690f872c678126a2c09a9e196ce1b" http://imgur.com/api/upload.xml | grep -E -o "<original_image>(.)*</original_image>" | grep -E -o "http://i.imgur.com/[^<]*"
+}
+
+up() {
+	for file in "$@"
+	do
+	 echo -e "Uploading $file..."
+	 ident=`wget -qO- --no-cookies --header "Cookie: user=$USER" http://www.megaupload.com/multiupload/ | grep ENCTYPE | cut -d '"' -f 8`
+	 value=`echo $ident | cut -d '=' -f 2`
+	 data=`curl -s -b "user=$USER" -F "UPLOAD_IDENTIFIER=$ident" -F "sessionid=$value" -F "file=@$file" -F "message=$WEBSITE" -F "accept=on" $ident`
+	 size=`echo $data | cut -d ' ' -f 10`' '`echo $data | cut -d ' ' -f 11`
+	 mega=`echo $data | cut -d "'" -f 6`
+	 echo "$mega | $size | $file"
+	done
+}
+
+net() {
+	/sbin/ifconfig | awk /'inet addr/ {print $2}'
+	/sbin/ifconfig | awk /'Bcast/ {print $3}'
+}
+
+ip() {
+	echo `w3m -dump http://checkip.dyndns.org:8245/`
+}
+
+weather() {
+	echo `w3m -dump "http://www.google.com/search?hl=en&lr=&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&q=weather+${1}&btnG=Search" | grep -A 5 -m 1 "Weather for"`
+}
+
+word() {
+	echo `w3m -dump "http://dictionary.reference.com/browse/${1}" | grep -i -m 1 -w "${2}:" | sed 's/^[ \t]*//;s/[ \t]*$//'`
+}
+
+#PS1='\[\e[34;1m\]\t \[\e[1;31m\]\u\[\e[m\]@\[\e[1;32m\]\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[0;33m\]\$\[\e[m\] '
+PS1="┌─[ \[\e[34;1m\]\t \[\e[1;31m\]\u\[\e[m\]@\[\e[1;32m\]\h\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[0;33m\]\$\[\e[m\] ]\n└─[ \$> "
+
+WIL
+bash ~/Documenti/Programmazione/Bash/welcome.sh
