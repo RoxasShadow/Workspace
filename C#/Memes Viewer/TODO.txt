@@ -1,0 +1,2 @@
+Se c'è un meme lungo e faccio fullscreen la scrollbar non funziona più;
+Twitter share.

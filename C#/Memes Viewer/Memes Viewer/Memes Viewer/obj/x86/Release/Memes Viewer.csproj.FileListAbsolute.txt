@@ -1,0 +1,36 @@
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\bin\Release\Memes Viewer.exe
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\bin\Release\Memes Viewer.pdb
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\Memes_Viewer.Form1.resources
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\Memes_Viewer.Properties.Resources.resources
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\Memes Viewer.exe
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\Memes Viewer.pdb
+C:\Users\Giovanni\AppData\Local\Temporary Projects\Memes Viewer\obj\x86\Release\Memes_Viewer.Init.resources
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.exe.manifest
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.application
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.exe
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.pdb
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\Memes_Viewer.Form1.resources
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\Memes_Viewer.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.exe.manifest
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.application
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.exe
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.pdb
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.exe
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.pdb
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.exe.manifest
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.application
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.exe
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\bin\Release\Memes Viewer.pdb
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\Memes_Viewer.Form1.resources
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\Memes_Viewer.Properties.Resources.resources
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.exe.manifest
+C:\Users\Giovanni\Desktop\Memes Viewer\Memes Viewer\Memes Viewer\obj\x86\Release\Memes Viewer.application

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Todo List</string>
+    <string name="save_btn">Salva</string>
+    <string name="saved">Salvato</string>
+    <string name="not_saved">Non salvato</string>
+    <string name="deleted">Eliminato</string>
+    <string name="not_deleted">Non eliminato</string>
+    <string name="delete_title">Elimina</string>
+    <string name="delete_text">Sei sicuro che vuoi eliminare questo elemento?</string>
+    <string name="yes">Si</string>
+    <string name="not">No</string>
+
+</resources>
